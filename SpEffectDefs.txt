@@ -25,36 +25,36 @@ GroupID 1000 (Status)
 GroupID 1010 (Estus Flask)
   EventID 0  - Est Flask Control
 
-GroupID 100040 (SFX)
+GroupID 100040 (Basic)
   EventID 0  - Apply Effect Attribute Scaling
   EventID 1  - Effect SFX
-  EventID 2  - 
-  EventID 3  -
+  EventID 2  - Set Limited Effect Argument Rate
+  EventID 3  - Set Effects Argument Rate
   EventID 4  - Persistent Effect Duration Reduction
   EventID 5  - Perform Effect Duration Reduction
   EventID 6  - Permit Effect Duration Extension
   EventID 7  - Extend Effect Duration
   EventID 8  - Full Body SFX
 
-GroupID 100050
-  EventID 0  -
-  EventID 1  -
-  EventID 2  -
-  EventID 3  -
+GroupID 100050 (Heal)
+  EventID 0  - Invoke Heal Sub Event
+  EventID 1  - Invoke Heal Sub Event Alt
+  EventID 2  - Restore Humanity
+  EventID 3  - Apply Effect To Host
 
-GroupID 100060
-  EventID 0  -
+GroupID 100060 (Spell)
+  EventID 0  - Restore Spell Usage
 
 GroupID 100070
-  EventID 0  -
+  EventID 0  - Invoke Special Sub Event
   
-GroupID 100080
-  EventID 0  -
-  EventID 1  -
+GroupID 100080 (Property)
+  EventID 0  - Set Damage Rate
+  EventID 1  - Set Elemental Damage Rate
 
-GroupID 100090
+GroupID 100090 (Status)
   EventID 0  -
-  EventID 1  -
+  EventID 1  - Set Stamina Recovery Rate
   EventID 2  - Increased Attack Power
   EventID 3  - Decreased Attack Power
   EventID 4  - Increased Defense Power
@@ -80,9 +80,9 @@ GroupID 100120
   EventID 5  - Bullet Timer Generation
   EventID 6  - Status-Checking Bullet
 
-GroupID 100130
-  EventID 0  -
-  EventID 1  -
+GroupID 100130 (Special)
+  EventID 0  - Warp
+  EventID 1  - Invoke Sub Event 93X
   EventID 2  - Special Effect Icon Display
   EventID 3  - Special Control: Spell Parry
   EventID 4  - Special Control: Weapon Sound Effects
@@ -94,6 +94,7 @@ GroupID 100130
 GroupID 100140 (Death)
   EventID 0  -
   EventID 1  - One-time revival
+  EventID 2  - 
 
 GroupID 100170
   EventID 0  - Damage Generation
@@ -112,19 +113,19 @@ GroupID 100700
   EventID 0  -
   EventID 1  -
   EventID 2  -
-  EventID 3  -
+  EventID 3  - 
   EventID 4  -
   
-GroupID 101050
+GroupID 101050 (HealSub)
   EventID 0  -
   EventID 1  -
   EventID 2  -
   
 GroupID 101070
-  EventID 0  -
-  EventID 1  -
-  EventID 2  -
+  EventID 0  - Disable status effects
+  EventID 1  - Clear status effects
+  EventID 2  - Apply status effect
   
-GroupID 101130
+GroupID 101130 (SpecialSub)
   EventID 0  -
   EventID 1  -

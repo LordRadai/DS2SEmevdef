@@ -2149,21 +2149,35 @@
 	  ]
 	  },
 	  {
-      "name": "Combat Properties I",
+      "name": "Property",
       "index": 100080,
       "instrs": [
         {
-          "name": "Unknown Command 100080[00]",
+          "name": "Set Damage Rate",
           "index": 0,
           "args": [
             {
-              "name": "Unknown1",
-              "type": 5,
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Property",
+              "type": 1,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 1000000000,
-              "increment": 1,
+              "max": 255,
+              "increment": 0,
               "format_string": "%d",
               "unk1": 0,
               "unk2": 0,
@@ -2171,28 +2185,14 @@
               "unk4": 0
             },
             {
-              "name": "Unknown2",
-              "type": 5,
+              "name": "Rate",
+              "type": 6,
               "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d",
-              "unk1": 0,
-              "unk2": 0,
-              "unk3": 0,
-              "unk4": 0
-            },
-            {
-              "name": "Unknown3",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d",
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
               "unk1": 0,
               "unk2": 0,
               "unk3": 0,
@@ -2201,7 +2201,7 @@
           ]
 		},
 		{
-          "name": "Increase Damage Multiplicatively",
+          "name": "Set Elemental Damage Rate",
           "index": 1,
           "args": [
             {
@@ -2219,12 +2219,12 @@
               "unk4": 0
             },
             {
-              "name": "Defense Type",
+              "name": "Damage Type",
               "type": 1,
               "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
-              "max": 0,
+              "max": 255,
               "increment": 0,
               "format_string": "%d",
               "unk1": 0,
@@ -2233,7 +2233,7 @@
               "unk4": 0
             },
             {
-              "name": "Added Multiplier",
+              "name": "Rate",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -2254,6 +2254,40 @@
       "name": "Combat Properties II",
       "index": 100090,
       "instrs": [
+                {
+          "name": "",
+          "index": 0,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		    },
         {
           "name": "Modify Stamina Recovery",
           "index": 1,
@@ -2287,7 +2321,7 @@
               "unk4": 0
             }
           ]
-		},
+		    },
 		{
           "name": "Increased Attack Power",
           "index": 2,
@@ -3307,7 +3341,7 @@
       "index": 100130,
       "instrs": [
         {
-          "name": "Warp Player",
+          "name": "Warp",
           "index": 0,
           "args": [
             {
@@ -3339,7 +3373,7 @@
               "unk4": 0
             },
             {
-              "name": "Point ID",
+              "name": "EventLocation ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
