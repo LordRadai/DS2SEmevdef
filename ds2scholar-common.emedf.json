@@ -2,11 +2,11 @@
   "unknown": 576,
   "main_classes": [
 	{
-      "name": "Character",
+      "name": "Status",
       "index": 1000,
       "instrs": [
         {
-          "name": "Set Chr Status Value",
+          "name": "Character status integer increase/decrease setting",
           "index": 0,
           "args": [
             {
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "name": "Set Chr Status Rate",
+          "name": "Character status multiplier setting",
           "index": 1,
           "args": [
             {
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "name": "Apply Chameleon Disguise",
+          "name": "Character status mimicry",
           "index": 2,
           "args": [
             {
@@ -150,7 +150,7 @@
           ]
         },
         {
-          "name": "Set Chr Status Flag",
+          "name": "Character Status Flag Settings",
           "index": 3,
           "args": [
             {
@@ -184,7 +184,7 @@
           ]
         },
         {
-          "name": "Modify Jump",
+          "name": "Jump Distance Change",
           "index": 4,
           "args": [
             {
@@ -288,7 +288,7 @@
           ]
         },
         {
-          "name": "Replace Fists With Alternate Weapon",
+          "name": "Strong Unarmed Equipment",
           "index": 5,
           "args": [
             {
@@ -350,7 +350,7 @@
           ]
         },
         {
-          "name": "Modify Bullet Param",
+          "name": "Shot Distance Variation",
           "index": 6,
           "args": [
             {
@@ -468,7 +468,7 @@
           ]
         },
         {
-          "name": "Play SE When Enemies Nearby Player",
+          "name": "Character Status and Character Reaction Sound Effects Settings",
           "index": 7,
           "args": [
             {
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "name": "Modify Enemy Aggro To Player",
+          "name": "Character Status Priority Lock-On",
           "index": 8,
           "args": [
             {
@@ -576,9 +576,9 @@
               "unk4": 0
             }
           ]
-		},
+		    },
         {
-          "name": "Set Chr Status Value32",
+          "name": "Character status integer large increase/decrease setting",
           "index": 9,
           "args": [
             {
@@ -625,8 +625,8 @@
             }
           ]
         },
-		{
-          "name": "Randomly Spawn Bullet After Taking Damage - Durability-Based Randomness",
+		    {
+          "name": "Character Status Durability Reduction Bullet",
           "index": 10,
           "args": [
             {
@@ -700,14 +700,14 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Spawn Unveil Orb",
+		    },
+		    {
+          "name": "Track Invader",
           "index": 11,
           "args": []
-		},
-		{
-          "name": "Apply Random SpEffect",
+		    },
+		    {
+          "name": "Character status mimicry lottery",
           "index": 12,
           "args": [
             {
@@ -781,9 +781,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Randomly Spawn Bullet After Taking Damage - Flat Randomness",
+		    },
+		    {
+          "name": "Character Status Damage Reflection",
           "index": 13,
           "args": [
             {
@@ -871,9 +871,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply Soul Scaling To Weapon",
+		  },
+		  {
+          "name": "Possessed Soul Attack Power Multiplier",
           "index": 14,
           "args": [
             {
@@ -961,9 +961,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply Special Scaling To Weapon",
+		  },
+		  {
+          "name": "Dead Count Attack Power Multiplier",
           "index": 15,
           "args": [
             {
@@ -1037,9 +1037,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 1000[16]",
+		  },
+		  {
+          "name": "Damage Explosion",
           "index": 16,
           "args": [
             {
@@ -1099,9 +1099,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply NG Scaling To Weapon",
+		  },
+		  {
+          "name": "Game Cycle Attack Power Modification",
           "index": 17,
           "args": [
             {
@@ -1175,9 +1175,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply Equip Load-Based Flat Damage To Weapon",
+		  },
+		  {
+          "name": "Equipment Weight Attack Power Modification",
           "index": 18,
           "args": [
             {
@@ -1279,9 +1279,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Modify Attribute Based On Current Value",
+		  },
+		  {
+          "name": "Level Status Modification",
           "index": 19,
           "args": [
             {
@@ -1355,9 +1355,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 1000[20]",
+		  },
+		  {
+          "name": "Character Status NPC Mimicry Lottery",
           "index": 20,
           "args": [
             {
@@ -1375,9 +1375,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 1000[21]",
+		  },
+		  {
+          "name": "Character Status NPC Mimicry",
           "index": 21,
           "args": [
             {
@@ -1423,15 +1423,15 @@
               "unk4": 0
             }
           ]
-		}
+		  }
       ]
     },
     {
-      "name": "Estus",
+      "name": "Estus Flask",
       "index": 1010,
       "instrs": [
         {
-          "name": "Modify Estus Usage",
+          "name": "Est Flask Control",
           "index": 0,
           "args": [
             {
@@ -1467,11 +1467,11 @@
       ]
     },
     {
-      "name": "Spells and SpEffects",
+      "name": "SFX",
       "index": 100040,
       "instrs": [
         {
-          "name": "Scale SpEffect By Attribute",
+          "name": "Apply Effect Attribute Scaling",
           "index": 0,
           "args": [
             {
@@ -1617,7 +1617,7 @@
           ]
         },
         {
-          "name": "Spawn SFX",
+          "name": "Effect SFX",
           "index": 1,
           "args": [
             {
@@ -1705,9 +1705,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 100040[02]",
+		  },
+		  {
+          "name": "SFX_2",
           "index": 2,
           "args": [
             {
@@ -1739,9 +1739,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Time Shortening Resident",
+		  },
+		  {
+          "name": "Persistent Effect Duration Reduction",
           "index": 4,
           "args": [
             {
@@ -1773,9 +1773,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 100040[05]",
+		  },
+		  {
+          "name": "Perform Effect Duration Reduction",
           "index": 5,
           "args": [
             {
@@ -1793,14 +1793,14 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 100040[06]",
+		  },
+		  {
+          "name": "Permit Effect Duration Extension",
           "index": 6,
           "args": []
-		},
-		{
-          "name": "Modify Spell Effect Length",
+		  },
+		  {
+          "name": "Extend Effect Duration",
           "index": 7,
           "args": [
             {
@@ -1818,9 +1818,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply ChrFullBodySFX",
+		  },
+		  {
+          "name": "Full Body SFX",
           "index": 8,
           "args": [
             {
@@ -1852,11 +1852,11 @@
               "unk4": 0
             }
           ]
-		}
+		  }
       ]
     },
     {
-      "name": "Healing",
+      "name": "Heal",
       "index": 100050,
       "instrs": [
         {
@@ -2052,9 +2052,9 @@
           ]
 		}
 	  ]
-	},
-	{
-      "name": "Spell Usage",
+	  },
+	  {
+      "name": "Spell",
       "index": 100060,
       "instrs": [
         {
@@ -2094,7 +2094,7 @@
 	  ]
     },
     {
-      "name": "Status Effect Controller",
+      "name": "SpecialSub",
       "index": 100070,
       "instrs": [
         {
@@ -2147,9 +2147,9 @@
           ]
 		}
 	  ]
-	},
-	{
-      "name": "Character Combat Properties I",
+	  },
+	  {
+      "name": "Combat Properties I",
       "index": 100080,
       "instrs": [
         {
@@ -2219,9 +2219,9 @@
               "unk4": 0
             },
             {
-              "name": "Buff Type",
+              "name": "Defense Type",
               "type": 1,
-              "enum_name": "Buff Type",
+              "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2249,9 +2249,9 @@
           ]
 		}
 	  ]
-	},
-	{
-      "name": "Character Combat Properties II",
+	  },
+	  {
+      "name": "Combat Properties II",
       "index": 100090,
       "instrs": [
         {
@@ -2289,7 +2289,7 @@
           ]
 		},
 		{
-          "name": "Modify Damage (Flat To Base AR)",
+          "name": "Increased Attack Power",
           "index": 2,
           "args": [
             {
@@ -2307,9 +2307,57 @@
               "unk4": 0
             },
             {
-              "name": "Buff Type",
+              "name": "Defense Type",
               "type": 1,
-              "enum_name": "Buff Type",
+              "enum_name": "Defense Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Amount",
+              "type": 1,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+    		{
+          "name": "Decreased Attack Power",
+          "index": 3,
+          "args": [
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Defense Type",
+              "type": 1,
+              "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2337,7 +2385,7 @@
           ]
 		},
 		{
-          "name": "Buff Defense",
+          "name": "Increased Defense Power",
           "index": 4,
           "args": [
             {
@@ -2355,9 +2403,9 @@
               "unk4": 0
             },
             {
-              "name": "Buff Type",
+              "name": "Defense Type",
               "type": 1,
-              "enum_name": "Buff Type",
+              "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2385,7 +2433,7 @@
           ]
 		},
 		{
-          "name": "Nerf Defense",
+          "name": "Decreased Defense Power",
           "index": 5,
           "args": [
             {
@@ -2403,9 +2451,9 @@
               "unk4": 0
             },
             {
-              "name": "Buff Type",
+              "name": "Defense Type",
               "type": 1,
-              "enum_name": "Buff Type",
+              "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2433,7 +2481,7 @@
           ]
 		},
 		{
-          "name": "Modify Movement Rate",
+          "name": "Change Movement Speed",
           "index": 6,
           "args": [
             {
@@ -2481,7 +2529,7 @@
           ]
 		},
 		{
-          "name": "Unknown Command 100090[07]",
+          "name": "Change Turning Speed",
           "index": 7,
           "args": [
             {
@@ -2534,7 +2582,7 @@
           "args": []
 		},
 		{
-          "name": "Buff Damage (Unknown)",
+          "name": "Attack Power Increase (Enemy)",
           "index": 9,
           "args": [
             {
@@ -2552,9 +2600,9 @@
               "unk4": 0
             },
             {
-              "name": "Buff Type",
+              "name": "Defense Type",
               "type": 1,
-              "enum_name": "Buff Type",
+              "enum_name": "Defense Type",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2588,7 +2636,7 @@
       "index": 100110,
       "instrs": [
         {
-          "name": "Force Armor",
+          "name": "Equip Armor",
           "index": 0,
           "args": [
             {
@@ -2650,7 +2698,7 @@
           ]
 		},
 		{
-          "name": "Force Unequip Armor",
+          "name": "Unequip Armor",
           "index": 1,
           "args": [
             {
@@ -2726,12 +2774,12 @@
           ]
 		},
 		{
-          "name": "Repair Equipment",
+          "name": "Restore Equipment Durability",
           "index": 2,
           "args": []
 		},
 		{
-          "name": "Destroy Owner Equipment",
+          "name": "Equipment Source Destruction",
           "index": 3,
           "args": [
             {
@@ -2765,7 +2813,7 @@
           ]
 		},
 		{
-          "name": "Force Weapon",
+          "name": "Weapon Parameter Change",
           "index": 4,
           "args": [
             {
@@ -2865,9 +2913,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 100120[01]",
+		    },
+		    {
+          "name": "Ragdoll Explosion",
           "index": 1,
           "args": [
             {
@@ -2955,9 +3003,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Throw Prism Stone",
+		    },
+		    {
+          "name": "Rainbow Stone Launch",
           "index": 2,
           "args": [
             {
@@ -2976,13 +3024,13 @@
             },
             {
               "name": "Unknown2",
-              "type": 5,
+              "type": 6,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d",
+              "format_string": "%0.3f",
               "unk1": 0,
               "unk2": 0,
               "unk3": 0,
@@ -2990,22 +3038,22 @@
             },
             {
               "name": "Unknown3",
-              "type": 5,
+              "type": 6,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d",
+              "format_string": "%0.3f",
               "unk1": 0,
               "unk2": 0,
               "unk3": 0,
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply SpEffect Based On Intelligence",
+		    },
+		    {
+          "name": "Launch a Tracing Soul Mass",
           "index": 3,
           "args": [
             {
@@ -3079,9 +3127,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Homing Soulmass",
+		    },
+		    {
+          "name": "Tracing Soul Mass",
           "index": 4,
           "args": [
             {
@@ -3141,9 +3189,15 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Create Bullet Based On Attribute",
+		    },
+        {
+          "name": "Bullet Timer Generation",
+          "index": 5,
+          "args": [
+          ]
+		    },
+		    {
+          "name": "Status-Checking Bullet",
           "index": 6,
           "args": [
             {
@@ -3245,11 +3299,11 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
-      "name": "Events",
+      "name": "Special",
       "index": 100130,
       "instrs": [
         {
@@ -3299,8 +3353,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Call Must Sub Event 93X",
           "index": 1,
           "args": [
@@ -3348,9 +3402,9 @@
               "vararg": true
             }
           ]
-		},
-		{
-          "name": "Display Icon",
+		    },
+		    {
+          "name": "Special Effect Icon Display",
           "index": 2,
           "args": [
             {
@@ -3396,9 +3450,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Unknown Command 100130[03]",
+		    },
+		    {
+          "name": "Special Control: Spell Parry",
           "index": 3,
           "args": [
             {
@@ -3444,9 +3498,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply Weapon Sfx",
+		    },
+		    {
+          "name": "Special Control: Weapon Sound Effects",
           "index": 4,
           "args": [
             {
@@ -3534,9 +3588,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Draw Disable Full Body Sfx",
+		    },
+		    {
+          "name": "Full-body SFX Disabled",
           "index": 5,
           "args": [
             {
@@ -3554,9 +3608,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Add Spell Deflect Chance",
+		    },
+		    {
+          "name": "Special Control: Random Spell Parry",
           "index": 6,
           "args": [
             {
@@ -3588,9 +3642,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply SpEffect And End Event If Event Flag",
+		    },
+		    {
+          "name": "Event Flag Effect (Persistent)",
           "index": 7,
           "args": [
             {
@@ -3636,9 +3690,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply SpEffect Based On Player Gender",
+		    },
+		    {
+          "name": "Gender Effect (Persistent)",
           "index": 8,
           "args": [
             {
@@ -3670,7 +3724,7 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
@@ -3696,9 +3750,9 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Apply SpEffect When Character Dies",
+		    },
+		    {
+          "name": "One-time revival",
           "index": 1,
           "args": [
             {
@@ -3730,15 +3784,15 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
-      "name": "Character Self-Attack",
+      "name": "Damage",
       "index": 100170,
       "instrs": [
         {
-          "name": "Spawn Hitbox (Periodic)",
+          "name": "Damage Generation",
           "index": 0,
           "args": [
             {
@@ -3784,8 +3838,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Spawn Hitbox",
           "index": 1,
           "args": [
@@ -3804,14 +3858,14 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
-      "name": "Multiplayer",
+      "name": "MultiPlay",
       "index": 100180,
       "instrs": [
-		{
+		    {
           "name": "Initiate Client-Mediated Multiplayer Item",
           "index": 0,
           "args": [
@@ -3830,8 +3884,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Initiate Server-Mediated Multiplayer Item",
           "index": 1,
           "args": [
@@ -3850,8 +3904,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Initiate Passive Server-Mediated Multiplayer Item",
           "index": 2,
           "args": [
@@ -3870,39 +3924,39 @@
               "unk4": 0
             }
           ]
-		},
-		{
-          "name": "Request Multiplayer Separation",
+		    },
+		    {
+          "name": "Request to end multiplayer",
           "index": 3,
           "args": []
-		},
-		{
-          "name": "Reset Invasion Cooldown Timer",
+		    },
+		    {
+          "name": "Invasion cooldown reset",
           "index": 4,
           "args": []
-		},
-		{
-          "name": "Display Champion Rankings",
+		    },
+		    {
+          "name": "Show Ranking",
           "index": 5,
           "args": []
-		},
-		{
-          "name": "Request Multiplayer Penalty Erasure",
+		    },
+		    {
+          "name": "Request disconnect penalty erasure",
           "index": 6,
           "args": []
-		}
+		    }
       ]
 	},
 	{
       "name": "SpEffect Meta",
       "index": 100700,
       "instrs": [
-		{
+		    {
           "name": "Unknown Command 100700[02]",
           "index": 2,
           "args": []
-		},
-		{
+		    },
+		    {
           "name": "Unknown Command 100700[03]",
           "index": 3,
           "args": [
@@ -3921,8 +3975,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Set SpEffect Length",
           "index": 4,
           "args": [
@@ -3941,14 +3995,14 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
       "name": "Heal Over Time",
       "index": 101050,
       "instrs": [
-		{
+        {
           "name": "Heal Flat Amount Over Time",
           "index": 0,
           "args": [
@@ -3995,8 +4049,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Heal Percentage Amount Over Time",
           "index": 1,
           "args": [
@@ -4043,8 +4097,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Unknown Command 101050[02]",
           "index": 2,
           "args": [
@@ -4091,14 +4145,14 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
 	{
       "name": "Status Effect",
       "index": 101070,
       "instrs": [
-		{
+		    {
           "name": "Prevent Status Effect",
           "index": 0,
           "args": [
@@ -4131,8 +4185,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Clear Status Effect",
           "index": 1,
           "args": [
@@ -4151,8 +4205,8 @@
               "unk4": 0
             }
           ]
-		},
-		{
+		    },
+		    {
           "name": "Apply Status Effect",
           "index": 2,
           "args": [
@@ -4241,7 +4295,7 @@
               "unk4": 0
             }
           ]
-		}
+		    }
 	  ]
 	},
     {
@@ -4516,7 +4570,7 @@
       }
     },
 	{
-	  "name": "Buff Type",
+	  "name": "Defense Type",
 	  "values": {
 		"0": "All Physical",
 		"1": "Magic",
