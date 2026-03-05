@@ -2,16 +2,16 @@
   "main_classes": [
     {
       "index": 1000,
-      "name": "character status",
+      "name": "キャラステータス",
       "instructions": [
         {
           "index": 0,
-          "name": "Integer increase/decrease setting",
+          "name": "整数増減設定",
           "arguments": [
             {
-              "name": "Types of special effects",
+              "name": "特殊効果の種類",
               "type": 0,
-              "enum_name": "Character status/integer",
+              "enum_name": "キャラステータス・整数",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -19,7 +19,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -29,7 +29,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect size",
+              "name": "効果量",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -42,12 +42,12 @@
         },
         {
           "index": 1,
-          "name": "Multiplier addition",
+          "name": "倍率加算",
           "arguments": [
             {
-              "name": "Types of special effects",
+              "name": "特殊効果の種類",
               "type": 0,
-              "enum_name": "Character status/multiplier",
+              "enum_name": "キャラステータス・倍率",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -55,7 +55,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -65,7 +65,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect size",
+              "name": "効果量",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -78,10 +78,10 @@
         },
         {
           "index": 2,
-          "name": "mimicry",
+          "name": "擬態",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -91,7 +91,7 @@
               "format_string": "%f"
             },
             {
-              "name": "mimicry index",
+              "name": "擬態インデックス",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -101,7 +101,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Unlock SFXID",
+              "name": "解除SFXID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -114,12 +114,12 @@
         },
         {
           "index": 3,
-          "name": "flag setting",
+          "name": "フラグ設定",
           "arguments": [
             {
-              "name": "Types of special effects",
+              "name": "特殊効果の種類",
               "type": 0,
-              "enum_name": "Character status flag",
+              "enum_name": "キャラステータス・フラグ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -127,7 +127,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -140,10 +140,10 @@
         },
         {
           "index": 4,
-          "name": "Change jump distance",
+          "name": "ジャンプ距離変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -153,7 +153,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Climb speed",
+              "name": "上昇速度",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -163,7 +163,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Forward speed min.",
+              "name": "前方速度 最小",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -173,7 +173,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Forward speed max.",
+              "name": "前方速度 最大",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -183,7 +183,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Gravity acceleration multiplier minimum",
+              "name": "重力加速度倍率 最小",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -193,7 +193,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Gravity acceleration multiplier maximum",
+              "name": "重力加速度倍率 最大",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -203,7 +203,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Jump speed",
+              "name": "ジャンプ可能速度",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -216,10 +216,10 @@
         },
         {
           "index": 5,
-          "name": "strong bare-handed equipment",
+          "name": "強い素手装備",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -229,7 +229,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Strong bare hand weapon ID",
+              "name": "強い素手 武器ID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -239,7 +239,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Strong bare hands Ladder attack L input Weapon ID",
+              "name": "強い素手 はしご攻撃Ｌ入力 武器ID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -249,7 +249,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Strong bare hands Ladder attack R input Weapon ID",
+              "name": "強い素手 はしご攻撃R入力 武器ID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -262,10 +262,10 @@
         },
         {
           "index": 6,
-          "name": "Shooting distance variation",
+          "name": "射撃距離変動",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -275,9 +275,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Correction target",
+              "name": "補正対象",
               "type": 0,
-              "enum_name": "shooting type",
+              "enum_name": "射撃タイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -285,7 +285,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Bullet life multiplier",
+              "name": "バレット寿命倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -295,7 +295,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Bullet initial speed multiplier",
+              "name": "バレット初速倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -305,7 +305,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Bullet fall start magnification",
+              "name": "バレット落下開始倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -315,7 +315,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Damage distance attenuation start multiplier",
+              "name": "ダメージ距離減衰開始倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -325,7 +325,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Damage distance decay end multiplier",
+              "name": "ダメージ距離減衰終了倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -338,10 +338,10 @@
         },
         {
           "index": 7,
-          "name": "Character reaction SE playback",
+          "name": "キャラ反応SE再生",
           "arguments": [
             {
-              "name": "search plane radius",
+              "name": "検索平面半径",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -351,7 +351,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Search height/low distance",
+              "name": "検索高低距離上",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -361,7 +361,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Search height/distance down",
+              "name": "検索高低距離下",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -371,7 +371,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Minimum SE playback interval",
+              "name": "最小SE再生インターバル",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -381,7 +381,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Maximum SE playback interval",
+              "name": "最大SE再生インターバル",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -404,10 +404,10 @@
         },
         {
           "index": 8,
-          "name": "Priority lock-on",
+          "name": "優先ロックオン",
           "arguments": [
             {
-              "name": "Priority multiplier",
+              "name": "優先度倍率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -420,12 +420,12 @@
         },
         {
           "index": 9,
-          "name": "Integer increase/decrease setting",
+          "name": "整数増減大設定",
           "arguments": [
             {
-              "name": "Types of special effects",
+              "name": "特殊効果の種類",
               "type": 0,
-              "enum_name": "Character status/large integer",
+              "enum_name": "キャラステータス・整数大",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -433,7 +433,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -443,7 +443,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect size",
+              "name": "効果量",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -456,10 +456,10 @@
         },
         {
           "index": 10,
-          "name": "Damage accumulation bullet",
+          "name": "ダメージ蓄積バレット",
           "arguments": [
             {
-              "name": "Probability of occurrence at maximum durability (%)",
+              "name": "耐久最大時発生確率(%)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -469,7 +469,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Probability of occurrence at minimum durability (%)",
+              "name": "耐久最小時発生確率(%)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -479,7 +479,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Durability value decreased at the time of occurrence",
+              "name": "発生時減少耐久値",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -489,7 +489,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Valet ID",
+              "name": "バレットＩＤ",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -499,7 +499,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID",
+              "name": "ダメージＩＤ",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -512,14 +512,14 @@
         },
         {
           "index": 11,
-          "name": "adversary detection"
+          "name": "敵対者探知"
         },
         {
           "index": 12,
-          "name": "Mimic lottery",
+          "name": "擬態抽選",
           "arguments": [
             {
-              "name": "Lottery special effect ID0",
+              "name": "抽選特殊効果ID0",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -529,7 +529,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Lottery special effect ID1",
+              "name": "抽選特殊効果ID1",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -539,7 +539,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Lottery special effect ID2",
+              "name": "抽選特殊効果ID2",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -552,10 +552,10 @@
         },
         {
           "index": 13,
-          "name": "damage reflection",
+          "name": "ダメージ反射",
           "arguments": [
             {
-              "name": "Probability of occurrence",
+              "name": "発生確率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -565,7 +565,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Occurrence interval",
+              "name": "発生インターバル",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -575,7 +575,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Minimum reflected damage value",
+              "name": "反射最小ダメージ値",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -585,7 +585,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Reflection maximum damage value",
+              "name": "反射最大ダメージ値",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -595,7 +595,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Valet ID",
+              "name": "バレットＩＤ",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -605,7 +605,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID",
+              "name": "ダメージＩＤ",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -618,10 +618,10 @@
         },
         {
           "index": 14,
-          "name": "Owned soul attack power multiplier",
+          "name": "所持ソウル攻撃力倍率",
           "arguments": [
             {
-              "name": "Fixed at 0",
+              "name": "0固定",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -631,7 +631,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Possession soul minimum",
+              "name": "所持ソウル 最小",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -641,7 +641,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Possession soul maximum",
+              "name": "所持ソウル 最大",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -651,7 +651,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Attack power correction magnification minimum",
+              "name": "攻撃力補正倍率 最小",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -661,7 +661,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Attack power correction magnification maximum",
+              "name": "攻撃力補正倍率 最大",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -671,7 +671,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect time",
+              "name": "効果時間",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -684,12 +684,12 @@
         },
         {
           "index": 15,
-          "name": "Death count attack power multiplier",
+          "name": "亡者カウント攻撃力倍率",
           "arguments": [
             {
-              "name": "Target count",
+              "name": "対象カウント",
               "type": 0,
-              "enum_name": "Dead Count Attack Power Multiplier Type",
+              "enum_name": "亡者カウント攻撃力倍率タイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -697,17 +697,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Target count minimum",
-              "type": 0,
-              "enum_name": "",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Target count maximum",
+              "name": "対象カウント 最小",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -717,7 +707,17 @@
               "format_string": "%d"
             },
             {
-              "name": "Attack power correction magnification minimum",
+              "name": "対象カウント 最大",
+              "type": 0,
+              "enum_name": "",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d"
+            },
+            {
+              "name": "攻撃力補正倍率 最小",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -727,7 +727,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Attack power correction magnification maximum",
+              "name": "攻撃力補正倍率 最大",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -737,7 +737,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect time",
+              "name": "効果時間",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -752,16 +752,16 @@
     },
     {
       "index": 1010,
-      "name": "inventory",
+      "name": "インベントリ",
       "instructions": [
         {
           "index": 0,
-          "name": "est bottle",
+          "name": "エスト瓶",
           "arguments": [
             {
-              "name": "Types of special effects",
+              "name": "特殊効果の種類",
               "type": 0,
-              "enum_name": "Types of est bottle effects",
+              "enum_name": "エスト瓶効果の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -769,7 +769,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -784,16 +784,16 @@
     },
     {
       "index": 100040,
-      "name": "Basic command",
+      "name": "基本コマンド",
       "instructions": [
         {
           "index": 0,
-          "name": "Effect correction magnification",
+          "name": "効果補正倍率",
           "arguments": [
             {
-              "name": "Magnification target",
+              "name": "倍率対象",
               "type": 0,
-              "enum_name": "Effect correction target",
+              "enum_name": "効果補正対象",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -801,9 +801,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Target status",
+              "name": "対象ステータス",
               "type": 0,
-              "enum_name": "status",
+              "enum_name": "ステータス",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -811,7 +811,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Status Minimum value",
+              "name": "ステータス 最小値",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -821,7 +821,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Status Maximum value",
+              "name": "ステータス 最大値",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -831,7 +831,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Status Correction magnification Minimum value (0.01 unit, double unit)",
+              "name": "ステータス 補正倍率 最小値(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -841,7 +841,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Status Correction magnification Maximum value (0.01 unit, double unit)",
+              "name": "ステータス 補正倍率 最大値(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -851,7 +851,7 @@
               "format_string": "%f"
             },
             {
-              "name": "One-handed correction magnification (0.01 unit, double unit)",
+              "name": "片手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -861,7 +861,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Both hands correction magnification (0.01 units, multiple units)",
+              "name": "両手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -871,7 +871,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Dual wielding correction magnification (0.01 unit, double unit)",
+              "name": "二刀流 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -881,7 +881,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Two-handed two-handed correction magnification (0.01 unit, multiplication unit)",
+              "name": "二刀流両手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -894,10 +894,10 @@
         },
         {
           "index": 1,
-          "name": "Effect SFX",
+          "name": "効果SFX",
           "arguments": [
             {
-              "name": "Effect SFX(ID)",
+              "name": "効果SFX(ID)",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -907,7 +907,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect SFX dummy poly(ID)",
+              "name": "効果SFXダミポリ(ID)",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -919,7 +919,7 @@
             {
               "name": "削除設定",
               "type": 0,
-              "enum_name": "SFX deletion timing",
+              "enum_name": "SFXの削除タイミング",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -927,7 +927,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Priority (0: Must be issued, 255: See item Param)",
+              "name": "優先度(0:必ず出す、255:アイテムParam参照)",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -937,9 +937,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Start/end conditions",
+              "name": "開始・終了条件",
               "type": 0,
-              "enum_name": "Start and end conditions",
+              "enum_name": "開始終了条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -947,7 +947,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Values for start and end conditions",
+              "name": "開始・終了条件用の値",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -960,10 +960,10 @@
         },
         {
           "index": 2,
-          "name": "Effect correction settings",
+          "name": "効果補正設定",
           "arguments": [
             {
-              "name": "Effect size correction magnification (0.01 unit, double unit)",
+              "name": "効果量補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -973,7 +973,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect time correction magnification (0.01 unit, double unit)",
+              "name": "効果時間補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -986,10 +986,10 @@
         },
         {
           "index": 3,
-          "name": "Effect time shortened",
+          "name": "効果時間 短縮",
           "arguments": [
             {
-              "name": "Target special effect ID",
+              "name": "対象特殊効果ID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -999,7 +999,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Time reduction (0.01 units, seconds)",
+              "name": "短縮時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1009,9 +1009,9 @@
               "format_string": "%f"
             },
             {
-              "name": "special conditions",
+              "name": "特殊条件",
               "type": 0,
-              "enum_name": "Effect time reduction conditions",
+              "enum_name": "効果時間短縮条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1022,12 +1022,12 @@
         },
         {
           "index": 4,
-          "name": "Effect time reduction 2 permanent",
+          "name": "効果時間短縮2 常駐",
           "arguments": [
             {
-              "name": "special conditions",
+              "name": "特殊条件",
               "type": 0,
-              "enum_name": "Effect time reduction conditions",
+              "enum_name": "効果時間短縮条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1035,7 +1035,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Time reduction (0.01 units, seconds)",
+              "name": "短縮時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1048,12 +1048,12 @@
         },
         {
           "index": 5,
-          "name": "Effect time reduction 2 execution",
+          "name": "効果時間短縮2 実行",
           "arguments": [
             {
-              "name": "special conditions",
+              "name": "特殊条件",
               "type": 0,
-              "enum_name": "Effect time reduction conditions",
+              "enum_name": "効果時間短縮条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1064,14 +1064,14 @@
         },
         {
           "index": 6,
-          "name": "Effect time extension allowed"
+          "name": "効果時間延長 許可"
         },
         {
           "index": 7,
-          "name": "Extend effect time",
+          "name": "効果時間延長 実行",
           "arguments": [
             {
-              "name": "Effect size (0.01 unit, double unit)",
+              "name": "効果量(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -1084,10 +1084,10 @@
         },
         {
           "index": 8,
-          "name": "Full body SFX",
+          "name": "全身SFX",
           "arguments": [
             {
-              "name": "Full body SFXID",
+              "name": "全身SFXID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1097,9 +1097,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Delete settings",
+              "name": "削除設定",
               "type": 0,
-              "enum_name": "SFX deletion timing",
+              "enum_name": "SFXの削除タイミング",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1112,14 +1112,14 @@
     },
     {
       "index": 100050,
-      "name": "HP recovery control",
+      "name": "ＨＰ回復制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Time HP recovery",
+          "name": "時間ＨＰ回復",
           "arguments": [
             {
-              "name": "reference file",
+              "name": "参照ファイル",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1129,7 +1129,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Recovery type",
+              "name": "回復種類",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1139,7 +1139,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1152,10 +1152,10 @@
         },
         {
           "index": 1,
-          "name": "Instant HP recovery",
+          "name": "瞬間ＨＰ回復",
           "arguments": [
             {
-              "name": "reference file",
+              "name": "参照ファイル",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1165,7 +1165,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Recovery type",
+              "name": "回復種類",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1175,7 +1175,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1188,12 +1188,12 @@
         },
         {
           "index": 2,
-          "name": "resurrection of the dead",
+          "name": "亡者復活",
           "arguments": [
             {
-              "name": "Will you carry out the performance?",
+              "name": "演出実行するか？",
               "type": 0,
-              "enum_name": "Enable/Disable",
+              "enum_name": "有効無効",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1204,10 +1204,10 @@
         },
         {
           "index": 3,
-          "name": "Issue host damage during cooperative multiplayer",
+          "name": "協力マルチプレイ中ホストダメージ発行",
           "arguments": [
             {
-              "name": "Damage ID",
+              "name": "ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1222,14 +1222,14 @@
     },
     {
       "index": 100060,
-      "name": "spell control",
+      "name": "スペル制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Spell use count recovery 2",
+          "name": "スペル使用回数回復2",
           "arguments": [
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1239,9 +1239,9 @@
               "format_string": "%f"
             },
             {
-              "name": "fraction",
+              "name": "端数",
               "type": 0,
-              "enum_name": "fraction",
+              "enum_name": "端数",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1254,14 +1254,14 @@
     },
     {
       "index": 100070,
-      "name": "Status abnormality control",
+      "name": "状態異常制御",
       "instructions": [
         {
           "index": 0,
-          "name": "abnormal status change",
+          "name": "状態異常変更",
           "arguments": [
             {
-              "name": "reference file",
+              "name": "参照ファイル",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1271,7 +1271,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Abnormal status settings",
+              "name": "状態異常 設定",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1281,7 +1281,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -1296,14 +1296,14 @@
     },
     {
       "index": 100080,
-      "name": "attribute control",
+      "name": "属性制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Character armor attribute value change",
+          "name": "キャラ防具属性値変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1313,9 +1313,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute type",
+              "name": "属性種類",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1323,7 +1323,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1336,10 +1336,10 @@
         },
         {
           "index": 1,
-          "name": "Character weapon attack attribute value change",
+          "name": "キャラ武器攻撃属性値変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1349,9 +1349,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute type",
+              "name": "属性種類",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1359,7 +1359,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1374,14 +1374,14 @@
     },
     {
       "index": 100090,
-      "name": "status control",
+      "name": "ステータス制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Change current equipment weight",
+          "name": "現在装備重量変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1391,7 +1391,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect size (0.01 unit, kg unit)",
+              "name": "効果量(0.01単位、kg単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1404,10 +1404,10 @@
         },
         {
           "index": 1,
-          "name": "Change stamina recovery speed",
+          "name": "スタミナ回復速度変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1417,7 +1417,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect size (0.01 unit, double unit)",
+              "name": "効果量(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1430,10 +1430,10 @@
         },
         {
           "index": 2,
-          "name": "Attack power increase",
+          "name": "攻撃力増加",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1443,9 +1443,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute",
+              "name": "属性",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1453,7 +1453,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "効果量(整数単位)",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -1466,10 +1466,10 @@
         },
         {
           "index": 3,
-          "name": "Attack power decreased",
+          "name": "攻撃力減少",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1479,9 +1479,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute",
+              "name": "属性",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1489,7 +1489,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "効果量(整数単位)",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -1502,10 +1502,10 @@
         },
         {
           "index": 4,
-          "name": "Increased defense power",
+          "name": "防御力増加",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1515,9 +1515,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute",
+              "name": "属性",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1525,7 +1525,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "効果量(整数単位)",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -1538,10 +1538,10 @@
         },
         {
           "index": 5,
-          "name": "Defense power decreased",
+          "name": "防御力減少",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1551,9 +1551,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Attribute",
+              "name": "属性",
               "type": 0,
-              "enum_name": "Attributes of equipment",
+              "enum_name": "装備品の属性",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1561,7 +1561,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "効果量(整数単位)",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -1574,10 +1574,10 @@
         },
         {
           "index": 6,
-          "name": "Change movement speed",
+          "name": "移動速度変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1587,7 +1587,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Correction magnification (0.01 unit, double unit)",
+              "name": "補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -1597,9 +1597,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect target",
+              "name": "効果対象",
               "type": 0,
-              "enum_name": "Target character",
+              "enum_name": "対象キャラクタ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1610,10 +1610,10 @@
         },
         {
           "index": 7,
-          "name": "Change rotation speed",
+          "name": "旋回速度変更",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1623,7 +1623,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Correction magnification (0.01 unit, double unit)",
+              "name": "補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -1633,9 +1633,9 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect target",
+              "name": "効果対象",
               "type": 0,
-              "enum_name": "Target character",
+              "enum_name": "対象キャラクタ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1646,24 +1646,24 @@
         },
         {
           "index": 8,
-          "name": "Initialize the number of Esto bottles"
+          "name": "エスト瓶回数初期化"
         }
       ]
     },
     {
       "index": 100100,
-      "name": "Damage calculation control"
+      "name": "ダメージ計算制御"
     },
     {
       "index": 100110,
-      "name": "equipment control",
+      "name": "装備制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Equipment change",
+          "name": "装備変更",
           "arguments": [
             {
-              "name": "Head item ID",
+              "name": "頭部アイテムID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1673,7 +1673,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Torso item ID",
+              "name": "胴部アイテムID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1683,7 +1683,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Arm item ID",
+              "name": "腕部アイテムID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1693,7 +1693,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Foot item ID",
+              "name": "足部アイテムID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1706,12 +1706,12 @@
         },
         {
           "index": 1,
-          "name": "Unequip",
+          "name": "装備解除",
           "arguments": [
             {
-              "name": "Equipment category to be unlocked 1",
+              "name": "解除する装備カテゴリ1",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1719,9 +1719,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 2 to be unlocked",
+              "name": "解除する装備カテゴリ2",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1729,9 +1729,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 3 to be unlocked",
+              "name": "解除する装備カテゴリ3",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1739,9 +1739,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 4 to be unlocked",
+              "name": "解除する装備カテゴリ4",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1749,9 +1749,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 5 to unlock",
+              "name": "解除する装備カテゴリ5",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1759,9 +1759,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 6 to unlock",
+              "name": "解除する装備カテゴリ6",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1769,9 +1769,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 7 to unlock",
+              "name": "解除する装備カテゴリ7",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1779,9 +1779,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Equipment category 8 to unlock",
+              "name": "解除する装備カテゴリ8",
               "type": 0,
-              "enum_name": "Equipment category",
+              "enum_name": "装備カテゴリ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1792,16 +1792,16 @@
         },
         {
           "index": 2,
-          "name": "All equipment durability restored"
+          "name": "全装備耐久値回復"
         },
         {
           "index": 3,
-          "name": "Destroy the trigger",
+          "name": "発動元破壊",
           "arguments": [
             {
-              "name": "Destruction conditions",
+              "name": "破壊条件",
               "type": 0,
-              "enum_name": "Equipment destruction activation conditions",
+              "enum_name": "装備破壊発動条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1809,7 +1809,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Only one destruction flag ID",
+              "name": "1つだけ破壊フラグID",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -1824,14 +1824,14 @@
     },
     {
       "index": 100120,
-      "name": "valet control",
+      "name": "バレット制御",
       "instructions": [
         {
           "index": 0,
-          "name": "bullet firing",
+          "name": "バレット発射",
           "arguments": [
             {
-              "name": "Valet ID",
+              "name": "バレットID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1841,7 +1841,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID",
+              "name": "ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1851,9 +1851,9 @@
               "format_string": "%d"
             },
             {
-              "name": "reflected attack power",
+              "name": "反映攻撃力",
               "type": 0,
-              "enum_name": "Types of attack power added to Bullet",
+              "enum_name": "バレットに加算する攻撃力の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1861,7 +1861,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reflection magnification",
+              "name": "反映倍率",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -1874,10 +1874,10 @@
         },
         {
           "index": 1,
-          "name": "ragdoll explosion",
+          "name": "ラグドール爆破",
           "arguments": [
             {
-              "name": "range",
+              "name": "範囲",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1887,7 +1887,7 @@
               "format_string": "%f"
             },
             {
-              "name": "maximum number",
+              "name": "最大数",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1897,7 +1897,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Valet ID (small)",
+              "name": "バレットID（小）",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1907,7 +1907,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID (small)",
+              "name": "ダメージID（小）",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1917,7 +1917,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Valet ID (large)",
+              "name": "バレットID（大）",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1927,7 +1927,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID (large)",
+              "name": "ダメージID（大）",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1940,10 +1940,10 @@
         },
         {
           "index": 2,
-          "name": "Seven-colored stone launch",
+          "name": "七色石発射",
           "arguments": [
             {
-              "name": "Damipoli ID",
+              "name": "ダミポリID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -1953,7 +1953,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Horizontal initial velocity [m/s]",
+              "name": "水平初速度[m/s]",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1963,7 +1963,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Horizontal deceleration [m/s]",
+              "name": "水平減速度[m/s]",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -1976,10 +1976,10 @@
         },
         {
           "index": 3,
-          "name": "Shooting a mass of tracking souls",
+          "name": "追尾するソウルの塊発射",
           "arguments": [
             {
-              "name": "Reason 1",
+              "name": "理力1",
               "type": 4,
               "enum_name": "",
               "default": 0,
@@ -1989,7 +1989,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reason 2",
+              "name": "理力2",
               "type": 4,
               "enum_name": "",
               "default": 0,
@@ -1999,7 +1999,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reason 3",
+              "name": "理力3",
               "type": 4,
               "enum_name": "",
               "default": 0,
@@ -2009,7 +2009,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reason 4",
+              "name": "理力4",
               "type": 4,
               "enum_name": "",
               "default": 0,
@@ -2019,7 +2019,7 @@
               "format_string": "%d"
             },
             {
-              "name": "special effect ID",
+              "name": "特殊効果ID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2032,10 +2032,10 @@
         },
         {
           "index": 4,
-          "name": "A mass of souls chasing",
+          "name": "追尾するソウルの塊",
           "arguments": [
             {
-              "name": "range",
+              "name": "範囲",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2045,7 +2045,7 @@
               "format_string": "%f"
             },
             {
-              "name": "angle",
+              "name": "角度",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -2055,7 +2055,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Valet ID",
+              "name": "バレットID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2065,7 +2065,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Damage ID",
+              "name": "ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2080,16 +2080,16 @@
     },
     {
       "index": 100130,
-      "name": "special control",
+      "name": "特殊制御",
       "instructions": [
         {
           "index": 0,
-          "name": "return 2",
+          "name": "帰還2",
           "arguments": [
             {
-              "name": "Type of return",
+              "name": "帰還の種類",
               "type": 0,
-              "enum_name": "Type of return",
+              "enum_name": "帰還の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2097,7 +2097,7 @@
               "format_string": "%d"
             },
             {
-              "name": "ID1 (\"Return type\" is \"Bonfire\" and this value is -1: Last bonfire)",
+              "name": "ID1(「帰還の種類」が「篝火」、かつ、この値が-1:最後の篝火)",
               "type": 5,
               "enum_name": "",
               "default": -1,
@@ -2120,10 +2120,10 @@
         },
         {
           "index": 1,
-          "name": "soul change",
+          "name": "ソウル変更",
           "arguments": [
             {
-              "name": "reference file",
+              "name": "参照ファイル",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2133,7 +2133,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reference event name",
+              "name": "参照イベント名",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2143,7 +2143,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2156,10 +2156,10 @@
         },
         {
           "index": 2,
-          "name": "Special effect icon display",
+          "name": "特殊効果アイコン表示",
           "arguments": [
             {
-              "name": "icon id",
+              "name": "アイコンID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2169,9 +2169,9 @@
               "format_string": "%d"
             },
             {
-              "name": "Start/end conditions",
+              "name": "開始・終了条件",
               "type": 0,
-              "enum_name": "Start and end conditions",
+              "enum_name": "開始終了条件",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2179,7 +2179,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Values for start and end conditions",
+              "name": "開始・終了条件用の値",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2192,10 +2192,10 @@
         },
         {
           "index": 3,
-          "name": "Spell parry setting 2",
+          "name": "スペルパリィ設定2",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2205,9 +2205,9 @@
               "format_string": "%f"
             },
             {
-              "name": "parry type",
+              "name": "パリィタイプ",
               "type": 0,
-              "enum_name": "spell parry type",
+              "enum_name": "スペルパリィタイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2228,7 +2228,7 @@
         },
         {
           "index": 4,
-          "name": "weapon sfx",
+          "name": "武器SFX",
           "arguments": [
             {
               "name": "SFXID",
@@ -2241,7 +2241,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Spacing [m]",
+              "name": "間隔[m]",
               "type": 6,
               "enum_name": "",
               "default": 0.10000000149011612,
@@ -2251,7 +2251,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Starting position ratio",
+              "name": "開始位置比率",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2261,7 +2261,7 @@
               "format_string": "%f"
             },
             {
-              "name": "End position ratio",
+              "name": "終了位置比率",
               "type": 6,
               "enum_name": "",
               "default": 1.0,
@@ -2271,7 +2271,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Degree of bias",
+              "name": "片寄り度合い",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2281,7 +2281,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Vibration width [m]",
+              "name": "ぶれ幅[m]",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2296,16 +2296,16 @@
     },
     {
       "index": 100140,
-      "name": "death control",
+      "name": "死亡時制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Death permission setting",
+          "name": "死亡許可設定",
           "arguments": [
             {
-              "name": "Death permission setting",
+              "name": "死亡許可設定",
               "type": 0,
-              "enum_name": "Death permission setting",
+              "enum_name": "死亡許可設定",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2318,22 +2318,22 @@
     },
     {
       "index": 100150,
-      "name": "Dying control"
+      "name": "瀕死時制御"
     },
     {
       "index": 100160,
-      "name": "UI control"
+      "name": "ＵＩ制御"
     },
     {
       "index": 100170,
-      "name": "damage control",
+      "name": "ダメージ制御",
       "instructions": [
         {
           "index": 0,
-          "name": "damage generation",
+          "name": "ダメージ生成",
           "arguments": [
             {
-              "name": "Damage ID",
+              "name": "ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2343,7 +2343,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Occurrence interval (0.01 units, seconds)",
+              "name": "発生間隔(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2353,7 +2353,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Effect time (if less than 0, it depends on other effects, in units of 0.01, in seconds)",
+              "name": "効果時間(0以下なら他の効果依存、0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": -1.0,
@@ -2366,10 +2366,10 @@
         },
         {
           "index": 1,
-          "name": "Single damage generation",
+          "name": "単発ダメージ生成",
           "arguments": [
             {
-              "name": "Damage ID",
+              "name": "ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2384,16 +2384,16 @@
     },
     {
       "index": 100180,
-      "name": "multiplayer control",
+      "name": "マルチプレイ制御",
       "instructions": [
         {
           "index": 0,
-          "name": "Summoning sign creation request",
+          "name": "召喚サイン作成要求",
           "arguments": [
             {
-              "name": "sign type",
+              "name": "サインタイプ",
               "type": 0,
-              "enum_name": "sign type",
+              "enum_name": "サインタイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2404,12 +2404,12 @@
         },
         {
           "index": 1,
-          "name": "Intrusion request",
+          "name": "乱入要求",
           "arguments": [
             {
-              "name": "Intrusion type",
+              "name": "乱入タイプ",
               "type": 0,
-              "enum_name": "Intrusion type",
+              "enum_name": "乱入タイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2420,12 +2420,12 @@
         },
         {
           "index": 2,
-          "name": "Summon search request",
+          "name": "召喚検索要求",
           "arguments": [
             {
-              "name": "Forced summon search type",
+              "name": "強制召喚検索タイプ",
               "type": 0,
-              "enum_name": "Forced summon search type",
+              "enum_name": "強制召喚検索タイプ",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2436,32 +2436,32 @@
         },
         {
           "index": 3,
-          "name": "Multiplayer termination request"
+          "name": "マルチプレイ終了要求"
         },
         {
           "index": 4,
-          "name": "Invasion cooldown reset"
+          "name": "侵入クールタイムリセット"
         },
         {
           "index": 5,
-          "name": "Ranking"
+          "name": "ランキング"
         },
         {
           "index": 6,
-          "name": "penalty reset"
+          "name": "ペナルティリセット"
         }
       ]
     },
     {
       "index": 100700,
-      "name": "Others",
+      "name": "その他",
       "instructions": [
         {
           "index": 0,
-          "name": "See other files",
+          "name": "他ファイル参照",
           "arguments": [
             {
-              "name": "reference file",
+              "name": "参照ファイル",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2471,7 +2471,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Reference ID",
+              "name": "参照ID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2481,7 +2481,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2494,10 +2494,10 @@
         },
         {
           "index": 1,
-          "name": "See same file",
+          "name": "同ファイル参照",
           "arguments": [
             {
-              "name": "Reference ID",
+              "name": "参照ID",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2507,7 +2507,7 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "引数",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2520,14 +2520,14 @@
         },
         {
           "index": 2,
-          "name": "Infinite effect time"
+          "name": "効果時間無限"
         },
         {
           "index": 3,
-          "name": "Special effect ID specification",
+          "name": "特殊効果ID指定",
           "arguments": [
             {
-              "name": "special effect ID",
+              "name": "特殊効果ID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2540,10 +2540,10 @@
         },
         {
           "index": 4,
-          "name": "virtual command",
+          "name": "仮想コマンド",
           "arguments": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2558,14 +2558,14 @@
     },
     {
       "index": 101050,
-      "name": "HP recovery control sub",
+      "name": "ＨＰ回復制御サブ",
       "instructions": [
         {
           "index": 0,
-          "name": "numerical value",
+          "name": "数値",
           "arguments": [
             {
-              "name": "Effect size (1 unit)",
+              "name": "効果量(1単位)",
               "type": 1,
               "enum_name": "",
               "default": 0,
@@ -2575,7 +2575,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Recovery time (0.01 units, seconds)",
+              "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2585,7 +2585,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Ends when maximum HP is recovered",
+              "name": "最大HPまで回復したら終了",
               "type": 0,
               "enum_name": "OnOff",
               "default": 0,
@@ -2598,10 +2598,10 @@
         },
         {
           "index": 1,
-          "name": "Maximum HP percentage",
+          "name": "最大ＨＰ割合",
           "arguments": [
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2611,7 +2611,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Recovery time (0.01 units, seconds)",
+              "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2621,7 +2621,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Ends when maximum HP is recovered",
+              "name": "最大HPまで回復したら終了",
               "type": 0,
               "enum_name": "OnOff",
               "default": 0,
@@ -2634,10 +2634,10 @@
         },
         {
           "index": 2,
-          "name": "Damage value percentage",
+          "name": "与ダメージ値割合",
           "arguments": [
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2647,7 +2647,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Recovery time (0.01 units, seconds)",
+              "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2657,7 +2657,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Ends when maximum HP is recovered",
+              "name": "最大HPまで回復したら終了",
               "type": 0,
               "enum_name": "OnOff",
               "default": 0,
@@ -2672,16 +2672,16 @@
     },
     {
       "index": 101070,
-      "name": "Status abnormality control sub",
+      "name": "状態異常制御サブ",
       "instructions": [
         {
           "index": 0,
-          "name": "Status abnormality change invincibility",
+          "name": "状態異常変更　無敵",
           "arguments": [
             {
-              "name": "Status abnormality type",
+              "name": "状態異常 種類",
               "type": 0,
-              "enum_name": "Type of status abnormality",
+              "enum_name": "状態異常の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2689,7 +2689,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Invincibility duration (0.01 units, seconds)",
+              "name": "無敵の継続時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2702,12 +2702,12 @@
         },
         {
           "index": 1,
-          "name": "Abnormal status change cancellation",
+          "name": "状態異常変更　解除",
           "arguments": [
             {
-              "name": "Status abnormality type",
+              "name": "状態異常 種類",
               "type": 0,
-              "enum_name": "Type of status abnormality",
+              "enum_name": "状態異常の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2718,12 +2718,12 @@
         },
         {
           "index": 2,
-          "name": "Abnormal status change occurred",
+          "name": "状態異常変更　発生",
           "arguments": [
             {
-              "name": "Status abnormality type",
+              "name": "状態異常 種類",
               "type": 0,
-              "enum_name": "Type of status abnormality",
+              "enum_name": "状態異常の種類",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2731,7 +2731,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect duration of abnormal status (0.01 units, seconds)",
+              "name": "発生した状態異常の効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2741,7 +2741,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Poison-only/Damage ID",
+              "name": "毒系専用・ダメージID",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2751,7 +2751,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Poison type only/Damage occurrence interval (0.01 units, seconds units)",
+              "name": "毒系専用・ダメージ発生間隔(0.01単位、秒単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2761,7 +2761,7 @@
               "format_string": "%f"
             },
             {
-              "name": "Poison-only/effect SFX (ID)",
+              "name": "毒系専用・効果SFX(ID)",
               "type": 5,
               "enum_name": "",
               "default": 0,
@@ -2771,7 +2771,7 @@
               "format_string": "%d"
             },
             {
-              "name": "For poisonous lines/effect SFX dummy poly(ID)",
+              "name": "毒罫線用・効果SFXダミポリ(ID)",
               "type": 0,
               "enum_name": "",
               "default": 0,
@@ -2786,16 +2786,16 @@
     },
     {
       "index": 101130,
-      "name": "special control sub",
+      "name": "特殊制御サブ",
       "instructions": [
         {
           "index": 0,
-          "name": "Soul change real number",
+          "name": "ソウル変更 実数",
           "arguments": [
             {
-              "name": "calculation formula",
+              "name": "計算式",
               "type": 0,
-              "enum_name": "calculation formula",
+              "enum_name": "計算式",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2803,7 +2803,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "効果量(整数単位)",
               "type": 2,
               "enum_name": "",
               "default": 0,
@@ -2816,12 +2816,12 @@
         },
         {
           "index": 1,
-          "name": "Soul change percentage",
+          "name": "ソウル変更 割合",
           "arguments": [
             {
-              "name": "calculation formula",
+              "name": "計算式",
               "type": 0,
-              "enum_name": "calculation formula",
+              "enum_name": "計算式",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2829,7 +2829,7 @@
               "format_string": "%d"
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": "",
               "default": 0.0,
@@ -2846,11 +2846,11 @@
   "extra_classes": [
     {
       "index": 1,
-      "name": "dummy category",
+      "name": "ダミーカテゴリ",
       "instructions": [
         {
           "index": 0,
-          "name": "dummy condition"
+          "name": "ダミー条件"
         }
       ]
     }
@@ -2864,358 +2864,358 @@
       }
     },
     {
-      "name": "Enable/Disable",
+      "name": "有効無効",
       "values": {
-        "0": "invalid",
-        "1": "Valid"
+        "0": "無効",
+        "1": "有効"
       }
     },
     {
-      "name": "Character status/integer",
+      "name": "キャラステータス・整数",
       "values": {
-        "0": "Toughness maximum value correction",
-        "1": "Current equipment weight",
-        "2": "Strong machining value correction",
-        "3": "Fall height reduction",
-        "4": "Attack correction moribund HP ratio (0-100%)",
-        "5": "Damage taken and near-death HP ratio (0-100%)",
-        "6": "Level status change [vitality]",
-        "7": "Level status change [endurance]",
-        "8": "Level status change [physical strength]",
-        "9": "Level status change [memory]",
-        "10": "Level status change [strength]",
-        "11": "Level status change [skill]",
-        "12": "Level status change [reason]",
-        "13": "Level status change [Faith]",
-        "14": "Level status change [durability]",
-        "15": "Level status change [Agility]",
-        "16": "Level status change [luck]",
-        "17": "Dead person count addition",
-        "18": "HP recovery value upon defeat",
-        "19": "Material replacement",
-        "20": "Spell memory slot increase"
+        "0": "強靭度最大値補正",
+        "1": "現在装備重量",
+        "2": "強靭削り値補正",
+        "3": "落下高さ軽減",
+        "4": "攻撃補正瀕死発生HP割合(0～100%)",
+        "5": "被ダメージ補正瀕死発生HP割合(0～100%)",
+        "6": "レベルステータス変動【生命力】",
+        "7": "レベルステータス変動【持久力】",
+        "8": "レベルステータス変動【体力】",
+        "9": "レベルステータス変動【記憶力】",
+        "10": "レベルステータス変動【筋力】",
+        "11": "レベルステータス変動【技量】",
+        "12": "レベルステータス変動【理力】",
+        "13": "レベルステータス変動【信仰】",
+        "14": "レベルステータス変動【耐久力】",
+        "15": "レベルステータス変動【敏捷】",
+        "16": "レベルステータス変動【運】",
+        "17": "亡者カウント加算",
+        "18": "撃破時HP回復値",
+        "19": "材質置換",
+        "20": "スペル記憶スロット増加"
       }
     },
     {
-      "name": "Character status/large integer",
+      "name": "キャラステータス・整数大",
       "values": {
-        "8": "HP gradual decrease value when using spell [Magic]",
-        "9": "Gradual HP decrease value when using spell [Miracle]",
-        "10": "HP gradual decrease value when using spell [Magic]",
-        "11": "HP gradual decrease value when using spell [Dark magic]",
-        "12": "Gradual HP decrease value when using spell [Dark Miracle]",
-        "13": "Equipment durability value change [Left hand current weapon]",
-        "14": "Equipment durability value change [Right hand current weapon]",
-        "15": "Equipment durability value change [all equipped weapons]",
-        "16": "Equipment durability value change [all equipment armor]",
-        "17": "Equipment durability value change [all equipment rings]",
-        "18": "spirit mimicry",
-        "19": "Player light switching",
-        "20": "Field of view switching",
-        "21": "wetness mimicry",
-        "22": "SFXID when HP recovers when defeated",
-        "23": "SFX dummy poly ID when recovering HP when defeated"
+        "8": "スペル使用時HP漸減値【魔術】",
+        "9": "スペル使用時HP漸減値【奇蹟】",
+        "10": "スペル使用時HP漸減値【呪術】",
+        "11": "スペル使用時HP漸減値【闇魔術】",
+        "12": "スペル使用時HP漸減値【闇奇蹟】",
+        "13": "装備耐久値変更【左手カレント武器】",
+        "14": "装備耐久値変更【右手カレント武器】",
+        "15": "装備耐久値変更【装備武器全て】",
+        "16": "装備耐久値変更【装備防具全て】",
+        "17": "装備耐久値変更【装備指輪全て】",
+        "18": "霊体擬態",
+        "19": "プレイヤーライト切替",
+        "20": "視野切替",
+        "21": "濡れ擬態",
+        "22": "撃破時HP回復時SFXID",
+        "23": "撃破時HP回復時SFXダミポリID"
       }
     },
     {
-      "name": "Character status/multiplier",
+      "name": "キャラステータス・倍率",
       "values": {
-        "0": "Status abnormality recovery speed correction value [Poison]",
-        "1": "Status abnormality recovery speed correction value [bleeding]",
-        "2": "Status abnormality recovery speed correction value [weapon destruction]",
-        "3": "Status abnormality recovery speed correction value [curse]",
-        "4": "Status abnormality recovery speed correction value [combustion]",
-        "5": "Status abnormality recovery speed correction value [Violent]",
-        "6": "Status abnormality recovery speed correction value [petrification]",
-        "7": "Maximum HP correction value",
-        "8": "Maximum stamina correction value",
-        "9": "Maximum equipment weight correction value",
-        "10": "Recovery upper limit HP correction value when in spirit form",
-        "11": "Counter damage correction value",
-        "12": "Physical damage cut rate",
-        "13": "Magic damage cut rate",
-        "14": "Lightning damage cut rate",
-        "15": "Fire damage cut rate",
-        "16": "Dark damage cut rate",
-        "17": "Poison damage cut rate",
-        "18": "Bleeding damage cut rate",
-        "19": "Weapon destruction damage cut rate",
-        "20": "Cursed damage cut rate",
-        "21": "Petrification damage cut rate",
-        "22": "Weapon durability reduction correction",
-        "23": "Armor durability reduction correction",
-        "24": "Ring durability reduction correction",
-        "25": "Damage correction when attacking",
-        "26": "Damage correction when receiving damage",
-        "27": "Attack damage correction when near death",
-        "28": "Damage compensation when near death",
-        "29": "Dead person demerit invalidation correction",
-        "30": "Obtained soul amount correction",
-        "46": "Drop item magnification correction [Small]",
-        "47": "Drop item magnification correction [medium]",
-        "48": "Drop item magnification correction [large]",
-        "49": "Drop item magnification correction [extra large]",
-        "50": "Maximum number of spell uses changed",
-        "51": "Change spell casting time",
-        "52": "Spell damage multiplier [Magic]",
-        "53": "Spell damage multiplier [miracle]",
-        "54": "Spell damage multiplier [Magic]",
-        "55": "Spell damage multiplier [dark magic]",
-        "56": "Spell damage multiplier [Dark Miracle]",
-        "57": "Change ability to receive"
+        "0": "状態異常回復速度補正値【毒】",
+        "1": "状態異常回復速度補正値【出血】",
+        "2": "状態異常回復速度補正値【武器破壊】",
+        "3": "状態異常回復速度補正値【呪い】",
+        "4": "状態異常回復速度補正値【燃焼】",
+        "5": "状態異常回復速度補正値【猛毒】",
+        "6": "状態異常回復速度補正値【石化】",
+        "7": "最大HP補正値",
+        "8": "最大スタミナ補正値",
+        "9": "最大装備重量補正値",
+        "10": "霊体時回復上限HP補正値",
+        "11": "カウンターダメージ補正値",
+        "12": "物理ダメージカット率",
+        "13": "魔力ダメージカット率",
+        "14": "雷ダメージカット率",
+        "15": "炎ダメージカット率",
+        "16": "闇ダメージカット率",
+        "17": "毒ダメージカット率",
+        "18": "出血ダメージカット率",
+        "19": "武器破壊ダメージカット率",
+        "20": "呪いダメージカット率",
+        "21": "石化ダメージカット率",
+        "22": "武器耐久度減少補正",
+        "23": "防具耐久度減少補正",
+        "24": "指輪耐久度減少補正",
+        "25": "攻撃時ダメージ補正",
+        "26": "被ダメージ時ダメージ補正",
+        "27": "瀕死時攻撃ダメージ補正",
+        "28": "瀕死時被ダメージ補正",
+        "29": "亡者デメリット無効補正",
+        "30": "獲得ソウル量補正",
+        "46": "ドロップアイテム倍率補正【小】",
+        "47": "ドロップアイテム倍率補正【中】",
+        "48": "ドロップアイテム倍率補正【大】",
+        "49": "ドロップアイテム倍率補正【特大】",
+        "50": "スペル最大使用回数変更",
+        "51": "スペル詠唱時間変更",
+        "52": "スペルダメージ倍率【魔術】",
+        "53": "スペルダメージ倍率【奇蹟】",
+        "54": "スペルダメージ倍率【呪術】",
+        "55": "スペルダメージ倍率【闇魔術】",
+        "56": "スペルダメージ倍率【闇奇蹟】",
+        "57": "受け能力変更"
       }
     },
     {
-      "name": "Character status flag",
+      "name": "キャラステータス・フラグ",
       "values": {
-        "0": "headshot disabled",
-        "1": "backstab disabled",
-        "2": "Death penalty disabled",
-        "3": "Death Penalty & Petrification Immunity",
-        "4": "Critical judgment valid",
-        "6": "Forced living display",
-        "10": "Footsteps disabled",
-        "15": "enemy enemy",
-        "17": "Left hand weapon hidden",
-        "18": "Right hand weapon hidden",
-        "19": "Drop item magnification correction [small] enabled",
-        "20": "Drop item magnification correction [medium] enabled",
-        "21": "Drop item magnification correction [large] enabled",
-        "22": "Drop item magnification correction [extra large] enabled",
-        "23": "flame weapon",
-        "24": "Damage nullified",
-        "25": "Back damage shoulder replacement"
+        "0": "ヘッドショット無効",
+        "1": "バックスタブ無効",
+        "2": "デスペナルティ無効",
+        "3": "デスペナルティ&石化無効",
+        "4": "クリティカル判定有効",
+        "6": "強制生者表示",
+        "10": "足音無効",
+        "15": "エネミー敵対化",
+        "17": "左手武器非表示",
+        "18": "右手武器非表示",
+        "19": "ドロップアイテム倍率補正【小】有効",
+        "20": "ドロップアイテム倍率補正【中】有効",
+        "21": "ドロップアイテム倍率補正【大】有効",
+        "22": "ドロップアイテム倍率補正【特大】有効",
+        "23": "炎武器",
+        "24": "ダメージ無効",
+        "25": "背面ダメージ肩代わり"
       }
     },
     {
-      "name": "Types of est bottle effects",
+      "name": "エスト瓶効果の種類",
       "values": {
-        "1": "Est effect correction",
-        "2": "Est bottle prohibited"
+        "1": "エスト効果補正",
+        "2": "エスト瓶禁止"
       }
     },
     {
-      "name": "Effect correction target",
+      "name": "効果補正対象",
       "values": {
-        "0": "Effect time",
-        "1": "Effect size"
+        "0": "効果時間",
+        "1": "効果量"
       }
     },
     {
-      "name": "status",
+      "name": "ステータス",
       "values": {
-        "0": "None",
-        "1": "vitality",
-        "2": "endurance",
-        "3": "physical strength",
-        "4": "memory",
-        "5": "muscle strength",
-        "6": "workmanship",
-        "7": "reason",
-        "8": "faith",
-        "9": "Durability",
-        "10": "agility",
-        "11": "luck"
+        "0": "なし",
+        "1": "生命力",
+        "2": "持久力",
+        "3": "体力",
+        "4": "記憶力",
+        "5": "筋力",
+        "6": "技量",
+        "7": "理力",
+        "8": "信仰",
+        "9": "耐久力",
+        "10": "敏捷",
+        "11": "運"
       }
     },
     {
-      "name": "SFX deletion timing",
+      "name": "SFXの削除タイミング",
       "values": {
-        "0": "invalid",
-        "1": "Effect time expired"
+        "0": "無効",
+        "1": "効果時間切れ"
       }
     },
     {
-      "name": "Start and end conditions",
+      "name": "開始終了条件",
       "values": {
-        "0": "None",
-        "1": "Remaining HP percentage (0% to 100%)"
+        "0": "なし",
+        "1": "残りHP割合(0%～100%)"
       }
     },
     {
-      "name": "Duplicate processing",
+      "name": "重複処理",
       "values": {
         "0": "重複許可",
-        "1": "Overwrite",
-        "2": "Rejected",
-        "3": "Overwrite if time is too long"
+        "1": "上書き",
+        "2": "却下",
+        "3": "時間が長ければ上書き"
       }
     },
     {
-      "name": "Effect time reduction conditions",
+      "name": "効果時間短縮条件",
       "values": {
-        "0": "None",
-        "1": "Is it underwater? (Material Para->Liquid?)"
+        "0": "なし",
+        "1": "水中か？(材質パラ->液体か？)"
       }
     },
     {
-      "name": "fraction",
+      "name": "端数",
       "values": {
-        "0": "Truncation",
-        "1": "round up"
+        "0": "切捨て",
+        "1": "切り上げ"
       }
     },
     {
-      "name": "Type of status abnormality",
+      "name": "状態異常の種類",
       "values": {
-        "0": "poison",
-        "8": "highly poisonous",
-        "1": "bleeding",
-        "2": "weapon destruction",
-        "4": "combustion",
-        "10": "petrification",
-        "3": "Curse",
-        "6": "water wet",
-        "7": "blood soaked",
-        "9": "oily",
-        "11": "Poison wet",
-        "5": "spell seal",
-        "12": "(Maximum value for program)"
+        "0": "毒",
+        "8": "猛毒",
+        "1": "出血",
+        "2": "武器破壊",
+        "4": "燃焼",
+        "10": "石化",
+        "3": "呪",
+        "6": "水濡れ",
+        "7": "血濡れ",
+        "9": "油濡れ",
+        "11": "毒濡れ",
+        "5": "スペル封印",
+        "12": "(プログラム用最大値)"
       }
     },
     {
-      "name": "Attributes of equipment",
+      "name": "装備品の属性",
       "values": {
-        "0": "physics",
-        "1": "magic power",
-        "2": "thunder",
-        "3": "flame",
-        "4": "darkness",
-        "5": "poison",
-        "6": "bleeding",
-        "7": "weapon destruction",
-        "8": "Curse",
-        "9": "petrification"
+        "0": "物理",
+        "1": "魔力",
+        "2": "雷",
+        "3": "炎",
+        "4": "闇",
+        "5": "毒",
+        "6": "出血",
+        "7": "武器破壊",
+        "8": "呪",
+        "9": "石化"
       }
     },
     {
-      "name": "Target character",
+      "name": "対象キャラクタ",
       "values": {
-        "3": "Everyone",
-        "1": "player",
-        "2": "enemy"
+        "3": "全員",
+        "1": "プレイヤー",
+        "2": "エネミー"
       }
     },
     {
-      "name": "Equipment category",
+      "name": "装備カテゴリ",
       "values": {
-        "0": "None",
-        "1": "weapon",
-        "2": "armor",
-        "3": "ring",
-        "4": "arrow",
-        "5": "item",
-        "6": "spell",
-        "7": "gesture",
-        "8": "override weapon"
+        "0": "なし",
+        "1": "武器",
+        "2": "防具",
+        "3": "指輪",
+        "4": "矢",
+        "5": "アイテム",
+        "6": "スペル",
+        "7": "ジェスチャー",
+        "8": "上書き武器"
       }
     },
     {
-      "name": "Equipment destruction activation conditions",
+      "name": "装備破壊発動条件",
       "values": {
-        "0": "death",
-        "1": "Petrification disabled activation"
+        "0": "死亡",
+        "1": "石化無効発動"
       }
     },
     {
-      "name": "Types of attack power added to Bullet",
+      "name": "バレットに加算する攻撃力の種類",
       "values": {
-        "0": "None",
-        "1": "physics muscle strength",
-        "2": "physics skill",
-        "3": "magic power",
-        "4": "thunder",
-        "5": "flame",
-        "6": "darkness",
-        "7": "poison",
-        "8": "bleeding",
-        "9": "(Weapon destruction) (Not supported)",
-        "10": "(curse) (unsupported)",
-        "11": "(Abyss) (Not supported)"
+        "0": "なし",
+        "1": "物理 筋力",
+        "2": "物理 技量",
+        "3": "魔力",
+        "4": "雷",
+        "5": "炎",
+        "6": "闇",
+        "7": "毒",
+        "8": "出血",
+        "9": "（武器破壊）（未対応）",
+        "10": "（呪）（未対応）",
+        "11": "（深淵）（未対応）"
       }
     },
     {
-      "name": "Type of return",
+      "name": "帰還の種類",
       "values": {
-        "0": "bonfire",
-        "1": "map points"
+        "0": "篝火",
+        "1": "マップのポイント"
       }
     },
     {
-      "name": "calculation formula",
+      "name": "計算式",
       "values": {
-        "0": "addition",
-        "1": "subtraction"
+        "0": "加算",
+        "1": "減算"
       }
     },
     {
-      "name": "Death permission setting",
+      "name": "死亡許可設定",
       "values": {
-        "0": "death permit",
-        "1": "death ban"
+        "0": "死亡許可",
+        "1": "死亡禁止"
       }
     },
     {
-      "name": "sign type",
+      "name": "サインタイプ",
       "values": {
-        "0": "white spirit sign",
-        "1": "small spirit sign",
-        "2": "red spirit sign",
-        "3": "dragon spirit sign"
+        "0": "白霊サイン",
+        "1": "小霊サイン",
+        "2": "赤霊サイン",
+        "3": "竜霊サイン"
       }
     },
     {
-      "name": "Intrusion type",
+      "name": "乱入タイプ",
       "values": {
-        "0": "Revenge Blue Spirit Intrusion",
-        "1": "Dark spirit intrusion"
+        "0": "報復青霊乱入",
+        "1": "闇霊乱入"
       }
     },
     {
-      "name": "Forced summon search type",
+      "name": "強制召喚検索タイプ",
       "values": {
-        "0": "guardian knight",
-        "1": "Mouse King Ash Spirit",
-        "2": "bell keeper"
+        "0": "守護の騎士",
+        "1": "ねずみの王灰霊",
+        "2": "鐘守"
       }
     },
     {
-      "name": "constant definition",
+      "name": "定数定義",
       "values": {
-        "0": "dummy",
-        "8": "Number of arguments for \"disarm\""
+        "0": "ダミー",
+        "8": "「装備解除」の引数の数"
       }
     },
     {
-      "name": "spell parry type",
+      "name": "スペルパリィタイプ",
       "values": {
-        "0": "magic power",
-        "1": "thunder",
-        "2": "flame",
-        "3": "darkness"
+        "0": "魔力",
+        "1": "雷",
+        "2": "炎",
+        "3": "闇"
       }
     },
     {
-      "name": "shooting type",
+      "name": "射撃タイプ",
       "values": {
-        "0": "bow",
-        "1": "large bow",
-        "2": "crossbow"
+        "0": "弓",
+        "1": "大弓",
+        "2": "クロスボウ"
       }
     },
     {
-      "name": "Adversary detection type",
+      "name": "敵対者探知タイプ",
       "values": {
-        "0": "Normal",
-        "1": "Dark spirit (red spirit)",
-        "2": "Relief spirit"
+        "0": "通常",
+        "1": "闇霊（赤霊）",
+        "2": "救援青霊"
       }
     },
     {
-      "name": "Dead Count Attack Power Multiplier Type",
+      "name": "亡者カウント攻撃力倍率タイプ",
       "values": {
-        "1": "deceased",
-        "2": "sinner"
+        "1": "亡者",
+        "2": "罪人"
       }
     }
   ]
