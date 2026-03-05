@@ -7,20 +7,22 @@ namespace Emedf
 {
 	class Class
 	{
-		nlohmann::json m_json;
+		nlohmann::ordered_json m_json;
 		std::vector<Instruction*> m_instructions;
 	public:
 		Class() {}
-		Class(nlohmann::json& json) : m_json(json) {}
+		Class(nlohmann::ordered_json& json) : m_json(json);
 		~Class() {}
+
+		nlohmann::ordered_json& getJson() { return m_json; }
 
 		int getIndex() const { return m_json["index"]; }
 		void setIndex(int index) { m_json["index"] = index; }
 
-		std::wstring getName() const { return m_json.at("name").get<std::wstring>(); }
-		void setName(const std::wstring& name) { m_json["name"] = name; }
+		std::string getName() const { return m_json.at("name").get<std::string>(); }
+		void setName(const std::string& name) { m_json["name"] = name; }
 
 		std::vector<Instruction*>& getInstructions() { return m_instructions; }
-		void addInstruction(Instruction* instruction) { m_instructions.push_back(instruction); }
+		void addInstruction(Instruction* instruction);
 	};
 }

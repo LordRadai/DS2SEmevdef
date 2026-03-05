@@ -5,33 +5,35 @@ namespace Emedf
 {
 	class Argument
 	{
-		nlohmann::json m_json;
+		nlohmann::ordered_json m_json;
 	public:
-		enum class Type
+		enum Type
 		{
-			kType0,
-			kType1,
-			kType2,
-			kType3,
-			kType4,
-			kType5,
-			kTypeFloat,
+			kTypeU8,
+			kTypeU16,
+			kTypeU32,
+			kTypeS8,
+			kTypeS16,
+			kTypeS32,
+			kTypeFloat32,
 
 			kNumTypes
 		};
 
 		Argument() {};
-		Argument(nlohmann::json& json) : m_json(json) {}
+		Argument(nlohmann::ordered_json& json) : m_json(json) {}
 		~Argument() {}
 
-		std::wstring getName() const { return m_json["name"]; }
-		void setName(const std::wstring& name) { m_json["name"] = name; }
+		nlohmann::ordered_json& getJson() { return m_json; }
+
+		std::string getName() const { return m_json["name"]; }
+		void setName(const std::string& name) { m_json["name"] = name; }
 
 		int getType() const { return m_json["type"]; }
 		void setType(int type) { m_json["type"] = type; }
 
-		std::wstring getEnumName() const { return m_json.at("enum_name").get<std::wstring>(); }
-		void setEnumName(const std::wstring& enumName) { m_json["enum_name"] = enumName; }
+		std::string getEnumName() const { return m_json.at("enum_name").get<std::string>(); }
+		void setEnumName(const std::string& enumName) { m_json["enum_name"] = enumName; }
 
 		template<typename T>
 		T getDefault() const { return m_json["default"]; }
@@ -51,7 +53,16 @@ namespace Emedf
 		template<typename T>
 		void setMax(const T& max) { m_json["max"] = max; }
 
-		std::wstring getFormatString() const { return m_json.at("format_string").get<std::wstring>(); }
-		void setFormatString(const std::wstring& formatString) { m_json["format_string"] = formatString; }
+		template<typename T>
+		T getIncrement() { return m_json["increment"]; }
+
+		template<typename T>
+		void setIncrement(T increment) { m_json["increment"] = increment; }
+
+		std::string getFormatString() const { return m_json.at("format_string").get<std::string>(); }
+		void setFormatString(const std::string& formatString);
+
+		static const char* getTypeName(int type);
+		static int getTypeFromName(const std::string& str);
 	};
 }

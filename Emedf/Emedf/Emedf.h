@@ -9,12 +9,24 @@ namespace Emedf
 {
 	class Emedf
 	{
-		nlohmann::json m_json;
+		nlohmann::ordered_json m_json;
 		std::vector<Class*> m_mainClasses;
 		std::vector<Class*> m_extraClasses;
 		std::vector<Enum*> m_enums;
 	public:
-		Emedf();
-		~Emedf();
+		Emedf() {}
+		~Emedf() {}
+
+		void loadFromJson(const std::wstring& path);
+		void saveToJson(const std::wstring& path);
+
+		std::vector<Class*>& getMainClasses() { return m_mainClasses; }
+		void addMainClass(Class* mainClass);
+
+		std::vector<Class*>& getExtraClasses() { return m_extraClasses; }
+		void addExtraClass(Class* extraClass);
+
+		std::vector<Enum*>& getEnums() { return m_enums; }
+		void addEnum(Enum* e);
 	};
 }

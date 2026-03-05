@@ -7,17 +7,19 @@ namespace Emedf
 {
 	class Enum
 	{
-		nlohmann::json m_json;
+		nlohmann::ordered_json m_json;
 		std::vector<EnumValue*> m_values;
 	public:
 		Enum() {}
-		Enum(nlohmann::json& json) : m_json(json) {}
+		Enum(nlohmann::ordered_json& json);
 		~Enum() {}
 
-		std::wstring getName() const { return m_json.at("name").get<std::wstring>(); }
-		void setName(const std::wstring& name) { m_json["name"] = name; }
+		nlohmann::ordered_json& getJson() { return m_json; }
+
+		std::string getName() const { return m_json.at("name").get<std::string>(); }
+		void setName(const std::string& name) { m_json["name"] = name; }
 
 		std::vector<EnumValue*>& getValues() { return m_values; }
-		void addValue(EnumValue* value) { m_values.push_back(value); }
+		void addValue(int value, std::string str);
 	};
 }

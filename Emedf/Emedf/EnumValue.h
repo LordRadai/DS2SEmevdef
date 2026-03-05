@@ -5,17 +5,17 @@ namespace Emedf
 {
 	class EnumValue
 	{
-		nlohmann::json m_json;
+		std::string m_name;
 		int m_value;
 	public:
-		EnumValue() {}
-		EnumValue(nlohmann::json& json) : m_json(json), m_value(json["value"]) {}
+		EnumValue() : m_name(""), m_value(0) {}
+		EnumValue(const std::string& name, int value) : m_name(name), m_value(value) {}
 		~EnumValue() {}
 
-		std::wstring getName() const { return m_json.at("name").get<std::wstring>(); }
-		void setName(const std::wstring& name) { m_json["name"] = name; }
+		std::string getName() const { return m_name; }
+		void setName(const std::string& name) { m_name = name; }
 
 		int getValue() const { m_value; }
-		void setValue(int value) { m_value = value; m_json["value"] = value; }
+		void setValue(int value) { m_value = value; }
 	};
 }

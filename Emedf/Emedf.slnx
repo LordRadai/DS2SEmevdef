@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Emedf/Emedf.vcxproj" />
+  <Project Path="Emedf/Emedf.vcxproj" Id="4a9adce5-24e5-4773-b863-7b69711d674b" />
 </Solution>
