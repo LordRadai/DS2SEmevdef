@@ -11,7 +11,7 @@ namespace Emedf
 		std::vector<Instruction*> m_instructions;
 	public:
 		Class() {}
-		Class(nlohmann::ordered_json& json) : m_json(json);
+		Class(nlohmann::ordered_json& json);
 		~Class() {}
 
 		nlohmann::ordered_json& getJson() { return m_json; }
