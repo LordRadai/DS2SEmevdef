@@ -547,6 +547,26 @@
               "max": 1000000000,
               "increment": 1,
               "format_string": "%d"
+            },
+            {
+              "name": "Lottery special effect ID3",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Lottery special effect ID4",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
             }
           ]
         },
@@ -745,6 +765,292 @@
               "max": 3600.0,
               "increment": 0.009999999776482582,
               "format_string": "%f"
+            }
+          ]
+        },
+        {
+          "name": "Unknown Command 1000[16]",
+          "index": 16,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "DamageParam ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Unknown2",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Completetion Count Attack Power Multiplier",
+          "index": 17,
+          "args": [
+            {
+              "name": "Minimum Completion Count",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Completion Count",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Attack Power Modification Multiplier",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Maximum Attack Power Modification Multiplier",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Equip Load Attack Power Bonus",
+          "index": 18,
+          "args": [
+            {
+              "name": "Equip Load 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Equip Load 2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Equip Load 3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            }
+          ]
+        },
+        {
+          "name": "Attribute Value Attribute Bonus",
+          "index": 19,
+          "args": [
+            {
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "status",
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Attribute",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Attribute",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Bonus",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Bonus",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Unknown Command 1000[20]",
+          "index": 20,
+          "args": [
+            {
+              "name": "Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Unknown Command 1000[21]",
+          "index": 21,
+          "args": [
+            {
+              "name": "Argument 0",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Argument 1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Argument 2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
             }
           ]
         }
@@ -1139,13 +1445,33 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "argument 0",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
+              "format_string": "%d"
+            },
+            {
+              "name": "argument 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "argument 2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
               "format_string": "%d"
             }
           ]
@@ -1175,13 +1501,33 @@
               "format_string": "%d"
             },
             {
-              "name": "argument",
+              "name": "argument 0",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
+              "format_string": "%d"
+            },
+            {
+              "name": "argument 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "argument 2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
               "format_string": "%d"
             }
           ]
@@ -1819,6 +2165,32 @@
               "format_string": "%d"
             }
           ]
+        },
+        {
+          "name": "Weapon Change",
+          "index": 4,
+          "args": [
+            {
+              "name": "Right Weapon ID",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Left Weapon ID",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
         }
       ]
     },
@@ -2075,6 +2447,82 @@
               "format_string": "%d"
             }
           ]
+        },
+        {
+          "name": "Create Bullet Based On Attribute",
+          "index": 6,
+          "args": [
+            {
+              "name": "Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Damage ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "status",
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 1",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 2",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 3",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 4",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
         }
       ]
     },
@@ -2291,6 +2739,110 @@
               "format_string": "%f"
             }
           ]
+        },
+        {
+          "name": "Disable Full Body SFX",
+          "index": 5,
+          "args": [
+            {
+              "name": "Unknown",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Deflect Spell",
+          "index": 6,
+          "args": [
+            {
+              "name": "Chance",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 100.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "SFX ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "SpEffect And End Event If Event",
+          "index": 7,
+          "args": [
+            {
+              "name": "Event Flag ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Gender Effect",
+          "index": 8,
+          "args": [
+            {
+              "name": "Matching Gender Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Opposite Gender Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
         }
       ]
     },
@@ -2310,6 +2862,32 @@
               "min": 0,
               "max": 0,
               "increment": 0,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Effect On Death",
+          "index": 1,
+          "args": [
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
               "format_string": "%d"
             }
           ]
@@ -2893,7 +3471,9 @@
         "17": "Dead person count addition",
         "18": "HP recovery value upon defeat",
         "19": "Material replacement",
-        "20": "Spell memory slot increase"
+        "20": "Spell memory slot increase",
+        "21": "Stability Damage Modifier",
+        "22": "Unknown (22)"
       }
     },
     {
@@ -2914,7 +3494,12 @@
         "20": "Field of view switching",
         "21": "wetness mimicry",
         "22": "SFXID when HP recovers when defeated",
-        "23": "SFX dummy poly ID when recovering HP when defeated"
+        "23": "SFX dummy poly ID when recovering HP when defeated",
+        "25": "25",
+        "30": "30",
+        "31": "31",
+        "32": "32",
+        "33": "33"
       }
     },
     {
@@ -2962,7 +3547,12 @@
         "54": "Spell damage multiplier [Magic]",
         "55": "Spell damage multiplier [dark magic]",
         "56": "Spell damage multiplier [Dark Miracle]",
-        "57": "Change ability to receive"
+        "57": "Change ability to receive",
+        "58": "Enemy Damage",
+        "59": "Enemy Damage Reduction",
+        "60": "60",
+        "61": "61",
+        "62": "62"
       }
     },
     {
@@ -2984,7 +3574,33 @@
         "22": "Drop item magnification correction [extra large] enabled",
         "23": "flame weapon",
         "24": "Damage nullified",
-        "25": "Back damage shoulder replacement"
+        "25": "Back damage shoulder replacement",
+        "27": "Disable Chr Phantom Color",
+        "28": "28",
+        "29": "29",
+        "31": "31",
+        "33": "33",
+        "34": "34",
+        "39": "39",
+        "40": "40",
+        "41": "41",
+        "42": "42",
+        "43": "43",
+        "44": "44",
+        "46": "46",
+        "49": "49",
+        "50": "50",
+        "51": "51",
+        "52": "52",
+        "53": "53",
+        "54": "54",
+        "55": "No Lock On",
+        "56": "56",
+        "57": "Hide Healthbar",
+        "58": "58",
+        "59": "No Soul Absorption",
+        "60": "Invisibility",
+        "61": "61"
       }
     },
     {
@@ -3059,17 +3675,17 @@
       "name": "Type of status abnormality",
       "values": {
         "0": "poison",
-        "8": "highly poisonous",
         "1": "bleeding",
         "2": "weapon destruction",
-        "4": "combustion",
-        "10": "petrification",
         "3": "Curse",
+        "4": "combustion",
+        "5": "spell seal",
         "6": "water wet",
         "7": "blood soaked",
+        "8": "highly poisonous",
         "9": "oily",
+        "10": "petrification",
         "11": "Poison wet",
-        "5": "spell seal",
         "12": "(Maximum value for program)"
       }
     },
