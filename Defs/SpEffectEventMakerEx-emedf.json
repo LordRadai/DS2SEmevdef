@@ -420,7 +420,7 @@
         },
         {
           "index": 9,
-          "name": "Integer increase/decrease setting",
+          "name": "Large integer increase/decrease setting",
           "args": [
             {
               "name": "Types of special effects",
@@ -3444,7 +3444,7 @@
     {
       "name": "Enable/Disable",
       "values": {
-        "0": "invalid",
+        "0": "Invalid",
         "1": "Valid"
       }
     },
@@ -3473,7 +3473,7 @@
         "19": "Material replacement",
         "20": "Spell memory slot increase",
         "21": "Stability Damage Modifier",
-        "22": "Unknown (22)"
+        "22": "22"
       }
     },
     {
@@ -3637,7 +3637,7 @@
     {
       "name": "SFX deletion timing",
       "values": {
-        "0": "invalid",
+        "0": "Invalid",
         "1": "Effect time expired"
       }
     },
@@ -3737,47 +3737,47 @@
       "name": "Types of attack power added to Bullet",
       "values": {
         "0": "None",
-        "1": "physics muscle strength",
-        "2": "physics skill",
-        "3": "magic power",
-        "4": "thunder",
-        "5": "flame",
-        "6": "darkness",
-        "7": "poison",
-        "8": "bleeding",
+        "1": "Physics muscle strength",
+        "2": "Physics skill",
+        "3": "Magic power",
+        "4": "Thunder",
+        "5": "Flame",
+        "6": "Darkness",
+        "7": "Poison",
+        "8": "Bleeding",
         "9": "(Weapon destruction) (Not supported)",
-        "10": "(curse) (unsupported)",
+        "10": "(Curse) (unsupported)",
         "11": "(Abyss) (Not supported)"
       }
     },
     {
       "name": "Type of return",
       "values": {
-        "0": "bonfire",
-        "1": "map points"
+        "0": "Bonfire",
+        "1": "Map points"
       }
     },
     {
       "name": "calculation formula",
       "values": {
-        "0": "addition",
-        "1": "subtraction"
+        "0": "Addition",
+        "1": "Subtraction"
       }
     },
     {
       "name": "Death permission setting",
       "values": {
-        "0": "death permit",
-        "1": "death ban"
+        "0": "Death permit",
+        "1": "Death ban"
       }
     },
     {
       "name": "sign type",
       "values": {
-        "0": "white spirit sign",
-        "1": "small spirit sign",
-        "2": "red spirit sign",
-        "3": "dragon spirit sign"
+        "0": "White spirit sign",
+        "1": "Small spirit sign",
+        "2": "Red spirit sign",
+        "3": "Dragon spirit sign"
       }
     },
     {
@@ -3790,33 +3790,33 @@
     {
       "name": "Forced summon search type",
       "values": {
-        "0": "guardian knight",
+        "0": "Guardian knight",
         "1": "Mouse King Ash Spirit",
-        "2": "bell keeper"
+        "2": "Bell keeper"
       }
     },
     {
       "name": "constant definition",
       "values": {
-        "0": "dummy",
+        "0": "Dummy",
         "8": "Number of arguments for \"disarm\""
       }
     },
     {
       "name": "spell parry type",
       "values": {
-        "0": "magic power",
-        "1": "thunder",
-        "2": "flame",
-        "3": "darkness"
+        "0": "Magic power",
+        "1": "Thunder",
+        "2": "Flame",
+        "3": "Darkness"
       }
     },
     {
       "name": "shooting type",
       "values": {
-        "0": "bow",
-        "1": "large bow",
-        "2": "crossbow"
+        "0": "Bow",
+        "1": "Large bow",
+        "2": "Crossbow"
       }
     },
     {
@@ -3830,9 +3830,42 @@
     {
       "name": "Dead Count Attack Power Multiplier Type",
       "values": {
-        "1": "deceased",
-        "2": "sinner"
+        "1": "Deceased",
+        "2": "Sinner"
       }
     }
-  ]
+  ],
+  "darkscript": {
+    "aliases": {
+      "UnknownCommand10004004": "100040[04]",
+      "UnknownCommand10009006": "100090[06]",
+      "UnknownCommand10011002": "100110[02]",
+      "UnknownCommand10011003": "100110[03]",
+      "UnknownCommand10013002": "100130[02]",
+      "UnknownCommand10013004": "100130[04]",
+      "UnknownCommand10013005": "100130[05]"
+    },
+    "enum_aliases": {
+      "AdditiveStatType.CurrentHP": 18,
+      "MultiplicativeStatType.Unknown5": 5,
+      "MultiplicativeStatType.OutgoingDamageRateII": 58,
+      "MultiplicativeStatType.IncomingDamageRateII": 59,
+      "StateInfoType.Unknown1": 1,
+      "StateInfoType.Unknown2": 2,
+      "StateInfoType.Unknown3": 3,
+      "StateInfoType.Unknown10": 10,
+      "StateInfoType.Unknown17": 17,
+      "StateInfoType.Unknown18": 18,
+      "StateInfoType.Unknown25": 25,
+      "StateInfoType.Unknown27": 27,
+      "StateInfoType.Unknown55": 55,
+      "StateInfoType.Unknown57": 57,
+      "StateInfoType.Unknown59": 59,
+      "StateInfoType.Unknown60": 60,
+      "PlayerPropertyType.Unknown18": 18,
+      "PlayerPropertyType.Unknown19": 19,
+      "PlayerPropertyType.Unknown22": 22,
+      "PlayerPropertyType.Unknown23": 23
+    }
+  }
 }
