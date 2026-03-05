@@ -21,7 +21,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -31,7 +31,7 @@
             {
               "name": "Effect size",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -57,7 +57,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -67,7 +67,7 @@
             {
               "name": "Effect size",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -83,7 +83,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -93,7 +93,7 @@
             {
               "name": "mimicry index",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 2,
@@ -103,7 +103,7 @@
             {
               "name": "Unlock SFXID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -129,7 +129,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -145,7 +145,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -155,7 +155,7 @@
             {
               "name": "Climb speed",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -165,7 +165,7 @@
             {
               "name": "Forward speed min.",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -175,7 +175,7 @@
             {
               "name": "Forward speed max.",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -185,7 +185,7 @@
             {
               "name": "Gravity acceleration multiplier minimum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -195,7 +195,7 @@
             {
               "name": "Gravity acceleration multiplier maximum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -205,7 +205,7 @@
             {
               "name": "Jump speed",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -221,7 +221,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -231,7 +231,7 @@
             {
               "name": "Strong bare hand weapon ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -241,7 +241,7 @@
             {
               "name": "Strong bare hands Ladder attack L input Weapon ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -251,7 +251,7 @@
             {
               "name": "Strong bare hands Ladder attack R input Weapon ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -267,7 +267,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -287,7 +287,7 @@
             {
               "name": "Bullet life multiplier",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -297,7 +297,7 @@
             {
               "name": "Bullet initial speed multiplier",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -307,7 +307,7 @@
             {
               "name": "Bullet fall start magnification",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -317,7 +317,7 @@
             {
               "name": "Damage distance attenuation start multiplier",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -327,7 +327,7 @@
             {
               "name": "Damage distance decay end multiplier",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -343,7 +343,7 @@
             {
               "name": "search plane radius",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -353,7 +353,7 @@
             {
               "name": "Search height/low distance",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -363,7 +363,7 @@
             {
               "name": "Search height/distance down",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -373,7 +373,7 @@
             {
               "name": "Minimum SE playback interval",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -383,7 +383,7 @@
             {
               "name": "Maximum SE playback interval",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -393,7 +393,7 @@
             {
               "name": "SEID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 2000000000,
@@ -409,7 +409,7 @@
             {
               "name": "Priority multiplier",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -435,7 +435,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -445,7 +445,7 @@
             {
               "name": "Effect size",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": -100000000,
               "max": 100000000,
@@ -461,7 +461,7 @@
             {
               "name": "Probability of occurrence at maximum durability (%)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -471,7 +471,7 @@
             {
               "name": "Probability of occurrence at minimum durability (%)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -481,7 +481,7 @@
             {
               "name": "Durability value decreased at the time of occurrence",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": -99999.0,
               "max": 99999.0,
@@ -491,7 +491,7 @@
             {
               "name": "Valet ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -501,7 +501,7 @@
             {
               "name": "Damage ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -521,7 +521,7 @@
             {
               "name": "Lottery special effect ID0",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -531,7 +531,7 @@
             {
               "name": "Lottery special effect ID1",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -541,7 +541,7 @@
             {
               "name": "Lottery special effect ID2",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -557,7 +557,7 @@
             {
               "name": "Probability of occurrence",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -567,7 +567,7 @@
             {
               "name": "Occurrence interval",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -577,7 +577,7 @@
             {
               "name": "Minimum reflected damage value",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 99999.0,
@@ -587,7 +587,7 @@
             {
               "name": "Reflection maximum damage value",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 99999.0,
@@ -597,7 +597,7 @@
             {
               "name": "Valet ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -607,7 +607,7 @@
             {
               "name": "Damage ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -623,7 +623,7 @@
             {
               "name": "Fixed at 0",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -633,7 +633,7 @@
             {
               "name": "Possession soul minimum",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -643,7 +643,7 @@
             {
               "name": "Possession soul maximum",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -653,7 +653,7 @@
             {
               "name": "Attack power correction magnification minimum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -663,7 +663,7 @@
             {
               "name": "Attack power correction magnification maximum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -673,7 +673,7 @@
             {
               "name": "Effect time",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -699,7 +699,7 @@
             {
               "name": "Target count minimum",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -709,7 +709,7 @@
             {
               "name": "Target count maximum",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -719,7 +719,7 @@
             {
               "name": "Attack power correction magnification minimum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -729,7 +729,7 @@
             {
               "name": "Attack power correction magnification maximum",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -739,7 +739,7 @@
             {
               "name": "Effect time",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -771,7 +771,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -813,7 +813,7 @@
             {
               "name": "Status Minimum value",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -823,7 +823,7 @@
             {
               "name": "Status Maximum value",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -833,7 +833,7 @@
             {
               "name": "Status Correction magnification Minimum value (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -843,7 +843,7 @@
             {
               "name": "Status Correction magnification Maximum value (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -853,7 +853,7 @@
             {
               "name": "One-handed correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -863,7 +863,7 @@
             {
               "name": "Both hands correction magnification (0.01 units, multiple units)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -873,7 +873,7 @@
             {
               "name": "Dual wielding correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -883,7 +883,7 @@
             {
               "name": "Two-handed two-handed correction magnification (0.01 unit, multiplication unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 99.98999786376953,
@@ -899,7 +899,7 @@
             {
               "name": "Effect SFX(ID)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -909,7 +909,7 @@
             {
               "name": "Effect SFX dummy poly(ID)",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -929,7 +929,7 @@
             {
               "name": "Priority (0: Must be issued, 255: See item Param)",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -949,7 +949,7 @@
             {
               "name": "Values for start and end conditions",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -965,7 +965,7 @@
             {
               "name": "Effect size correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -975,7 +975,7 @@
             {
               "name": "Effect time correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -991,7 +991,7 @@
             {
               "name": "Target special effect ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1001,7 +1001,7 @@
             {
               "name": "Time reduction (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1037,7 +1037,7 @@
             {
               "name": "Time reduction (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1073,7 +1073,7 @@
             {
               "name": "Effect size (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -1089,7 +1089,7 @@
             {
               "name": "Full body SFXID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1121,7 +1121,7 @@
             {
               "name": "reference file",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1131,7 +1131,7 @@
             {
               "name": "Recovery type",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1141,7 +1141,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1157,7 +1157,7 @@
             {
               "name": "reference file",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1167,7 +1167,7 @@
             {
               "name": "Recovery type",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1177,7 +1177,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1209,7 +1209,7 @@
             {
               "name": "Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1231,7 +1231,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -1263,7 +1263,7 @@
             {
               "name": "reference file",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1273,7 +1273,7 @@
             {
               "name": "Abnormal status settings",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1283,7 +1283,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1305,7 +1305,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1325,7 +1325,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": -100.0,
               "max": 100.0,
@@ -1341,7 +1341,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1361,7 +1361,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": -100.0,
               "max": 100.0,
@@ -1383,7 +1383,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1393,7 +1393,7 @@
             {
               "name": "Effect size (0.01 unit, kg unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1000.0,
@@ -1409,7 +1409,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1419,7 +1419,7 @@
             {
               "name": "Effect size (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 10.0,
@@ -1435,7 +1435,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1455,7 +1455,7 @@
             {
               "name": "Effect size (in integer)",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1471,7 +1471,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1491,7 +1491,7 @@
             {
               "name": "Effect size (in integer)",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1507,7 +1507,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1527,7 +1527,7 @@
             {
               "name": "Effect size (in integer)",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1543,7 +1543,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1563,7 +1563,7 @@
             {
               "name": "Effect size (in integer)",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1579,7 +1579,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1589,7 +1589,7 @@
             {
               "name": "Correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -1615,7 +1615,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -1625,7 +1625,7 @@
             {
               "name": "Correction magnification (0.01 unit, double unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -1665,7 +1665,7 @@
             {
               "name": "Head item ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1675,7 +1675,7 @@
             {
               "name": "Torso item ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1685,7 +1685,7 @@
             {
               "name": "Arm item ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1695,7 +1695,7 @@
             {
               "name": "Foot item ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1811,7 +1811,7 @@
             {
               "name": "Only one destruction flag ID",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1833,7 +1833,7 @@
             {
               "name": "Valet ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1843,7 +1843,7 @@
             {
               "name": "Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1863,7 +1863,7 @@
             {
               "name": "Reflection magnification",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 10.0,
@@ -1879,7 +1879,7 @@
             {
               "name": "range",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1000.0,
@@ -1889,7 +1889,7 @@
             {
               "name": "maximum number",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1899,7 +1899,7 @@
             {
               "name": "Valet ID (small)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1909,7 +1909,7 @@
             {
               "name": "Damage ID (small)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1919,7 +1919,7 @@
             {
               "name": "Valet ID (large)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1929,7 +1929,7 @@
             {
               "name": "Damage ID (large)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1945,7 +1945,7 @@
             {
               "name": "Damipoli ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -1955,7 +1955,7 @@
             {
               "name": "Horizontal initial velocity [m/s]",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1000.0,
@@ -1965,7 +1965,7 @@
             {
               "name": "Horizontal deceleration [m/s]",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1000.0,
@@ -1981,7 +1981,7 @@
             {
               "name": "Reason 1",
               "type": 4,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1991,7 +1991,7 @@
             {
               "name": "Reason 2",
               "type": 4,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2001,7 +2001,7 @@
             {
               "name": "Reason 3",
               "type": 4,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2011,7 +2011,7 @@
             {
               "name": "Reason 4",
               "type": 4,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2021,7 +2021,7 @@
             {
               "name": "special effect ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2037,7 +2037,7 @@
             {
               "name": "range",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1000.0,
@@ -2047,7 +2047,7 @@
             {
               "name": "angle",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2057,7 +2057,7 @@
             {
               "name": "Valet ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2067,7 +2067,7 @@
             {
               "name": "Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2099,7 +2099,7 @@
             {
               "name": "ID1 (\"Return type\" is \"Bonfire\" and this value is -1: Last bonfire)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": -1,
               "min": -1,
               "max": 1000000000,
@@ -2109,7 +2109,7 @@
             {
               "name": "ID2",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": -1,
               "min": -1,
               "max": 1000000000,
@@ -2125,7 +2125,7 @@
             {
               "name": "reference file",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2135,7 +2135,7 @@
             {
               "name": "Reference event name",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2145,7 +2145,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2161,7 +2161,7 @@
             {
               "name": "icon id",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2181,7 +2181,7 @@
             {
               "name": "Values for start and end conditions",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2197,7 +2197,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2217,7 +2217,7 @@
             {
               "name": "SFXID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2233,7 +2233,7 @@
             {
               "name": "SFXID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2243,7 +2243,7 @@
             {
               "name": "Spacing [m]",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.10000000149011612,
               "min": 0.0,
               "max": 3600.0,
@@ -2253,7 +2253,7 @@
             {
               "name": "Starting position ratio",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1.0,
@@ -2263,7 +2263,7 @@
             {
               "name": "End position ratio",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 1.0,
               "min": 0.0,
               "max": 1.0,
@@ -2273,7 +2273,7 @@
             {
               "name": "Degree of bias",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1.0,
@@ -2283,7 +2283,7 @@
             {
               "name": "Vibration width [m]",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2335,7 +2335,7 @@
             {
               "name": "Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2345,7 +2345,7 @@
             {
               "name": "Occurrence interval (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1800.0,
@@ -2355,7 +2355,7 @@
             {
               "name": "Effect time (if less than 0, it depends on other effects, in units of 0.01, in seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": -1.0,
               "min": -1.0,
               "max": 3600.0,
@@ -2371,7 +2371,7 @@
             {
               "name": "Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2463,7 +2463,7 @@
             {
               "name": "reference file",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2473,7 +2473,7 @@
             {
               "name": "Reference ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2483,7 +2483,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2499,7 +2499,7 @@
             {
               "name": "Reference ID",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2509,7 +2509,7 @@
             {
               "name": "argument",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2529,7 +2529,7 @@
             {
               "name": "special effect ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2545,7 +2545,7 @@
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2567,7 +2567,7 @@
             {
               "name": "Effect size (1 unit)",
               "type": 1,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2577,7 +2577,7 @@
             {
               "name": "Recovery time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2603,7 +2603,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -2613,7 +2613,7 @@
             {
               "name": "Recovery time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2639,7 +2639,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
@@ -2649,7 +2649,7 @@
             {
               "name": "Recovery time (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2691,7 +2691,7 @@
             {
               "name": "Invincibility duration (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2733,7 +2733,7 @@
             {
               "name": "Effect duration of abnormal status (0.01 units, seconds)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 3600.0,
@@ -2743,7 +2743,7 @@
             {
               "name": "Poison-only/Damage ID",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2753,7 +2753,7 @@
             {
               "name": "Poison type only/Damage occurrence interval (0.01 units, seconds units)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 1800.0,
@@ -2763,7 +2763,7 @@
             {
               "name": "Poison-only/effect SFX (ID)",
               "type": 5,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2773,7 +2773,7 @@
             {
               "name": "For poisonous lines/effect SFX dummy poly(ID)",
               "type": 0,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2805,7 +2805,7 @@
             {
               "name": "Effect size (in integer)",
               "type": 2,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -2831,7 +2831,7 @@
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
-              "enum_name": "",
+              "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
