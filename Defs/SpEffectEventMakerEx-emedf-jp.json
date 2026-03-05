@@ -3,11 +3,11 @@
     {
       "index": 1000,
       "name": "キャラステータス",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "整数増減設定",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果の種類",
               "type": 0,
@@ -43,7 +43,7 @@
         {
           "index": 1,
           "name": "倍率加算",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果の種類",
               "type": 0,
@@ -79,7 +79,7 @@
         {
           "index": 2,
           "name": "擬態",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -115,7 +115,7 @@
         {
           "index": 3,
           "name": "フラグ設定",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果の種類",
               "type": 0,
@@ -141,7 +141,7 @@
         {
           "index": 4,
           "name": "ジャンプ距離変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -217,7 +217,7 @@
         {
           "index": 5,
           "name": "強い素手装備",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -263,7 +263,7 @@
         {
           "index": 6,
           "name": "射撃距離変動",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -339,7 +339,7 @@
         {
           "index": 7,
           "name": "キャラ反応SE再生",
-          "arguments": [
+          "args": [
             {
               "name": "検索平面半径",
               "type": 6,
@@ -405,7 +405,7 @@
         {
           "index": 8,
           "name": "優先ロックオン",
-          "arguments": [
+          "args": [
             {
               "name": "優先度倍率",
               "type": 6,
@@ -421,7 +421,7 @@
         {
           "index": 9,
           "name": "整数増減大設定",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果の種類",
               "type": 0,
@@ -457,7 +457,7 @@
         {
           "index": 10,
           "name": "ダメージ蓄積バレット",
-          "arguments": [
+          "args": [
             {
               "name": "耐久最大時発生確率(%)",
               "type": 6,
@@ -517,7 +517,7 @@
         {
           "index": 12,
           "name": "擬態抽選",
-          "arguments": [
+          "args": [
             {
               "name": "抽選特殊効果ID0",
               "type": 2,
@@ -553,7 +553,7 @@
         {
           "index": 13,
           "name": "ダメージ反射",
-          "arguments": [
+          "args": [
             {
               "name": "発生確率",
               "type": 6,
@@ -619,7 +619,7 @@
         {
           "index": 14,
           "name": "所持ソウル攻撃力倍率",
-          "arguments": [
+          "args": [
             {
               "name": "0固定",
               "type": 0,
@@ -685,7 +685,7 @@
         {
           "index": 15,
           "name": "亡者カウント攻撃力倍率",
-          "arguments": [
+          "args": [
             {
               "name": "対象カウント",
               "type": 0,
@@ -753,11 +753,11 @@
     {
       "index": 1010,
       "name": "インベントリ",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "エスト瓶",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果の種類",
               "type": 0,
@@ -785,11 +785,11 @@
     {
       "index": 100040,
       "name": "基本コマンド",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "効果補正倍率",
-          "arguments": [
+          "args": [
             {
               "name": "倍率対象",
               "type": 0,
@@ -895,7 +895,7 @@
         {
           "index": 1,
           "name": "効果SFX",
-          "arguments": [
+          "args": [
             {
               "name": "効果SFX(ID)",
               "type": 5,
@@ -961,7 +961,7 @@
         {
           "index": 2,
           "name": "効果補正設定",
-          "arguments": [
+          "args": [
             {
               "name": "効果量補正倍率(0.01単位、倍単位)",
               "type": 6,
@@ -987,7 +987,7 @@
         {
           "index": 3,
           "name": "効果時間 短縮",
-          "arguments": [
+          "args": [
             {
               "name": "対象特殊効果ID",
               "type": 5,
@@ -1023,7 +1023,7 @@
         {
           "index": 4,
           "name": "効果時間短縮2 常駐",
-          "arguments": [
+          "args": [
             {
               "name": "特殊条件",
               "type": 0,
@@ -1049,7 +1049,7 @@
         {
           "index": 5,
           "name": "効果時間短縮2 実行",
-          "arguments": [
+          "args": [
             {
               "name": "特殊条件",
               "type": 0,
@@ -1069,7 +1069,7 @@
         {
           "index": 7,
           "name": "効果時間延長 実行",
-          "arguments": [
+          "args": [
             {
               "name": "効果量(0.01単位、倍単位)",
               "type": 6,
@@ -1085,7 +1085,7 @@
         {
           "index": 8,
           "name": "全身SFX",
-          "arguments": [
+          "args": [
             {
               "name": "全身SFXID",
               "type": 2,
@@ -1113,11 +1113,11 @@
     {
       "index": 100050,
       "name": "ＨＰ回復制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "時間ＨＰ回復",
-          "arguments": [
+          "args": [
             {
               "name": "参照ファイル",
               "type": 2,
@@ -1153,7 +1153,7 @@
         {
           "index": 1,
           "name": "瞬間ＨＰ回復",
-          "arguments": [
+          "args": [
             {
               "name": "参照ファイル",
               "type": 2,
@@ -1189,7 +1189,7 @@
         {
           "index": 2,
           "name": "亡者復活",
-          "arguments": [
+          "args": [
             {
               "name": "演出実行するか？",
               "type": 0,
@@ -1205,7 +1205,7 @@
         {
           "index": 3,
           "name": "協力マルチプレイ中ホストダメージ発行",
-          "arguments": [
+          "args": [
             {
               "name": "ダメージID",
               "type": 5,
@@ -1223,11 +1223,11 @@
     {
       "index": 100060,
       "name": "スペル制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "スペル使用回数回復2",
-          "arguments": [
+          "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
@@ -1255,11 +1255,11 @@
     {
       "index": 100070,
       "name": "状態異常制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "状態異常変更",
-          "arguments": [
+          "args": [
             {
               "name": "参照ファイル",
               "type": 2,
@@ -1297,11 +1297,11 @@
     {
       "index": 100080,
       "name": "属性制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "キャラ防具属性値変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1337,7 +1337,7 @@
         {
           "index": 1,
           "name": "キャラ武器攻撃属性値変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1375,11 +1375,11 @@
     {
       "index": 100090,
       "name": "ステータス制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "現在装備重量変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1405,7 +1405,7 @@
         {
           "index": 1,
           "name": "スタミナ回復速度変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1431,7 +1431,7 @@
         {
           "index": 2,
           "name": "攻撃力増加",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1467,7 +1467,7 @@
         {
           "index": 3,
           "name": "攻撃力減少",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1503,7 +1503,7 @@
         {
           "index": 4,
           "name": "防御力増加",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1539,7 +1539,7 @@
         {
           "index": 5,
           "name": "防御力減少",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1575,7 +1575,7 @@
         {
           "index": 6,
           "name": "移動速度変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1611,7 +1611,7 @@
         {
           "index": 7,
           "name": "旋回速度変更",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -1657,11 +1657,11 @@
     {
       "index": 100110,
       "name": "装備制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "装備変更",
-          "arguments": [
+          "args": [
             {
               "name": "頭部アイテムID",
               "type": 5,
@@ -1707,7 +1707,7 @@
         {
           "index": 1,
           "name": "装備解除",
-          "arguments": [
+          "args": [
             {
               "name": "解除する装備カテゴリ1",
               "type": 0,
@@ -1797,7 +1797,7 @@
         {
           "index": 3,
           "name": "発動元破壊",
-          "arguments": [
+          "args": [
             {
               "name": "破壊条件",
               "type": 0,
@@ -1825,11 +1825,11 @@
     {
       "index": 100120,
       "name": "バレット制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "バレット発射",
-          "arguments": [
+          "args": [
             {
               "name": "バレットID",
               "type": 5,
@@ -1875,7 +1875,7 @@
         {
           "index": 1,
           "name": "ラグドール爆破",
-          "arguments": [
+          "args": [
             {
               "name": "範囲",
               "type": 6,
@@ -1941,7 +1941,7 @@
         {
           "index": 2,
           "name": "七色石発射",
-          "arguments": [
+          "args": [
             {
               "name": "ダミポリID",
               "type": 5,
@@ -1977,7 +1977,7 @@
         {
           "index": 3,
           "name": "追尾するソウルの塊発射",
-          "arguments": [
+          "args": [
             {
               "name": "理力1",
               "type": 4,
@@ -2033,7 +2033,7 @@
         {
           "index": 4,
           "name": "追尾するソウルの塊",
-          "arguments": [
+          "args": [
             {
               "name": "範囲",
               "type": 6,
@@ -2081,11 +2081,11 @@
     {
       "index": 100130,
       "name": "特殊制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "帰還2",
-          "arguments": [
+          "args": [
             {
               "name": "帰還の種類",
               "type": 0,
@@ -2121,7 +2121,7 @@
         {
           "index": 1,
           "name": "ソウル変更",
-          "arguments": [
+          "args": [
             {
               "name": "参照ファイル",
               "type": 2,
@@ -2157,7 +2157,7 @@
         {
           "index": 2,
           "name": "特殊効果アイコン表示",
-          "arguments": [
+          "args": [
             {
               "name": "アイコンID",
               "type": 5,
@@ -2193,7 +2193,7 @@
         {
           "index": 3,
           "name": "スペルパリィ設定2",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -2229,7 +2229,7 @@
         {
           "index": 4,
           "name": "武器SFX",
-          "arguments": [
+          "args": [
             {
               "name": "SFXID",
               "type": 2,
@@ -2297,11 +2297,11 @@
     {
       "index": 100140,
       "name": "死亡時制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "死亡許可設定",
-          "arguments": [
+          "args": [
             {
               "name": "死亡許可設定",
               "type": 0,
@@ -2327,11 +2327,11 @@
     {
       "index": 100170,
       "name": "ダメージ制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "ダメージ生成",
-          "arguments": [
+          "args": [
             {
               "name": "ダメージID",
               "type": 5,
@@ -2367,7 +2367,7 @@
         {
           "index": 1,
           "name": "単発ダメージ生成",
-          "arguments": [
+          "args": [
             {
               "name": "ダメージID",
               "type": 5,
@@ -2385,11 +2385,11 @@
     {
       "index": 100180,
       "name": "マルチプレイ制御",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "召喚サイン作成要求",
-          "arguments": [
+          "args": [
             {
               "name": "サインタイプ",
               "type": 0,
@@ -2405,7 +2405,7 @@
         {
           "index": 1,
           "name": "乱入要求",
-          "arguments": [
+          "args": [
             {
               "name": "乱入タイプ",
               "type": 0,
@@ -2421,7 +2421,7 @@
         {
           "index": 2,
           "name": "召喚検索要求",
-          "arguments": [
+          "args": [
             {
               "name": "強制召喚検索タイプ",
               "type": 0,
@@ -2455,11 +2455,11 @@
     {
       "index": 100700,
       "name": "その他",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "他ファイル参照",
-          "arguments": [
+          "args": [
             {
               "name": "参照ファイル",
               "type": 2,
@@ -2495,7 +2495,7 @@
         {
           "index": 1,
           "name": "同ファイル参照",
-          "arguments": [
+          "args": [
             {
               "name": "参照ID",
               "type": 2,
@@ -2525,7 +2525,7 @@
         {
           "index": 3,
           "name": "特殊効果ID指定",
-          "arguments": [
+          "args": [
             {
               "name": "特殊効果ID",
               "type": 5,
@@ -2541,7 +2541,7 @@
         {
           "index": 4,
           "name": "仮想コマンド",
-          "arguments": [
+          "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
@@ -2559,11 +2559,11 @@
     {
       "index": 101050,
       "name": "ＨＰ回復制御サブ",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "数値",
-          "arguments": [
+          "args": [
             {
               "name": "効果量(1単位)",
               "type": 1,
@@ -2599,7 +2599,7 @@
         {
           "index": 1,
           "name": "最大ＨＰ割合",
-          "arguments": [
+          "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
@@ -2635,7 +2635,7 @@
         {
           "index": 2,
           "name": "与ダメージ値割合",
-          "arguments": [
+          "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
@@ -2673,11 +2673,11 @@
     {
       "index": 101070,
       "name": "状態異常制御サブ",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "状態異常変更　無敵",
-          "arguments": [
+          "args": [
             {
               "name": "状態異常 種類",
               "type": 0,
@@ -2703,7 +2703,7 @@
         {
           "index": 1,
           "name": "状態異常変更　解除",
-          "arguments": [
+          "args": [
             {
               "name": "状態異常 種類",
               "type": 0,
@@ -2719,7 +2719,7 @@
         {
           "index": 2,
           "name": "状態異常変更　発生",
-          "arguments": [
+          "args": [
             {
               "name": "状態異常 種類",
               "type": 0,
@@ -2787,11 +2787,11 @@
     {
       "index": 101130,
       "name": "特殊制御サブ",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "ソウル変更 実数",
-          "arguments": [
+          "args": [
             {
               "name": "計算式",
               "type": 0,
@@ -2817,7 +2817,7 @@
         {
           "index": 1,
           "name": "ソウル変更 割合",
-          "arguments": [
+          "args": [
             {
               "name": "計算式",
               "type": 0,
@@ -2847,7 +2847,7 @@
     {
       "index": 1,
       "name": "ダミーカテゴリ",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "ダミー条件"

@@ -3,11 +3,11 @@
     {
       "index": 1000,
       "name": "character status",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Integer increase/decrease setting",
-          "arguments": [
+          "args": [
             {
               "name": "Types of special effects",
               "type": 0,
@@ -43,7 +43,7 @@
         {
           "index": 1,
           "name": "Multiplier addition",
-          "arguments": [
+          "args": [
             {
               "name": "Types of special effects",
               "type": 0,
@@ -79,7 +79,7 @@
         {
           "index": 2,
           "name": "mimicry",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -115,7 +115,7 @@
         {
           "index": 3,
           "name": "flag setting",
-          "arguments": [
+          "args": [
             {
               "name": "Types of special effects",
               "type": 0,
@@ -141,7 +141,7 @@
         {
           "index": 4,
           "name": "Change jump distance",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -217,7 +217,7 @@
         {
           "index": 5,
           "name": "strong bare-handed equipment",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -263,7 +263,7 @@
         {
           "index": 6,
           "name": "Shooting distance variation",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -339,7 +339,7 @@
         {
           "index": 7,
           "name": "Character reaction SE playback",
-          "arguments": [
+          "args": [
             {
               "name": "search plane radius",
               "type": 6,
@@ -405,7 +405,7 @@
         {
           "index": 8,
           "name": "Priority lock-on",
-          "arguments": [
+          "args": [
             {
               "name": "Priority multiplier",
               "type": 6,
@@ -421,7 +421,7 @@
         {
           "index": 9,
           "name": "Integer increase/decrease setting",
-          "arguments": [
+          "args": [
             {
               "name": "Types of special effects",
               "type": 0,
@@ -457,7 +457,7 @@
         {
           "index": 10,
           "name": "Damage accumulation bullet",
-          "arguments": [
+          "args": [
             {
               "name": "Probability of occurrence at maximum durability (%)",
               "type": 6,
@@ -517,7 +517,7 @@
         {
           "index": 12,
           "name": "Mimic lottery",
-          "arguments": [
+          "args": [
             {
               "name": "Lottery special effect ID0",
               "type": 2,
@@ -553,7 +553,7 @@
         {
           "index": 13,
           "name": "damage reflection",
-          "arguments": [
+          "args": [
             {
               "name": "Probability of occurrence",
               "type": 6,
@@ -619,7 +619,7 @@
         {
           "index": 14,
           "name": "Owned soul attack power multiplier",
-          "arguments": [
+          "args": [
             {
               "name": "Fixed at 0",
               "type": 0,
@@ -685,7 +685,7 @@
         {
           "index": 15,
           "name": "Death count attack power multiplier",
-          "arguments": [
+          "args": [
             {
               "name": "Target count",
               "type": 0,
@@ -753,11 +753,11 @@
     {
       "index": 1010,
       "name": "inventory",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "est bottle",
-          "arguments": [
+          "args": [
             {
               "name": "Types of special effects",
               "type": 0,
@@ -785,11 +785,11 @@
     {
       "index": 100040,
       "name": "Basic command",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Effect correction magnification",
-          "arguments": [
+          "args": [
             {
               "name": "Magnification target",
               "type": 0,
@@ -895,7 +895,7 @@
         {
           "index": 1,
           "name": "Effect SFX",
-          "arguments": [
+          "args": [
             {
               "name": "Effect SFX(ID)",
               "type": 5,
@@ -917,7 +917,7 @@
               "format_string": "%d"
             },
             {
-              "name": "削除設定",
+              "name": "Delete settings",
               "type": 0,
               "enum_name": "SFX deletion timing",
               "default": 0,
@@ -961,7 +961,7 @@
         {
           "index": 2,
           "name": "Effect correction settings",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size correction magnification (0.01 unit, double unit)",
               "type": 6,
@@ -987,7 +987,7 @@
         {
           "index": 3,
           "name": "Effect time shortened",
-          "arguments": [
+          "args": [
             {
               "name": "Target special effect ID",
               "type": 5,
@@ -1023,7 +1023,7 @@
         {
           "index": 4,
           "name": "Effect time reduction 2 permanent",
-          "arguments": [
+          "args": [
             {
               "name": "special conditions",
               "type": 0,
@@ -1049,7 +1049,7 @@
         {
           "index": 5,
           "name": "Effect time reduction 2 execution",
-          "arguments": [
+          "args": [
             {
               "name": "special conditions",
               "type": 0,
@@ -1069,7 +1069,7 @@
         {
           "index": 7,
           "name": "Extend effect time",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size (0.01 unit, double unit)",
               "type": 6,
@@ -1085,7 +1085,7 @@
         {
           "index": 8,
           "name": "Full body SFX",
-          "arguments": [
+          "args": [
             {
               "name": "Full body SFXID",
               "type": 2,
@@ -1113,11 +1113,11 @@
     {
       "index": 100050,
       "name": "HP recovery control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Time HP recovery",
-          "arguments": [
+          "args": [
             {
               "name": "reference file",
               "type": 2,
@@ -1153,7 +1153,7 @@
         {
           "index": 1,
           "name": "Instant HP recovery",
-          "arguments": [
+          "args": [
             {
               "name": "reference file",
               "type": 2,
@@ -1189,7 +1189,7 @@
         {
           "index": 2,
           "name": "resurrection of the dead",
-          "arguments": [
+          "args": [
             {
               "name": "Will you carry out the performance?",
               "type": 0,
@@ -1205,7 +1205,7 @@
         {
           "index": 3,
           "name": "Issue host damage during cooperative multiplayer",
-          "arguments": [
+          "args": [
             {
               "name": "Damage ID",
               "type": 5,
@@ -1223,11 +1223,11 @@
     {
       "index": 100060,
       "name": "spell control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Spell use count recovery 2",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
@@ -1255,11 +1255,11 @@
     {
       "index": 100070,
       "name": "Status abnormality control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "abnormal status change",
-          "arguments": [
+          "args": [
             {
               "name": "reference file",
               "type": 2,
@@ -1297,11 +1297,11 @@
     {
       "index": 100080,
       "name": "attribute control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Character armor attribute value change",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1337,7 +1337,7 @@
         {
           "index": 1,
           "name": "Character weapon attack attribute value change",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1375,11 +1375,11 @@
     {
       "index": 100090,
       "name": "status control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Change current equipment weight",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1405,7 +1405,7 @@
         {
           "index": 1,
           "name": "Change stamina recovery speed",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1431,7 +1431,7 @@
         {
           "index": 2,
           "name": "Attack power increase",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1467,7 +1467,7 @@
         {
           "index": 3,
           "name": "Attack power decreased",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1503,7 +1503,7 @@
         {
           "index": 4,
           "name": "Increased defense power",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1539,7 +1539,7 @@
         {
           "index": 5,
           "name": "Defense power decreased",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1575,7 +1575,7 @@
         {
           "index": 6,
           "name": "Change movement speed",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1611,7 +1611,7 @@
         {
           "index": 7,
           "name": "Change rotation speed",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -1657,11 +1657,11 @@
     {
       "index": 100110,
       "name": "equipment control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Equipment change",
-          "arguments": [
+          "args": [
             {
               "name": "Head item ID",
               "type": 5,
@@ -1707,7 +1707,7 @@
         {
           "index": 1,
           "name": "Unequip",
-          "arguments": [
+          "args": [
             {
               "name": "Equipment category to be unlocked 1",
               "type": 0,
@@ -1797,7 +1797,7 @@
         {
           "index": 3,
           "name": "Destroy the trigger",
-          "arguments": [
+          "args": [
             {
               "name": "Destruction conditions",
               "type": 0,
@@ -1825,11 +1825,11 @@
     {
       "index": 100120,
       "name": "valet control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "bullet firing",
-          "arguments": [
+          "args": [
             {
               "name": "Valet ID",
               "type": 5,
@@ -1875,7 +1875,7 @@
         {
           "index": 1,
           "name": "ragdoll explosion",
-          "arguments": [
+          "args": [
             {
               "name": "range",
               "type": 6,
@@ -1941,7 +1941,7 @@
         {
           "index": 2,
           "name": "Seven-colored stone launch",
-          "arguments": [
+          "args": [
             {
               "name": "Damipoli ID",
               "type": 5,
@@ -1977,7 +1977,7 @@
         {
           "index": 3,
           "name": "Shooting a mass of tracking souls",
-          "arguments": [
+          "args": [
             {
               "name": "Reason 1",
               "type": 4,
@@ -2033,7 +2033,7 @@
         {
           "index": 4,
           "name": "A mass of souls chasing",
-          "arguments": [
+          "args": [
             {
               "name": "range",
               "type": 6,
@@ -2081,11 +2081,11 @@
     {
       "index": 100130,
       "name": "special control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "return 2",
-          "arguments": [
+          "args": [
             {
               "name": "Type of return",
               "type": 0,
@@ -2121,7 +2121,7 @@
         {
           "index": 1,
           "name": "soul change",
-          "arguments": [
+          "args": [
             {
               "name": "reference file",
               "type": 2,
@@ -2157,7 +2157,7 @@
         {
           "index": 2,
           "name": "Special effect icon display",
-          "arguments": [
+          "args": [
             {
               "name": "icon id",
               "type": 5,
@@ -2193,7 +2193,7 @@
         {
           "index": 3,
           "name": "Spell parry setting 2",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -2229,7 +2229,7 @@
         {
           "index": 4,
           "name": "weapon sfx",
-          "arguments": [
+          "args": [
             {
               "name": "SFXID",
               "type": 2,
@@ -2297,11 +2297,11 @@
     {
       "index": 100140,
       "name": "death control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Death permission setting",
-          "arguments": [
+          "args": [
             {
               "name": "Death permission setting",
               "type": 0,
@@ -2327,11 +2327,11 @@
     {
       "index": 100170,
       "name": "damage control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "damage generation",
-          "arguments": [
+          "args": [
             {
               "name": "Damage ID",
               "type": 5,
@@ -2367,7 +2367,7 @@
         {
           "index": 1,
           "name": "Single damage generation",
-          "arguments": [
+          "args": [
             {
               "name": "Damage ID",
               "type": 5,
@@ -2385,11 +2385,11 @@
     {
       "index": 100180,
       "name": "multiplayer control",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Summoning sign creation request",
-          "arguments": [
+          "args": [
             {
               "name": "sign type",
               "type": 0,
@@ -2405,7 +2405,7 @@
         {
           "index": 1,
           "name": "Intrusion request",
-          "arguments": [
+          "args": [
             {
               "name": "Intrusion type",
               "type": 0,
@@ -2421,7 +2421,7 @@
         {
           "index": 2,
           "name": "Summon search request",
-          "arguments": [
+          "args": [
             {
               "name": "Forced summon search type",
               "type": 0,
@@ -2455,11 +2455,11 @@
     {
       "index": 100700,
       "name": "Others",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "See other files",
-          "arguments": [
+          "args": [
             {
               "name": "reference file",
               "type": 2,
@@ -2495,7 +2495,7 @@
         {
           "index": 1,
           "name": "See same file",
-          "arguments": [
+          "args": [
             {
               "name": "Reference ID",
               "type": 2,
@@ -2525,7 +2525,7 @@
         {
           "index": 3,
           "name": "Special effect ID specification",
-          "arguments": [
+          "args": [
             {
               "name": "special effect ID",
               "type": 5,
@@ -2541,7 +2541,7 @@
         {
           "index": 4,
           "name": "virtual command",
-          "arguments": [
+          "args": [
             {
               "name": "Effect time (0.01 units, seconds)",
               "type": 6,
@@ -2559,11 +2559,11 @@
     {
       "index": 101050,
       "name": "HP recovery control sub",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "numerical value",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size (1 unit)",
               "type": 1,
@@ -2599,7 +2599,7 @@
         {
           "index": 1,
           "name": "Maximum HP percentage",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
@@ -2635,7 +2635,7 @@
         {
           "index": 2,
           "name": "Damage value percentage",
-          "arguments": [
+          "args": [
             {
               "name": "Effect size (0.01 unit, % unit)",
               "type": 6,
@@ -2673,11 +2673,11 @@
     {
       "index": 101070,
       "name": "Status abnormality control sub",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Status abnormality change invincibility",
-          "arguments": [
+          "args": [
             {
               "name": "Status abnormality type",
               "type": 0,
@@ -2703,7 +2703,7 @@
         {
           "index": 1,
           "name": "Abnormal status change cancellation",
-          "arguments": [
+          "args": [
             {
               "name": "Status abnormality type",
               "type": 0,
@@ -2719,7 +2719,7 @@
         {
           "index": 2,
           "name": "Abnormal status change occurred",
-          "arguments": [
+          "args": [
             {
               "name": "Status abnormality type",
               "type": 0,
@@ -2787,11 +2787,11 @@
     {
       "index": 101130,
       "name": "special control sub",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "Soul change real number",
-          "arguments": [
+          "args": [
             {
               "name": "calculation formula",
               "type": 0,
@@ -2817,7 +2817,7 @@
         {
           "index": 1,
           "name": "Soul change percentage",
-          "arguments": [
+          "args": [
             {
               "name": "calculation formula",
               "type": 0,
@@ -2847,7 +2847,7 @@
     {
       "index": 1,
       "name": "dummy category",
-      "instructions": [
+      "instrs": [
         {
           "index": 0,
           "name": "dummy condition"
@@ -3035,7 +3035,7 @@
     {
       "name": "Duplicate processing",
       "values": {
-        "0": "重複許可",
+        "0": "Duplicate permission",
         "1": "Overwrite",
         "2": "Rejected",
         "3": "Overwrite if time is too long"
