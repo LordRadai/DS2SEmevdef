@@ -22,6 +22,25 @@ namespace Emedf
 		m_json["format_string"] = formatString;
 	}
 
+	std::string Argument::getEnumName()
+	{
+		if (m_json.contains("enum_name"))
+			return m_json["enum_name"].get<std::string>();
+		else
+			return "";
+	}
+
+	void Argument::setEnumName(const std::string& enumName)
+	{
+		if (enumName.empty())
+		{
+			m_json["enum_name"] = nullptr;
+			return;
+		}
+
+		m_json["enum_name"] = enumName;
+	}
+
 	const char* Argument::getTypeName(int type)
 	{
 		switch (type)

@@ -20,9 +20,11 @@ namespace Emedf
 		void loadFromJson(const std::wstring& path);
 		void saveToJson(const std::wstring& path);
 
+		Class* findMainClass(int id);
 		std::vector<Class*>& getMainClasses() { return m_mainClasses; }
 		void addMainClass(Class* mainClass);
 
+		Class* findExtraClass(int id);
 		std::vector<Class*>& getExtraClasses() { return m_extraClasses; }
 		void addExtraClass(Class* extraClass);
 

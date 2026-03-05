@@ -32,8 +32,8 @@ namespace Emedf
 		int getType() const { return m_json["type"]; }
 		void setType(int type) { m_json["type"] = type; }
 
-		std::string getEnumName() const { return m_json.at("enum_name").get<std::string>(); }
-		void setEnumName(const std::string& enumName) { m_json["enum_name"] = enumName; }
+		std::string getEnumName();
+		void setEnumName(const std::string& enumName);
 
 		template<typename T>
 		T getDefault() const { return m_json["default"]; }

@@ -6,7 +6,7 @@ namespace Emedf
 {
 	void Emedf::loadFromJson(const std::wstring& path)
 	{
-		std::ifstream file(path);
+		std::ifstream file(path, std::ios::in);
 
 		if (!file.is_open())
 			throw std::runtime_error("Failed to open file: " + std::string(path.begin(), path.end()));
@@ -43,6 +43,28 @@ namespace Emedf
 			new std::codecvt_utf8<wchar_t>));
 
 		file << m_json.dump(2);
+	}
+
+	Class* Emedf::findMainClass(int id)
+	{
+		for (Class* mainClass : m_mainClasses)
+		{
+			if (mainClass->getIndex() == id)
+				return mainClass;
+		}
+
+		return nullptr;
+	}
+
+	Class* Emedf::findExtraClass(int id)
+	{
+		for (Class* extraClass : m_extraClasses)
+		{
+			if (extraClass->getIndex() == id)
+				return extraClass;
+		}
+
+		return nullptr;
 	}
 
 	void Emedf::addMainClass(Class* mainClass)
