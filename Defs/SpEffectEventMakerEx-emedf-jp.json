@@ -547,6 +547,26 @@
               "max": 1000000000,
               "increment": 1,
               "format_string": "%d"
+            },
+            {
+              "name": "抽選特殊効果ID3",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "抽選特殊効果ID4",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
             }
           ]
         },
@@ -747,7 +767,293 @@
               "format_string": "%f"
             }
           ]
-        }
+        },
+        {
+          "name": "Unknown Command 1000[16]",
+          "index": 16,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "DamageParam ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Unknown2",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Completetion Count Attack Power Multiplier",
+          "index": 17,
+          "args": [
+            {
+              "name": "Minimum Completion Count",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Completion Count",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Attack Power Modification Multiplier",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Maximum Attack Power Modification Multiplier",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Equip Load Attack Power Bonus",
+          "index": 18,
+          "args": [
+            {
+              "name": "Equip Load 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Equip Load 2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Equip Load 3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "Attack Power Bonus 3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            }
+          ]
+        },
+        {
+          "name": "Attribute Value Attribute Bonus",
+          "index": 19,
+          "args": [
+            {
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "ステータス",
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Attribute",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Attribute",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Minimum Bonus",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Maximum Bonus",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Unknown Command 1000[20]",
+          "index": 20,
+          "args": [
+            {
+              "name": "Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+		    },
+		    {
+          "name": "Unknown Command 1000[21]",
+          "index": 21,
+          "args": [
+            {
+              "name": "Argument 0",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Argument 1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Argument 2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+		    }
       ]
     },
     {
@@ -1139,7 +1445,7 @@
               "format_string": "%d"
             },
             {
-              "name": "引数",
+              "name": "引数0",
               "type": 2,
               "enum_name": null,
               "default": 0,
@@ -1147,7 +1453,27 @@
               "max": 0,
               "increment": 0,
               "format_string": "%d"
-            }
+            },
+            {
+              "name": "引数1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "引数2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }   
           ]
         },
         {
@@ -1175,13 +1501,33 @@
               "format_string": "%d"
             },
             {
-              "name": "引数",
+              "name": "引数0",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
+              "format_string": "%d"
+            },
+            {
+              "name": "引数1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "引数2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
               "format_string": "%d"
             }
           ]
@@ -1819,7 +2165,33 @@
               "format_string": "%d"
             }
           ]
-        }
+        },
+        {
+          "name": "Weapon Change",
+          "index": 4,
+          "args": [
+            {
+              "name": "Right Weapon ID",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Left Weapon ID",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+		}
       ]
     },
     {
@@ -2075,7 +2447,83 @@
               "format_string": "%d"
             }
           ]
-        }
+        },
+        {
+          "name": "Create Bullet Based On Attribute",
+          "index": 6,
+          "args": [
+            {
+              "name": "Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Damage ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "ステータス",
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 1",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 2",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 3",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Attribute 4",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+		}
       ]
     },
     {
@@ -2291,7 +2739,111 @@
               "format_string": "%f"
             }
           ]
-        }
+        },
+        		{
+          "name": "Disable Full Body SFX",
+          "index": 5,
+          "args": [
+            {
+              "name": "Unknown",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Deflect Spell",
+          "index": 6,
+          "args": [
+            {
+              "name": "Chance",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 100.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "SFX ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "SpEffect And End Event If Event",
+          "index": 7,
+          "args": [
+            {
+              "name": "Event Flag ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Gender Effect",
+          "index": 8,
+          "args": [
+            {
+              "name": "Matching Gender Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            },
+            {
+              "name": "Opposite Gender Effect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d"
+            }
+          ]
+		}
       ]
     },
     {
@@ -2310,6 +2862,32 @@
               "min": 0,
               "max": 0,
               "increment": 0,
+              "format_string": "%d"
+            }
+          ]
+        },
+        {
+          "name": "Effect On Death",
+          "index": 1,
+          "args": [
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f"
+            },
+            {
+              "name": "SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
               "format_string": "%d"
             }
           ]
@@ -2893,7 +3471,9 @@
         "17": "亡者カウント加算",
         "18": "撃破時HP回復値",
         "19": "材質置換",
-        "20": "スペル記憶スロット増加"
+        "20": "スペル記憶スロット増加",
+        "21": "Stability Damage Modifier",
+        "22": "Unknown (22)"
       }
     },
     {
@@ -2914,7 +3494,12 @@
         "20": "視野切替",
         "21": "濡れ擬態",
         "22": "撃破時HP回復時SFXID",
-        "23": "撃破時HP回復時SFXダミポリID"
+        "23": "撃破時HP回復時SFXダミポリID",
+        "25": "25",
+        "30": "30",
+        "31": "31",
+        "32": "32",
+        "33": "33"
       }
     },
     {
@@ -2962,7 +3547,12 @@
         "54": "スペルダメージ倍率【呪術】",
         "55": "スペルダメージ倍率【闇魔術】",
         "56": "スペルダメージ倍率【闇奇蹟】",
-        "57": "受け能力変更"
+        "57": "受け能力変更",
+        "58": "Enemy Damage",
+        "59": "Enemy Damage Reduction",
+        "60": "60",
+        "61": "61",
+        "62": "62"
       }
     },
     {
@@ -2984,7 +3574,33 @@
         "22": "ドロップアイテム倍率補正【特大】有効",
         "23": "炎武器",
         "24": "ダメージ無効",
-        "25": "背面ダメージ肩代わり"
+        "25": "背面ダメージ肩代わり",
+        "27": "Disable Chr Phantom Color",
+        "28": "28",
+        "29": "29",
+        "31": "31",
+        "33": "33",
+        "34": "34",
+        "39": "39",
+        "40": "40",
+        "41": "41",
+        "42": "42",
+        "43": "43",
+        "44": "44",
+        "46": "46",
+        "49": "49",
+        "50": "50",
+        "51": "51",
+        "52": "52",
+        "53": "53",
+        "54": "54",
+        "55": "No Lock On",
+        "56": "56",
+        "57": "Hide Healthbar",
+        "58": "58",
+        "59": "No Soul Absorption",
+        "60": "Invisibility",
+        "61": "61"
       }
     },
     {
@@ -3059,17 +3675,17 @@
       "name": "状態異常の種類",
       "values": {
         "0": "毒",
-        "8": "猛毒",
         "1": "出血",
         "2": "武器破壊",
-        "4": "燃焼",
-        "10": "石化",
         "3": "呪",
+        "4": "燃焼",
+        "5": "スペル封印",
         "6": "水濡れ",
         "7": "血濡れ",
+        "8": "猛毒",
         "9": "油濡れ",
+        "10": "石化",
         "11": "毒濡れ",
-        "5": "スペル封印",
         "12": "(プログラム用最大値)"
       }
     },
