@@ -11,3 +11,10 @@ Events that need to be revised are:
 * IncreaseAttack(Unknown)
 * DrawDisableFullbodySFX (arg1)
 * ApplySpEffectAndEndEventIfEventFlag (arg3)
+
+Enums that need to be revised are:
+* StatusEffectType
+* ChrStatusLargeInteger
+* ChrStatusFlag
+* ChrStatusRate
+* ChrStatus
