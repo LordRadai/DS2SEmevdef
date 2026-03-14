@@ -4611,9 +4611,9 @@
         "57": "Shield Stability",
         "58": "Enemy Damage",
         "59": "Enemy Damage Reduction",
-        "60": "Unknown (60)",
-        "61": "Unknown (61)",
-        "62": "Unknown (62)"
+        "60": "Equip Weight Rate",
+        "61": "Back Damage Physical Cut Rate",
+        "62": "Back Damage Elemental Cut Rate"
       }
     },
     {
@@ -4638,7 +4638,7 @@
         "25": "Reduce Back Damage",
         "27": "Disable Chr Phantom Color",
         "28": "Unknown (28)",
-        "29": "Unknown (29)",
+        "29": "Disable Headshot Damage",
         "31": "Unknown (31)",
         "33": "Unknown (33)",
         "34": "Unknown (34)",

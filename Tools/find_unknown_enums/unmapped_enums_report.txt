@@ -8,8 +8,6 @@ FOLDER: F:\GitHub\DS2SEmevdef\Dump
   > Unknown28:
     - Event 96700000 (in SpEffectEnemy.emevd.js)
     - Event 96810000 (in SpEffectEnemy.emevd.js)
-  > Unknown29:
-    - Event 21660100 (in SpEffectArmor.emevd.js)
   > Unknown31:
     - Event 41000000 (in SpEffectRing.emevd.js)
   > Unknown33:
@@ -48,18 +46,6 @@ FOLDER: F:\GitHub\DS2SEmevdef\Dump
     - Event 98830010 (in SpEffectEnemy.emevd.js)
   > Unknown61:
     - Event 170000000 (in SpEffectWideUse.emevd.js)
-
-## ChrStatusRate
-  > Unknown60:
-    - Event 35300010 (in SpEffectSpell.emevd.js)
-    - Event 35300011 (in SpEffectSpell.emevd.js)
-    - Event 35300012 (in SpEffectSpell.emevd.js)
-    - Event 35300013 (in SpEffectSpell.emevd.js)
-    - Event 35300014 (in SpEffectSpell.emevd.js)
-  > Unknown61:
-    - Event 40440000 (in SpEffectRing.emevd.js)
-  > Unknown62:
-    - Event 40440000 (in SpEffectRing.emevd.js)
 
 ## ChrStatusValue
   > Unknown22:
