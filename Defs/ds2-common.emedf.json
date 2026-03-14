@@ -564,11 +564,11 @@
           ]
         },
         {
-          "name": "Modify Property",
+          "name": "Modify Status Large Integer",
           "index": 9,
           "args": [
             {
-              "name": "Property",
+              "name": "Status Type",
               "type": 0,
               "enum_name": "ChrStatusLargeInteger",
               "default": 0,
