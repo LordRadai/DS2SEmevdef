@@ -1177,7 +1177,7 @@
           ]
         },
         {
-          "name": "Apply Equip Load-Based Flat Damage To Weapon",
+          "name": "Equip Load Damage Bonus",
           "index": 18,
           "args": [
             {
