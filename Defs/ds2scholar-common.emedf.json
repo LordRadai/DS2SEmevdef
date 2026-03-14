@@ -4545,8 +4545,8 @@
         "1": "Weight",
         "2": "Attack Poise Damage",
         "3": "Fall Damage Protection Modifier",
-        "4": "Attack Correction Moribund HP Ratio (0-100%)",
-        "5": "Damage Taken And Near-death HP Ratio (0-100%)",
+        "4": "Attack Correction Near-death HP Ratio (0-100%)",
+        "5": "Damage Taken Near-death HP Ratio (0-100%)",
         "6": "Vigor",
         "7": "Endurance",
         "8": "Vitality",
@@ -4559,8 +4559,34 @@
         "18": "HP On Kill",
         "19": "Material Replacement",
         "20": "Attunement Slots",
-        "21": "Anti-Stability Modifier",
+        "21": "Block Stamina Damage Bonus",
         "22": "Unknown (22)"
+      }
+    },
+    {
+      "name": "ChrStatusValue32",
+      "values": {
+        "8": "HP Gradual Decrease Value When Using Spell [Magic]",
+        "9": "HP Gradual Decrease Value When Using Spell [Miracle]",
+        "10": "HP Gradual Decrease Value When Using Spell [Sorcery]",
+        "11": "HP Gradual Decrease Value When Using Spell [Dark Magic]",
+        "12": "HP Gradual Decrease Value When Using Spell [Dark Miracle]",
+        "13": "Equipment Durability Value Change [Left Hand Current Weapon]",
+        "14": "Equipment Durability Value Change [Right Hand Current Weapon]",
+        "15": "Equipment Durability Value Change [All Equipped Weapons]",
+        "16": "Equipment Durability Value Change [All Equipment Armor]",
+        "17": "Equipment Durability Value Change [All Equipment Rings]",
+        "18": "Spirit Mimicry",
+        "19": "Player Light Switching",
+        "20": "Field Of View Switching",
+        "21": "Wetness Mimicry",
+        "22": "SFXID When HP Recovers When Defeated",
+        "23": "SFX Dummy Poly ID When Recovering HP When Defeated",
+        "25": "Npc Equip Weight",
+        "30": "Unknown (30)",
+        "31": "Unknown (31)",
+        "32": "Unknown (32)",
+        "33": "Armor Poise"
       }
     },
     {
@@ -4608,10 +4634,10 @@
         "54": "Spell Damage Multiplier [Sorcery]",
         "55": "Spell Damage Multiplier [Dark Magic]",
         "56": "Spell Damage Multiplier [Dark Miracle]",
-        "57": "Shield Stability",
-        "58": "Enemy Damage",
-        "59": "Enemy Damage Reduction",
-        "60": "Equip Weight Rate",
+        "57": "Shield Stability Rate",
+        "58": "Enemy Damage Multiplier",
+        "59": "Enemy Damage Cut Rate",
+        "60": "Equip Weight Multiplier",
         "61": "Back Damage Physical Cut Rate",
         "62": "Back Damage Elemental Cut Rate"
       }
@@ -4653,7 +4679,7 @@
         "50": "Unknown (50)",
         "51": "Unknown (51)",
         "52": "Unknown (52)",
-        "53": "Unknown (53)",
+        "53": "Disable Environment Damage (53)",
         "54": "Unknown (54)",
         "55": "Disable Lock On",
         "56": "Unknown (56)",
@@ -4670,32 +4696,6 @@
         "0": "Bow",
         "1": "Greatbow",
         "2": "Crossbow"
-      }
-    },
-    {
-      "name": "ChrStatusValue32",
-      "values": {
-        "8": "HP Gradual Decrease Value When Using Spell [Magic]",
-        "9": "HP Gradual Decrease Value When Using Spell [Miracle]",
-        "10": "HP Gradual Decrease Value When Using Spell [Sorcery]",
-        "11": "HP Gradual Decrease Value When Using Spell [Dark Magic]",
-        "12": "HP Gradual Decrease Value When Using Spell [Dark Miracle]",
-        "13": "Equipment Durability Value Change [Left Hand Current Weapon]",
-        "14": "Equipment Durability Value Change [Right Hand Current Weapon]",
-        "15": "Equipment Durability Value Change [All Equipped Weapons]",
-        "16": "Equipment Durability Value Change [All Equipment Armor]",
-        "17": "Equipment Durability Value Change [All Equipment Rings]",
-        "18": "Spirit Mimicry",
-        "19": "Player Light Switching",
-        "20": "Field Of View Switching",
-        "21": "Wetness Mimicry",
-        "22": "SFXID When HP Recovers When Defeated",
-        "23": "SFX Dummy Poly ID When Recovering HP When Defeated",
-        "25": "Unknown (25)",
-        "30": "Unknown (30)",
-        "31": "Unknown (31)",
-        "32": "Unknown (32)",
-        "33": "Unknown (33)"
       }
     },
     {
