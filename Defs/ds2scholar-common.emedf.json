@@ -1281,7 +1281,7 @@
           ]
         },
         {
-          "name": "Modify Attribute Based On Current Value",
+          "name": "Modify Attribute By Current Value",
           "index": 19,
           "args": [
             {
@@ -3128,7 +3128,7 @@
           ]
         },
         {
-          "name": "Apply SpEffect Based On Intelligence",
+          "name": "Apply SpEffect By Intelligence",
           "index": 3,
           "args": [
             {
@@ -3266,7 +3266,7 @@
           ]
         },
         {
-          "name": "Create Bullet Based On Attribute",
+          "name": "Create Bullet By Attribute",
           "index": 6,
           "args": [
             {
@@ -3713,7 +3713,7 @@
           ]
         },
         {
-          "name": "Apply SpEffect And End Event If Event Flag",
+          "name": "Apply SpEffect If Event Flag Set",
           "index": 7,
           "args": [
             {
