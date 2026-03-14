@@ -1177,7 +1177,7 @@
           ]
         },
         {
-          "name": "Equip Load Damage Bonus",
+          "name": "Apply Equip Load-Based Flat Damage To Weapon",
           "index": 18,
           "args": [
             {
@@ -3223,13 +3223,13 @@
             },
             {
               "name": "Angle",
-              "type": 6,
+              "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 1000.0,
-              "increment": 1.0,
-              "format_string": "%0.3f",
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
               "unk1": 0,
               "unk2": 0,
               "unk3": 0,
