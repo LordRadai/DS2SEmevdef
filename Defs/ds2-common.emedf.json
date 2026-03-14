@@ -6,13 +6,13 @@
       "index": 1000,
       "instrs": [
         {
-          "name": "Modify Stat Additively",
+          "name": "Modify Status",
           "index": 0,
           "args": [
             {
-              "name": "Stat Type",
+              "name": "Status Type",
               "type": 0,
-              "enum_name": "Additive Stat Type",
+              "enum_name": "ChrStatus",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -54,13 +54,13 @@
           ]
         },
         {
-          "name": "Modify Stat Multiplicatively",
+          "name": "Modify Status Rate",
           "index": 1,
           "args": [
             {
-              "name": "Stat Type",
+              "name": "Status Type",
               "type": 0,
-              "enum_name": "Multiplicative Stat Type",
+              "enum_name": "ChrStatusRate",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -150,13 +150,13 @@
           ]
         },
         {
-          "name": "Set Flag",
+          "name": "Modify Status Flag",
           "index": 3,
           "args": [
             {
               "name": "Flag Type",
               "type": 0,
-              "enum_name": "Flag Type",
+              "enum_name": "ChrStatusFlag",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -568,9 +568,9 @@
           "index": 9,
           "args": [
             {
-              "name": "Player Property",
+              "name": "Property",
               "type": 0,
-              "enum_name": "Player Property Type",
+              "enum_name": "ChrStatusLargeInteger",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -953,9 +953,9 @@
           "index": 15,
           "args": [
             {
-              "name": "Special Scaling Type",
+              "name": "Type",
               "type": 0,
-              "enum_name": "Special Scaling Type",
+              "enum_name": "SpecialScalingType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1101,7 +1101,7 @@
           ]
         },
         {
-          "name": "Apply NG Scaling To Weapon",
+          "name": "Apply Cycle Scaling To Weapon",
           "index": 17,
           "args": [
             {
@@ -1287,7 +1287,7 @@
             {
               "name": "Attribute",
               "type": 0,
-              "enum_name": "Attribute Type",
+              "enum_name": "AttributeType",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -1327,7 +1327,7 @@
               "unk4": 0
             },
             {
-              "name": "Attribute Added At Min",
+              "name": "Bonus At Min",
               "type": 3,
               "enum_name": null,
               "default": 0,
@@ -1341,7 +1341,7 @@
               "unk4": 0
             },
             {
-              "name": "Attribute Added At Max",
+              "name": "Bonus At Max",
               "type": 3,
               "enum_name": null,
               "default": 0,
@@ -1437,7 +1437,7 @@
             {
               "name": "Modification Type",
               "type": 0,
-              "enum_name": "Estus Modification Type",
+              "enum_name": "EstusModificationType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1477,7 +1477,7 @@
             {
               "name": "Scale Type",
               "type": 0,
-              "enum_name": "SpEffect Scale Type",
+              "enum_name": "SpEffectScaleType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1491,7 +1491,7 @@
             {
               "name": "Attribute",
               "type": 0,
-              "enum_name": "Attribute Type",
+              "enum_name": "AttributeType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1651,7 +1651,7 @@
             {
               "name": "Delete Settings",
               "type": 0,
-              "enum_name": "SFX Deletion Timing",
+              "enum_name": "SFXDeletionTiming",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -1679,7 +1679,7 @@
             {
               "name": "Start End Conditions",
               "type": 0,
-              "enum_name": "Start And End Conditions",
+              "enum_name": "StartAndEndConditions",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -1711,7 +1711,7 @@
           "index": 2,
           "args": [
             {
-              "name": "Effect Size Correction Magnification",
+              "name": "Amount Correction Magnification",
               "type": 6,
               "enum_name": null,
               "default": 1.0,
@@ -1775,7 +1775,7 @@
             {
               "name": "Special Conditions",
               "type": 0,
-              "enum_name": "Effect Time Reduction Conditions",
+              "enum_name": "EffectTimeReductionConditions",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1795,7 +1795,7 @@
             {
               "name": "Special Conditions",
               "type": 0,
-              "enum_name": "Effect Time Reduction Conditions",
+              "enum_name": "EffectTimeReductionConditions",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1829,7 +1829,7 @@
             {
               "name": "Special Conditions",
               "type": 0,
-              "enum_name": "Effect Time Reduction Conditions",
+              "enum_name": "EffectTimeReductionConditions",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -1888,7 +1888,7 @@
             {
               "name": "Delete Settings",
               "type": 0,
-              "enum_name": "SFX Deletion Timing",
+              "enum_name": "SFXDeletionTiming",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2165,9 +2165,9 @@
               "unk4": 0
             },
             {
-              "name": "Attribute Type",
+              "name": "AttributeType",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2179,7 +2179,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -2213,9 +2213,9 @@
               "unk4": 0
             },
             {
-              "name": "Attribute Type",
+              "name": "AttributeType",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2227,7 +2227,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -2267,7 +2267,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0,
@@ -2301,7 +2301,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -2335,9 +2335,9 @@
               "unk4": 0
             },
             {
-              "name": "Equipment Attribute",
+              "name": "Attribute",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2349,7 +2349,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
@@ -2383,9 +2383,9 @@
               "unk4": 0
             },
             {
-              "name": "Equipment Attribute",
+              "name": "Attribute",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2397,7 +2397,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
@@ -2431,9 +2431,9 @@
               "unk4": 0
             },
             {
-              "name": "Equipment Attribute",
+              "name": "Attribute",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2445,7 +2445,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
@@ -2479,9 +2479,9 @@
               "unk4": 0
             },
             {
-              "name": "Equipment Attribute",
+              "name": "Attribute",
               "type": 0,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2493,7 +2493,7 @@
               "unk4": 0
             },
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
@@ -2543,7 +2543,7 @@
             {
               "name": "Effect Target",
               "type": 0,
-              "enum_name": "Target Character",
+              "enum_name": "TargetCharacter",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2591,7 +2591,7 @@
             {
               "name": "Effect Target",
               "type": 0,
-              "enum_name": "Target Character",
+              "enum_name": "TargetCharacter",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2610,7 +2610,7 @@
           "args": []
         },
         {
-          "name": "Buff Damage (Unknown)",
+          "name": "Increase Attack (Unknown)",
           "index": 9,
           "args": [
             {
@@ -2628,9 +2628,9 @@
               "unk4": 0
             },
             {
-              "name": "Equipment Attribute",
+              "name": "Attribute",
               "type": 1,
-              "enum_name": "Equipment Attribute",
+              "enum_name": "EquipmentAttribute",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2737,7 +2737,7 @@
             {
               "name": "Equipment Category",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2751,7 +2751,7 @@
             {
               "name": "Equipment Category 2",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2765,7 +2765,7 @@
             {
               "name": "Equipment Category 3",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2779,7 +2779,7 @@
             {
               "name": "Equipment Category 4",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2793,7 +2793,7 @@
             {
               "name": "Equipment Category 5",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2807,7 +2807,7 @@
             {
               "name": "Equipment Category 6",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2821,7 +2821,7 @@
             {
               "name": "Equipment Category 7",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2835,7 +2835,7 @@
             {
               "name": "Equipment Category 8",
               "type": 0,
-              "enum_name": "Equipment Category",
+              "enum_name": "EquipmentCategory",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -2860,7 +2860,7 @@
             {
               "name": "Destruction Conditions",
               "type": 0,
-              "enum_name": "Equipment Destruction Activation Conditions",
+              "enum_name": "EquipmentDestructionActivationConditions",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -2962,7 +2962,7 @@
             {
               "name": "Attack Power Type",
               "type": 0,
-              "enum_name": "Types Of Attack Power Added To Bullet",
+              "enum_name": "BulletAttackType",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -3080,7 +3080,7 @@
           ]
         },
         {
-          "name": "Throw Prism Stone",
+          "name": "Create Prism Stone",
           "index": 2,
           "args": [
             {
@@ -3300,7 +3300,7 @@
             {
               "name": "Attribute",
               "type": 0,
-              "enum_name": "Attribute Type",
+              "enum_name": "AttributeType",
               "default": 0,
               "min": 0,
               "max": 255,
@@ -3380,9 +3380,9 @@
           "index": 0,
           "args": [
             {
-              "name": "Warp Type",
+              "name": "Type",
               "type": 0,
-              "enum_name": "Warp Type",
+              "enum_name": "WarpType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -3491,9 +3491,9 @@
               "unk4": 0
             },
             {
-              "name": "Start/end Conditions",
+              "name": "Start End Conditions",
               "type": 0,
-              "enum_name": "Start And End Conditions",
+              "enum_name": "StartAndEndConditions",
               "default": 0,
               "min": 0,
               "max": 1000000000,
@@ -3505,7 +3505,7 @@
               "unk4": 0
             },
             {
-              "name": "Values \u200b\u200bfor Start And End Conditions",
+              "name": "Values for Start And End Conditions",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -3521,7 +3521,7 @@
           ]
         },
         {
-          "name": "Spell Parry Setting 2",
+          "name": "Spell Parry Setting",
           "index": 3,
           "args": [
             {
@@ -3541,7 +3541,7 @@
             {
               "name": "Parry Type",
               "type": 0,
-              "enum_name": "Spell Parry Type",
+              "enum_name": "SpellParryType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -3761,11 +3761,11 @@
           ]
         },
         {
-          "name": "Apply SpEffect On Enemy Kill Based On Enemy Gender",
+          "name": "Apply SpEffect On Kill Enemy Gender",
           "index": 8,
           "args": [
             {
-              "name": "SpEffect ID When Same Gender As Player",
+              "name": "SpEffect ID When Same Gender",
               "type": 5,
               "enum_name": null,
               "default": 0,
@@ -3779,7 +3779,7 @@
               "unk4": 0
             },
             {
-              "name": "SpEffect ID When Opposite Gender As Player",
+              "name": "SpEffect ID When Opposite Gender",
               "type": 5,
               "enum_name": null,
               "default": 0,
@@ -3805,9 +3805,9 @@
           "index": 0,
           "args": [
             {
-              "name": "Death Permission Setting",
+              "name": "Setting",
               "type": 0,
-              "enum_name": "Death Permission Setting",
+              "enum_name": "BOOL",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -3949,9 +3949,9 @@
           "index": 0,
           "args": [
             {
-              "name": "Sign Type",
+              "name": "Type",
               "type": 0,
-              "enum_name": "Sign Type",
+              "enum_name": "SignType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -3969,9 +3969,9 @@
           "index": 1,
           "args": [
             {
-              "name": "Intrusion Type",
+              "name": "Type",
               "type": 0,
-              "enum_name": "Intrusion Type",
+              "enum_name": "IntrusionType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -3989,9 +3989,9 @@
           "index": 2,
           "args": [
             {
-              "name": "Forced Summon Search Type",
+              "name": "Type",
               "type": 0,
-              "enum_name": "Forced Summon Search Type",
+              "enum_name": "ForcedSummonSearchType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4266,7 +4266,7 @@
           "index": 2,
           "args": [
             {
-              "name": "Effect Size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
@@ -4322,7 +4322,7 @@
             {
               "name": "Status Effect",
               "type": 0,
-              "enum_name": "Status Effect Type",
+              "enum_name": "StatusEffectType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4356,7 +4356,7 @@
             {
               "name": "Status Effect",
               "type": 0,
-              "enum_name": "Status Effect Type",
+              "enum_name": "StatusEffectType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4376,7 +4376,7 @@
             {
               "name": "Status Effect",
               "type": 0,
-              "enum_name": "Status Effect Type",
+              "enum_name": "StatusEffectType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4472,7 +4472,7 @@
             {
               "name": "Calculation Formula",
               "type": 0,
-              "enum_name": "Calculation Formula",
+              "enum_name": "CalculationFormula",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4506,7 +4506,7 @@
             {
               "name": "Calculation Formula",
               "type": 0,
-              "enum_name": "Calculation Formula",
+              "enum_name": "CalculationFormula",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4539,7 +4539,7 @@
   "extra_classes": [],
   "enums": [
     {
-      "name": "Additive Stat Type",
+      "name": "ChrStatus",
       "values": {
         "0": "Poise",
         "1": "Weight",
@@ -4564,7 +4564,7 @@
       }
     },
     {
-      "name": "Multiplicative Stat Type",
+      "name": "ChrStatusRate",
       "values": {
         "0": "Status Abnormality Recovery Speed Correction Value [Poison]",
         "1": "Status Abnormality Recovery Speed Correction Value [bleeding]",
@@ -4617,7 +4617,7 @@
       }
     },
     {
-      "name": "Flag Type",
+      "name": "ChrStatusFlag",
       "values": {
         "0": "Disable Headshot",
         "1": "Disable Backstab",
@@ -4673,7 +4673,7 @@
       }
     },
     {
-      "name": "Player Property Type",
+      "name": "ChrStatusLargeInteger",
       "values": {
         "8": "HP Gradual Decrease Value When Using Spell [Magic]",
         "9": "HP Gradual Decrease Value When Using Spell [Miracle]",
@@ -4699,14 +4699,14 @@
       }
     },
     {
-      "name": "Special Scaling Type",
+      "name": "SpecialScalingType",
       "values": {
         "1": "Hollowing",
         "2": "Sin"
       }
     },
     {
-      "name": "Attribute Type",
+      "name": "AttributeType",
       "values": {
         "1": "Vigor",
         "2": "Endurance",
@@ -4720,14 +4720,14 @@
       }
     },
     {
-      "name": "Estus Modification Type",
+      "name": "EstusModificationType",
       "values": {
         "1": "Boost By 50",
         "2": "Reduce To 0"
       }
     },
     {
-      "name": "SpEffect Scale Type",
+      "name": "SpEffectScaleType",
       "values": {
         "0": "Duration",
         "1": "Value"
@@ -4741,7 +4741,7 @@
       }
     },
     {
-      "name": "Equipment Attribute",
+      "name": "EquipmentAttribute",
       "values": {
         "0": "All Physical",
         "1": "Magic",
@@ -4756,7 +4756,7 @@
       }
     },
     {
-      "name": "Sign Type",
+      "name": "SignType",
       "values": {
         "0": "White Sign Soapstone",
         "1": "Small White Sign Soapstone",
@@ -4765,14 +4765,14 @@
       }
     },
     {
-      "name": "Intrusion Type",
+      "name": "IntrusionType",
       "values": {
         "0": "Revenge Blue Spirit",
         "1": "Dark Spirit"
       }
     },
     {
-      "name": "Forced Summon Search Type",
+      "name": "ForcedSummonSearchType",
       "values": {
         "0": "Guardian's Seal",
         "1": "Crest Of The Rat",
@@ -4780,7 +4780,7 @@
       }
     },
     {
-      "name": "Status Effect Type",
+      "name": "StatusEffectType",
       "values": {
         "0": "Poison",
         "1": "Bleed",
@@ -4807,28 +4807,28 @@
       }
     },
     {
-      "name": "SFX Deletion Timing",
+      "name": "SFXDeletionTiming",
       "values": {
         "0": "Invalid",
         "1": "Effect Time Expired"
       }
     },
     {
-      "name": "Start And End Conditions",
+      "name": "StartAndEndConditions",
       "values": {
         "0": "None",
         "1": "Remaining HP Percentage (0% To 100%)"
       }
     },
     {
-      "name": "Effect Time Reduction Conditions",
+      "name": "EffectTimeReductionConditions",
       "values": {
         "0": "None",
-        "1": "Is It Underwater?"
+        "1": "Is Underwater"
       }
     },
     {
-      "name": "Target Character",
+      "name": "TargetCharacter",
       "values": {
         "3": "Everyone",
         "1": "Player",
@@ -4836,7 +4836,7 @@
       }
     },
     {
-      "name": "Equipment Category",
+      "name": "EquipmentCategory",
       "values": {
         "0": "None",
         "1": "Weapon",
@@ -4850,21 +4850,21 @@
       }
     },
     {
-      "name": "Calculation Formula",
+      "name": "CalculationFormula",
       "values": {
         "0": "Addition",
         "1": "Subtraction"
       }
     },
     {
-      "name": "Equipment Destruction Activation Conditions",
+      "name": "EquipmentDestructionActivationConditions",
       "values": {
         "0": "Death",
         "1": "Petrification Disabled Activation"
       }
     },
     {
-      "name": "Types Of Attack Power Added To Bullet",
+      "name": "BulletAttackType",
       "values": {
         "0": "None",
         "1": "Physics Muscle Strength",
@@ -4876,31 +4876,24 @@
         "7": "Poison",
         "8": "Bleeding",
         "9": "(Weapon Destruction) (Not Supported)",
-        "10": "(Curse) (Unsupported)",
+        "10": "(Curse) (Not Supported)",
         "11": "(Abyss) (Not Supported)"
       }
     },
     {
-      "name": "Warp Type",
+      "name": "WarpType",
       "values": {
         "0": "Bonfire",
         "1": "Map Points"
       }
     },
     {
-      "name": "Spell Parry Type",
+      "name": "SpellParryType",
       "values": {
         "0": "Magic Power",
         "1": "Thunder",
         "2": "Flame",
         "3": "Darkness"
-      }
-    },
-    {
-      "name": "Death Permission Setting",
-      "values": {
-        "0": "Allow",
-        "1": "Ban"
       }
     }
   ],
