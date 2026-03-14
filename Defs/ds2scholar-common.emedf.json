@@ -1,774 +1,1044 @@
 {
+  "unknown": 576,
   "main_classes": [
-    {
+	{
+      "name": "Character",
       "index": 1000,
-      "name": "character status",
       "instrs": [
         {
+          "name": "Modify Stat Additively",
           "index": 0,
-          "name": "Integer increase/decrease setting",
           "args": [
             {
-              "name": "Types of special effects",
+              "name": "Stat Type",
               "type": 0,
-              "enum_name": "Character status/integer",
+              "enum_name": "Additive Stat Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.00,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size",
+              "name": "Amount",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Modify Stat Multiplicatively",
           "index": 1,
-          "name": "Multiplier addition",
           "args": [
             {
-              "name": "Types of special effects",
+              "name": "Stat Type",
               "type": 0,
-              "enum_name": "Character status/multiplier",
+              "enum_name": "Multiplicative Stat Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Apply Chameleon Disguise",
           "index": 2,
-          "name": "mimicry",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "mimicry index",
-              "type": 2,
+              "name": "Unknown1",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 2,
-              "increment": 1,
-              "format_string": "%d"
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Unlock SFXID",
-              "type": 2,
+              "name": "Disguise Index",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Set State Info",
           "index": 3,
-          "name": "flag setting",
           "args": [
             {
-              "name": "Types of special effects",
-              "type": 0,
-              "enum_name": "Character status flag",
+              "name": "State Info",
+              "type": 5,
+              "enum_name": "State Info Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Modify Jump",
           "index": 4,
-          "name": "Change jump distance",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Climb speed",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Forward speed min.",
+              "name": "Unknown3",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Forward speed max.",
+              "name": "Unknown4",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Gravity acceleration multiplier minimum",
+              "name": "Unknown5",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Gravity acceleration multiplier maximum",
+              "name": "Unknown6",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Jump speed",
+              "name": "Unknown7",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Replace Fists With Alternate Weapon",
           "index": 5,
-          "name": "strong bare-handed equipment",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
+              "name": "Unknown",
+              "type": 5,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Strong bare hand weapon ID",
-              "type": 2,
+              "name": "Right-Hand Weapon ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Strong bare hands Ladder attack L input Weapon ID",
-              "type": 2,
+              "name": "Left-Hand Weapon ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Strong bare hands Ladder attack R input Weapon ID",
-              "type": 2,
+              "name": "Powerstanced Weapon ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Modify Bullet Param",
           "index": 6,
-          "name": "Shooting distance variation",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
+              "name": "Unknown1",
+              "type": 4,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Correction target",
-              "type": 0,
-              "enum_name": "shooting type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%f"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Bullet life multiplier",
+              "name": "Bow Type",
+              "type": 4,
+              "enum_name": "Bow Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Status",
+              "type": 5,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown4",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Bullet initial speed multiplier",
+              "name": "Unknown5",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Bullet fall start magnification",
+              "name": "Unknown6",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage distance attenuation start multiplier",
+              "name": "Unknown7",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage distance decay end multiplier",
+              "name": "Unknown8",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Play SE When Enemies Nearby Player",
           "index": 7,
-          "name": "Character reaction SE playback",
           "args": [
             {
-              "name": "search plane radius",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Search height/low distance",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Search height/distance down",
+              "name": "Unknown3",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Minimum SE playback interval",
+              "name": "Unknown4",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Maximum SE playback interval",
+              "name": "Unknown5",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "SEID",
-              "type": 2,
+              "name": "Sound ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 2000000000,
+              "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "Modify Enemy Aggro To Player",
           "index": 8,
-          "name": "Priority lock-on",
           "args": [
             {
-              "name": "Priority multiplier",
+              "name": "Unknown",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Modify Property",
           "index": 9,
-          "name": "Large integer increase/decrease setting",
           "args": [
             {
-              "name": "Types of special effects",
+              "name": "Player Property",
               "type": 0,
-              "enum_name": "Character status/large integer",
+              "enum_name": "Player Property Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.00,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size",
+              "name": "Amount",
               "type": 5,
               "enum_name": null,
               "default": 0,
-              "min": -100000000,
-              "max": 100000000,
+              "min": -100,
+              "max": 100,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Randomly Spawn Bullet After Taking Damage - Durability-Based Randomness",
           "index": 10,
-          "name": "Damage accumulation bullet",
           "args": [
             {
-              "name": "Probability of occurrence at maximum durability (%)",
+              "name": "Chance At Max Durability",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
+              "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Probability of occurrence at minimum durability (%)",
+              "name": "Chance At Min Durability",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
+              "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Durability value decreased at the time of occurrence",
+              "name": "Consumed Durability",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
-              "min": -99999.0,
-              "max": 99999.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Valet ID",
-              "type": 2,
+              "name": "Bullet ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage ID",
-              "type": 2,
+              "name": "DamageParam ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Spawn Unveil Orb",
           "index": 11,
-          "name": "adversary detection"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Apply Random SpEffect",
           "index": 12,
-          "name": "Mimic lottery",
           "args": [
             {
-              "name": "Lottery special effect ID0",
-              "type": 2,
+              "name": "SpEffect1",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Lottery special effect ID1",
-              "type": 2,
+              "name": "SpEffect2",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Lottery special effect ID2",
-              "type": 2,
+              "name": "SpEffect3",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Lottery special effect ID3",
-              "type": 2,
+              "name": "SpEffect4",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Lottery special effect ID4",
-              "type": 2,
+              "name": "SpEffect5",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Randomly Spawn Bullet After Taking Damage - Flat Randomness",
           "index": 13,
-          "name": "damage reflection",
           "args": [
             {
-              "name": "Probability of occurrence",
+              "name": "Chance",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 100.0,
+              "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Occurrence interval",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Minimum reflected damage value",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 99999.0,
+              "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Reflection maximum damage value",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 99999.0,
+              "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Valet ID",
-              "type": 2,
+              "name": "Unknown3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Bullet ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage ID",
-              "type": 2,
+              "name": "DamageParam ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Apply Soul Scaling To Weapon",
           "index": 14,
-          "name": "Owned soul attack power multiplier",
           "args": [
             {
-              "name": "Fixed at 0",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Possession soul minimum",
+              "name": "Unknown",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Possession soul maximum",
+              "name": "Entity ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attack power correction magnification minimum",
-              "type": 6,
+              "name": "Soul Max",
+              "type": 5,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attack power correction magnification maximum",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Effect time",
+              "name": "Multiplier at Zero",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Multiplier at Soul Max",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Apply Special Scaling To Weapon",
           "index": 15,
-          "name": "Death count attack power multiplier",
           "args": [
             {
-              "name": "Target count",
-              "type": 0,
-              "enum_name": "Dead Count Attack Power Multiplier Type",
+              "name": "Special Scaling Type",
+              "type": 4,
+              "enum_name": "Special Scaling Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Target count minimum",
-              "type": 0,
+              "name": "Special Stat Max",
+              "type": 4,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Target count maximum",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attack power correction magnification minimum",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Attack power correction magnification maximum",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Effect time",
+              "name": "Scaling at Stat Zero",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Scaling at Stat Max",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
           "name": "Unknown Command 1000[16]",
           "index": 16,
           "args": [
@@ -780,7 +1050,11 @@
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Bullet ID",
@@ -790,7 +1064,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "DamageParam ID",
@@ -800,7 +1078,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Unknown2",
@@ -810,53 +1092,73 @@
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Completetion Count Attack Power Multiplier",
+		},
+		{
+          "name": "Apply NG Scaling To Weapon",
           "index": 17,
           "args": [
             {
-              "name": "Minimum Completion Count",
+              "name": "Min Game Cycle",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Maximum Completion Count",
+              "name": "Max Game Cycle",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Minimum Attack Power Modification Multiplier",
+              "name": "Scaling At Min Game Cycle",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Maximum Attack Power Modification Multiplier",
+              "name": "Scaling At Max Game Cycle",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Unknown",
@@ -866,43 +1168,285 @@
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Equip Load Attack Power Bonus",
+		},
+		{
+          "name": "Apply Equip Load-Based Flat Damage To Weapon",
           "index": 18,
           "args": [
             {
-              "name": "Equip Load 1",
+              "name": "Equip Load Breakpoint 1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Equip Load 2",
+              "name": "Equip Load Breakpoint 2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Equip Load 3",
+              "name": "Equip Load Breakpoint 3",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Flat Damage At Breakpoint 1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Flat Damage At Breakpoint 2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Flat Damage At Breakpoint 3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Modify Attribute Based On Current Value",
+          "index": 19,
+          "args": [
+            {
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "Attribute Type",
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Attribute Min",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Attribute Max",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Attribute Added At Min",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Attribute Added At Max",
+              "type": 3,
+              "enum_name": null,
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Unknown Command 1000[20]",
+          "index": 20,
+          "args": [
+            {
+              "name": "SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Unknown Command 1000[21]",
+          "index": 21,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		}
+      ]
+    },
+    {
+      "name": "Estus",
+      "index": 1010,
+      "instrs": [
+        {
+          "name": "Modify Estus Usage",
+          "index": 0,
+          "args": [
+            {
+              "name": "Modification Type",
+              "type": 0,
+              "enum_name": "Estus Modification Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Duration",
@@ -912,1543 +1456,1693 @@
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spells and SpEffects",
+      "index": 100040,
+      "instrs": [
+        {
+          "name": "Scale SpEffect By Attribute",
+          "index": 0,
+          "args": [
+            {
+              "name": "Scale Type",
+              "type": 0,
+              "enum_name": "SpEffect Scale Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attack Power Bonus 1",
+              "name": "Attribute",
+              "type": 0,
+              "enum_name": "Attribute Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Min Attribute",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 99,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Max Attribute",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 99,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Multiplier at Min Attribute",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attack Power Bonus 2",
+              "name": "Multiplier at Max Attribute",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attack Power Bonus 3",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown4",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "name": "Attribute Value Attribute Bonus",
-          "index": 19,
+          "name": "Spawn SFX",
+          "index": 1,
           "args": [
             {
-              "name": "Attribute",
+              "name": "SFX ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown1",
               "type": 0,
-              "enum_name": "status",
+              "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Minimum Attribute",
+              "name": "Unknown2",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 100,
+              "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Maximum Attribute",
+              "name": "Unknown3",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 100,
+              "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Minimum Bonus",
-              "type": 3,
-              "enum_name": null,
-              "default": 0,
-              "min": -100,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Maximum Bonus",
-              "type": 3,
-              "enum_name": null,
-              "default": 0,
-              "min": -100,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Unknown Command 1000[20]",
-          "index": 20,
-          "args": [
-            {
-              "name": "Effect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Unknown Command 1000[21]",
-          "index": 21,
-          "args": [
-            {
-              "name": "Argument 0",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Argument 1",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Argument 2",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 1010,
-      "name": "inventory",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "est bottle",
-          "args": [
-            {
-              "name": "Types of special effects",
+              "name": "Unknown4",
               "type": 0,
-              "enum_name": "Types of est bottle effects",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Unknown5",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
-      "index": 100040,
-      "name": "Basic command",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "Effect correction magnification",
-          "args": [
-            {
-              "name": "Magnification target",
-              "type": 0,
-              "enum_name": "Effect correction target",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Target status",
-              "type": 0,
-              "enum_name": "status",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Status Minimum value",
-              "type": 1,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Status Maximum value",
-              "type": 1,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Status Correction magnification Minimum value (0.01 unit, double unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Status Correction magnification Maximum value (0.01 unit, double unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "One-handed correction magnification (0.01 unit, double unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Both hands correction magnification (0.01 units, multiple units)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Dual wielding correction magnification (0.01 unit, double unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Two-handed two-handed correction magnification (0.01 unit, multiplication unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "name": "Effect SFX",
-          "args": [
-            {
-              "name": "Effect SFX(ID)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Effect SFX dummy poly(ID)",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Delete settings",
-              "type": 0,
-              "enum_name": "SFX deletion timing",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Priority (0: Must be issued, 255: See item Param)",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Start/end conditions",
-              "type": 0,
-              "enum_name": "Start and end conditions",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Values for start and end conditions",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100040[02]",
           "index": 2,
-          "name": "Effect correction settings",
           "args": [
             {
-              "name": "Effect size correction magnification (0.01 unit, double unit)",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time correction magnification (0.01 unit, double unit)",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "index": 3,
-          "name": "Effect time shortened",
+		},
+		{
+          "name": "Time Shortening Resident",
+          "index": 4,
           "args": [
             {
-              "name": "Target special effect ID",
+              "name": "Unknown1",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Time reduction (0.01 units, seconds)",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "special conditions",
-              "type": 0,
-              "enum_name": "Effect time reduction conditions",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "index": 4,
-          "name": "Effect time reduction 2 permanent",
-          "args": [
-            {
-              "name": "special conditions",
-              "type": 0,
-              "enum_name": "Effect time reduction conditions",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Time reduction (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100040[05]",
           "index": 5,
-          "name": "Effect time reduction 2 execution",
           "args": [
             {
-              "name": "special conditions",
+              "name": "Unknown",
               "type": 0,
-              "enum_name": "Effect time reduction conditions",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100040[06]",
           "index": 6,
-          "name": "Effect time extension allowed"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Modify Spell Effect Length",
           "index": 7,
-          "name": "Extend effect time",
           "args": [
             {
-              "name": "Effect size (0.01 unit, double unit)",
+              "name": "Duration Multiplier",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Apply ChrFullBodySFX",
           "index": 8,
-          "name": "Full body SFX",
           "args": [
             {
-              "name": "Full body SFXID",
-              "type": 2,
+              "name": "ChrFullBodySFXParam ID",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Delete settings",
+              "name": "Unknown",
               "type": 0,
-              "enum_name": "SFX deletion timing",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
+		}
       ]
     },
     {
+      "name": "Healing",
       "index": 100050,
-      "name": "HP recovery control",
       "instrs": [
         {
+          "name": "Call Must Sub Event 85X",
           "index": 0,
-          "name": "Time HP recovery",
           "args": [
             {
-              "name": "reference file",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Recovery type",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument 0",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument 1",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "argument 2",
+              "name": "Unknown",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
-            }
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "MustSub Event ID",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Argument1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Argument2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Argument3",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }   
           ]
-        },
-        {
+		},
+		{
+          "name": "Call Must Sub Event 85X + Unknown 100050[01]",
           "index": 1,
-          "name": "Instant HP recovery",
           "args": [
             {
-              "name": "reference file",
+              "name": "Unknown",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "MustSub Event ID",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Recovery type",
-              "type": 2,
+              "name": "Argument1",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "argument 0",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument 1",
+              "name": "Argument2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "argument 2",
+              "name": "Argument3",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Restore Humanity",
           "index": 2,
-          "name": "resurrection of the dead",
           "args": [
             {
-              "name": "Will you carry out the performance?",
+              "name": "Should Show Banner",
               "type": 0,
-              "enum_name": "Enable/Disable",
+              "enum_name": "BOOL",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Apply SpEffect To Friendly Host",
           "index": 3,
-          "name": "Issue host damage during cooperative multiplayer",
           "args": [
             {
-              "name": "Damage ID",
+              "name": "SpEffect ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Spell Usage",
       "index": 100060,
-      "name": "spell control",
       "instrs": [
         {
+          "name": "Restore Spell Usage",
           "index": 0,
-          "name": "Spell use count recovery 2",
           "args": [
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "Percentage Restored",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "fraction",
-              "type": 0,
-              "enum_name": "fraction",
+              "name": "Unknown",
+              "type": 2,
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
+		}
+	  ]
     },
     {
+      "name": "Status Effect Controller",
       "index": 100070,
-      "name": "Status abnormality control",
       "instrs": [
         {
+          "name": "Call Must Sub Event87X",
           "index": 0,
-          "name": "abnormal status change",
           "args": [
             {
-              "name": "reference file",
-              "type": 2,
+              "name": "Unknown",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Abnormal status settings",
+              "name": "MustSub Event ID",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "argument",
+              "name": "evtArguments",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0,
+              "vararg": true
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Character Combat Properties I",
       "index": 100080,
-      "name": "attribute control",
       "instrs": [
         {
+          "name": "Unknown Command 100080[00]",
           "index": 0,
-          "name": "Character armor attribute value change",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
+              "name": "Unknown1",
+              "type": 5,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Attribute type",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
-              "type": 6,
+              "name": "Unknown2",
+              "type": 5,
               "enum_name": null,
-              "default": 0.0,
-              "min": -100.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Increase Damage Multiplicatively",
           "index": 1,
-          "name": "Character weapon attack attribute value change",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute type",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
+              "name": "Buff Type",
+              "type": 1,
+              "enum_name": "Buff Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "Added Multiplier",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
-              "min": -100.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Character Combat Properties II",
       "index": 100090,
-      "name": "status control",
       "instrs": [
         {
-          "index": 0,
-          "name": "Change current equipment weight",
-          "args": [
-            {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Effect size (0.01 unit, kg unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
+          "name": "Modify Stamina Recovery",
           "index": 1,
-          "name": "Change stamina recovery speed",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (0.01 unit, double unit)",
+              "name": "Multiplier",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Modify Damage (Flat To Base AR)",
           "index": 2,
-          "name": "Attack power increase",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
+              "name": "Buff Type",
+              "type": 1,
+              "enum_name": "Buff Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "index": 3,
-          "name": "Attack power decreased",
-          "args": [
-            {
-              "name": "Effect time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Effect size (in integer)",
-              "type": 1,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
+		},
+		{
+          "name": "Buff Defense",
           "index": 4,
-          "name": "Increased defense power",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
+              "name": "Buff Type",
+              "type": 1,
+              "enum_name": "Buff Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Nerf Defense",
           "index": 5,
-          "name": "Defense power decreased",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "Attributes of equipment",
+              "name": "Buff Type",
+              "type": 1,
+              "enum_name": "Buff Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (in integer)",
+              "name": "Amount",
               "type": 1,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Modify Movement Rate",
           "index": 6,
-          "name": "Change movement speed",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Correction magnification (0.01 unit, double unit)",
+              "name": "Amount",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect target",
+              "name": "Unknown2",
               "type": 0,
-              "enum_name": "Target character",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100090[07]",
           "index": 7,
-          "name": "Change rotation speed",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Correction magnification (0.01 unit, double unit)",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect target",
+              "name": "Unknown2",
               "type": 0,
-              "enum_name": "Target character",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100090[08]",
           "index": 8,
-          "name": "Initialize the number of Esto bottles"
-        }
-      ]
-    },
-    {
-      "index": 100100,
-      "name": "Damage calculation control"
-    },
-    {
+          "args": []
+		},
+		{
+          "name": "Buff Damage (Unknown)",
+          "index": 9,
+          "args": [
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Buff Type",
+              "type": 1,
+              "enum_name": "Buff Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Amount",
+              "type": 1,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 10000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		}
+	  ]
+	},
+	{
+      "name": "Character Items",
       "index": 100110,
-      "name": "equipment control",
       "instrs": [
         {
+          "name": "Force Armor",
           "index": 0,
-          "name": "Equipment change",
           "args": [
             {
-              "name": "Head item ID",
-              "type": 5,
+              "name": "Head Armor ID",
+              "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Torso item ID",
-              "type": 5,
+              "name": "Chest Armor ID",
+              "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Arm item ID",
-              "type": 5,
+              "name": "Arm Armor ID",
+              "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Foot item ID",
-              "type": 5,
+              "name": "Leg Armor ID",
+              "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Force Unequip Armor",
           "index": 1,
-          "name": "Unequip",
           "args": [
             {
-              "name": "Equipment category to be unlocked 1",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 2 to be unlocked",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 3 to be unlocked",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 4 to be unlocked",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 5 to unlock",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 6 to unlock",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 7 to unlock",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Equipment category 8 to unlock",
-              "type": 0,
-              "enum_name": "Equipment category",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "name": "All equipment durability restored"
-        },
-        {
-          "index": 3,
-          "name": "Destroy the trigger",
-          "args": [
-            {
-              "name": "Destruction conditions",
-              "type": 0,
-              "enum_name": "Equipment destruction activation conditions",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Only one destruction flag ID",
+              "name": "Unknown1",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 250,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 250,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 250,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown4",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 250,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown5",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 250,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Weapon Change",
+		},
+		{
+          "name": "Repair Equipment",
+          "index": 2,
+          "args": []
+		},
+		{
+          "name": "Destroy Owner Equipment",
+          "index": 3,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Force Weapon",
           "index": 4,
           "args": [
             {
-              "name": "Right Weapon ID",
+              "name": "Right-Hand Weapon ID",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Left Weapon ID",
+              "name": "Left-Hand Weapon ID",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Bullets",
       "index": 100120,
-      "name": "valet control",
       "instrs": [
         {
+          "name": "Create Bullet",
           "index": 0,
-          "name": "bullet firing",
           "args": [
             {
-              "name": "Valet ID",
+              "name": "Bullet ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage ID",
+              "name": "DamageParam ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "reflected attack power",
+              "name": "Unknown1",
               "type": 0,
-              "enum_name": "Types of attack power added to Bullet",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Reflection magnification",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
+              "default": 0.0,
               "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100120[01]",
           "index": 1,
-          "name": "ragdoll explosion",
           "args": [
             {
-              "name": "range",
+              "name": "Unknown1",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "maximum number",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Valet ID (small)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Damage ID (small)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Valet ID (large)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Damage ID (large)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "name": "Seven-colored stone launch",
-          "args": [
-            {
-              "name": "Damipoli ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Horizontal initial velocity [m/s]",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
-            },
-            {
-              "name": "Horizontal deceleration [m/s]",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
-          "index": 3,
-          "name": "Shooting a mass of tracking souls",
-          "args": [
-            {
-              "name": "Reason 1",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Reason 2",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Reason 3",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Reason 4",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "special effect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 4,
-          "name": "A mass of souls chasing",
-          "args": [
-            {
-              "name": "range",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
-            },
-            {
-              "name": "angle",
+              "name": "Unknown2",
               "type": 0,
               "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Valet ID",
+              "name": "Unknown3",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage ID",
+              "name": "Unknown4",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown5",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown6",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Throw Prism Stone",
+          "index": 2,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Apply SpEffect Based On Intelligence",
+          "index": 3,
+          "args": [
+            {
+              "name": "Breakpoint 1",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Breakpoint 2",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Breakpoint 3",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Breakpoint 4",
+              "type": 4,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Base SpEffect ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Batch Create Bullets",
+          "index": 4,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Final Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Initial Bullet ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
           "name": "Create Bullet Based On Attribute",
           "index": 6,
           "args": [
@@ -2460,288 +3154,389 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Damage ID",
+              "name": "DamageParam ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Attribute",
               "type": 0,
-              "enum_name": "status",
+              "enum_name": "Attribute Type",
               "default": 0,
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute 1",
+              "name": "Breakpoint 1",
               "type": 4,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute 2",
+              "name": "Breakpoint 2",
               "type": 4,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute 3",
+              "name": "Breakpoint 3",
               "type": 4,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Attribute 4",
+              "name": "Breakpoint 4",
               "type": 4,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Events",
       "index": 100130,
-      "name": "special control",
       "instrs": [
         {
+          "name": "Warp Player",
           "index": 0,
-          "name": "return 2",
           "args": [
             {
-              "name": "Type of return",
+              "name": "Unknown",
               "type": 0,
-              "enum_name": "Type of return",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "ID1 (\"Return type\" is \"Bonfire\" and this value is -1: Last bonfire)",
+              "name": "Map ID",
               "type": 5,
               "enum_name": null,
-              "default": -1,
+              "default": 0,
               "min": -1,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "ID2",
+              "name": "Point ID",
               "type": 5,
               "enum_name": null,
-              "default": -1,
+              "default": 0,
               "min": -1,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Call Must Sub Event 93X",
           "index": 1,
-          "name": "soul change",
           "args": [
             {
-              "name": "reference file",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Reference event name",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "name": "Special effect icon display",
-          "args": [
-            {
-              "name": "icon id",
+              "name": "Unknown",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Start/end conditions",
-              "type": 0,
-              "enum_name": "Start and end conditions",
+              "name": "MustSub Event ID",
+              "type": 2,
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Values for start and end conditions",
+              "name": "evtArguments",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0,
+              "vararg": true
+            }
+          ]
+		},
+		{
+          "name": "Display Icon",
+          "index": 2,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Unknown Command 100130[03]",
           "index": 3,
-          "name": "Spell parry setting 2",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "parry type",
+              "name": "Unknown1",
               "type": 0,
-              "enum_name": "spell parry type",
+              "enum_name": null,
               "default": 0,
               "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "SFXID",
-              "type": 2,
+              "name": "Unknown2",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Apply Weapon SFX",
           "index": 4,
-          "name": "weapon sfx",
           "args": [
             {
-              "name": "SFXID",
-              "type": 2,
+              "name": "Unknown1",
+              "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Spacing [m]",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.10000000149011612,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Starting position ratio",
+              "name": "Unknown2",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "End position ratio",
-              "type": 6,
+              "name": "Unknown3",
+              "type": 5,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Degree of bias",
+              "name": "Unknown4",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Vibration width [m]",
-              "type": 6,
+              "name": "Unknown5",
+              "type": 5,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown6",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Disable Full Body SFX",
+		},
+		{
+          "name": "Draw Disable Full Body SFX",
           "index": 5,
           "args": [
             {
@@ -2752,12 +3547,16 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Deflect Spell",
+		},
+		{
+          "name": "Add Spell Deflect Chance",
           "index": 6,
           "args": [
             {
@@ -2768,22 +3567,30 @@
               "min": 0.0,
               "max": 100.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "SFX ID",
+              "name": "Deflect SFX ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "SpEffect And End Event If Event",
+		},
+		{
+          "name": "Apply SpEffect And End Event If Event Flag",
           "index": 7,
           "args": [
             {
@@ -2794,7 +3601,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "SpEffect ID",
@@ -2804,7 +3615,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "Unknown",
@@ -2814,60 +3629,76 @@
               "min": 0,
               "max": 255,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Gender Effect",
+		},
+		{
+          "name": "Apply SpEffect On Enemy Kill Based On Enemy Gender",
           "index": 8,
           "args": [
             {
-              "name": "Matching Gender Effect ID",
+              "name": "SpEffect ID When Same Gender As Player",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Opposite Gender Effect ID",
+              "name": "SpEffect ID When Opposite Gender As Player",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Death",
       "index": 100140,
-      "name": "death control",
       "instrs": [
         {
+          "name": "Set Character Immortality",
           "index": 0,
-          "name": "Death permission setting",
           "args": [
             {
-              "name": "Death permission setting",
+              "name": "Is Immortal",
               "type": 0,
-              "enum_name": "Death permission setting",
+              "enum_name": "BOOL",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Effect On Death",
+		},
+		{
+          "name": "Apply SpEffect When Character Dies",
           "index": 1,
           "args": [
             {
@@ -2878,7 +3709,11 @@
               "min": 0.0,
               "max": 9999.0,
               "increment": 1.0,
-              "format_string": "%0.3f"
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "SpEffect ID",
@@ -2888,952 +3723,857 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
-      "index": 100150,
-      "name": "Dying control"
-    },
-    {
-      "index": 100160,
-      "name": "UI control"
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Character Self-Attack",
       "index": 100170,
-      "name": "damage control",
       "instrs": [
         {
+          "name": "Self-Damage Character And Nearby Enemies (Periodic)",
           "index": 0,
-          "name": "damage generation",
           "args": [
             {
-              "name": "Damage ID",
+              "name": "DamageParam ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Occurrence interval (0.01 units, seconds)",
+              "name": "Attack Period",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 1800.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect time (if less than 0, it depends on other effects, in units of 0.01, in seconds)",
+              "name": "Unknown",
               "type": 6,
               "enum_name": null,
-              "default": -1.0,
-              "min": -1.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Self-Damage Character (One-off)",
           "index": 1,
-          "name": "Single damage generation",
           "args": [
             {
-              "name": "Damage ID",
+              "name": "DamageParam ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Multiplayer",
       "index": 100180,
-      "name": "multiplayer control",
       "instrs": [
-        {
+		{
+          "name": "Initiate Client-Mediated Multiplayer Item",
           "index": 0,
-          "name": "Summoning sign creation request",
           "args": [
             {
-              "name": "sign type",
+              "name": "Client Item Type",
               "type": 0,
-              "enum_name": "sign type",
+              "enum_name": "Client Item Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Initiate Server-Mediated Multiplayer Item",
           "index": 1,
-          "name": "Intrusion request",
           "args": [
             {
-              "name": "Intrusion type",
+              "name": "Server Item Type",
               "type": 0,
-              "enum_name": "Intrusion type",
+              "enum_name": "Server Item Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Initiate Passive Server-Mediated Multiplayer Item",
           "index": 2,
-          "name": "Summon search request",
           "args": [
             {
-              "name": "Forced summon search type",
+              "name": "Passive Server Item Type",
               "type": 0,
-              "enum_name": "Forced summon search type",
+              "enum_name": "Passive Server Item Type",
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Request Multiplayer Separation",
           "index": 3,
-          "name": "Multiplayer termination request"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Reset Invasion Cooldown Timer",
           "index": 4,
-          "name": "Invasion cooldown reset"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Display Champion Rankings",
           "index": 5,
-          "name": "Ranking"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Request Multiplayer Penalty Erasure",
           "index": 6,
-          "name": "penalty reset"
-        }
+          "args": []
+		}
       ]
-    },
-    {
+	},
+	{
+      "name": "SpEffect Meta",
       "index": 100700,
-      "name": "Others",
       "instrs": [
-        {
-          "index": 0,
-          "name": "See other files",
-          "args": [
-            {
-              "name": "reference file",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Reference ID",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "name": "See same file",
-          "args": [
-            {
-              "name": "Reference ID",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "argument",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
+		{
+          "name": "Unknown Command 100700[02]",
           "index": 2,
-          "name": "Infinite effect time"
-        },
-        {
+          "args": []
+		},
+		{
+          "name": "Unknown Command 100700[03]",
           "index": 3,
-          "name": "Special effect ID specification",
           "args": [
             {
-              "name": "special effect ID",
+              "name": "SpEffect ID",
               "type": 5,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
+		},
+		{
+          "name": "Set SpEffect Length",
           "index": 4,
-          "name": "virtual command",
           "args": [
             {
-              "name": "Effect time (0.01 units, seconds)",
+              "name": "Duration",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    },
-    {
+		}
+	  ]
+	},
+	{
+      "name": "Heal Over Time",
       "index": 101050,
-      "name": "HP recovery control sub",
       "instrs": [
-        {
+		{
+          "name": "Heal Flat Amount Over Time",
           "index": 0,
-          "name": "numerical value",
           "args": [
             {
-              "name": "Effect size (1 unit)",
-              "type": 1,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Recovery time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Ends when maximum HP is recovered",
-              "type": 0,
-              "enum_name": "OnOff",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "name": "Maximum HP percentage",
-          "args": [
-            {
-              "name": "Effect size (0.01 unit, % unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Recovery time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Ends when maximum HP is recovered",
-              "type": 0,
-              "enum_name": "OnOff",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "name": "Damage value percentage",
-          "args": [
-            {
-              "name": "Effect size (0.01 unit, % unit)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Recovery time (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Ends when maximum HP is recovered",
-              "type": 0,
-              "enum_name": "OnOff",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 101070,
-      "name": "Status abnormality control sub",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "Status abnormality change invincibility",
-          "args": [
-            {
-              "name": "Status abnormality type",
-              "type": 0,
-              "enum_name": "Type of status abnormality",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Invincibility duration (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "name": "Abnormal status change cancellation",
-          "args": [
-            {
-              "name": "Status abnormality type",
-              "type": 0,
-              "enum_name": "Type of status abnormality",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "name": "Abnormal status change occurred",
-          "args": [
-            {
-              "name": "Status abnormality type",
-              "type": 0,
-              "enum_name": "Type of status abnormality",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Effect duration of abnormal status (0.01 units, seconds)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Poison-only/Damage ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Poison type only/Damage occurrence interval (0.01 units, seconds units)",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1800.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
-            },
-            {
-              "name": "Poison-only/effect SFX (ID)",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "For poisonous lines/effect SFX dummy poly(ID)",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 101130,
-      "name": "special control sub",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "Soul change real number",
-          "args": [
-            {
-              "name": "calculation formula",
-              "type": 0,
-              "enum_name": "calculation formula",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "Effect size (in integer)",
+              "name": "HP Amount",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "name": "Soul change percentage",
-          "args": [
-            {
-              "name": "calculation formula",
-              "type": 0,
-              "enum_name": "calculation formula",
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
-              "name": "Effect size (0.01 unit, % unit)",
+              "name": "Time Taken",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Heal Percentage Amount Over Time",
+          "index": 1,
+          "args": [
+            {
+              "name": "HP Percentage",
               "type": 6,
               "enum_name": null,
               "default": 0.0,
               "min": 0.0,
               "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Time Taken",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Unknown Command 101050[02]",
+          "index": 2,
+          "args": [
+            {
+              "name": "Unknown1",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown3",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		}
+	  ]
+	},
+	{
+      "name": "Status Effect",
+      "index": 101070,
+      "instrs": [
+		{
+          "name": "Prevent Status Effect",
+          "index": 0,
+          "args": [
+            {
+              "name": "Status Effect",
+              "type": 0,
+              "enum_name": "Status Effect Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Clear Status Effect",
+          "index": 1,
+          "args": [
+            {
+              "name": "Status Effect",
+              "type": 0,
+              "enum_name": "Status Effect Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		},
+		{
+          "name": "Apply Status Effect",
+          "index": 2,
+          "args": [
+            {
+              "name": "Status Effect",
+              "type": 0,
+              "enum_name": "Status Effect Type",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Duration",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "AttackParam ID",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Attack Frequency",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown1",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Unknown2",
+              "type": 0,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 255,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+		}
+	  ]
+	},
+    {
+      "name": "Souls",
+      "index": 101130,
+      "instrs": [
+        {
+          "name": "Modify Player Souls Additively",
+          "index": 0,
+          "args": [
+            {
+              "name": "Remove Souls Instead",
+              "type": 0,
+              "enum_name": "BOOL",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Soul Amount",
+              "type": 5,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 1000000000,
+              "increment": 1,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            }
+          ]
+        },
+        {
+          "name": "Modify Player Souls Multiplicatively",
+          "index": 1,
+          "args": [
+            {
+              "name": "Remove Souls Instead",
+              "type": 0,
+              "enum_name": "BOOL",
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
+            },
+            {
+              "name": "Multiplier",
+              "type": 6,
+              "enum_name": null,
+              "default": 0.0,
+              "min": 0.0,
+              "max": 9999.0,
+              "increment": 1.0,
+              "format_string": "%0.3f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     }
   ],
-  "extra_classes": [
-    {
-      "index": 1,
-      "name": "dummy category",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "dummy condition"
-        }
-      ]
-    }
-  ],
+  "extra_classes": [],
   "enums": [
     {
-      "name": "OnOff",
+      "name": "Additive Stat Type",
       "values": {
-        "0": "OFF",
-        "1": "ON"
+        "0": "Poise",
+        "1": "Weight",
+        "2": "Attack Poise Damage",
+        "3": "Fall Damage Protection Modifier",
+        "4": "Current HP Ratio (??)",
+        "5": "Current HP Ratio 2 (??)",
+        "6": "Vigor",
+        "7": "Endurance",
+        "8": "Vitality",
+        "10": "Strength",
+        "11": "Dexterity",
+        "12": "Intelligence",
+        "13": "Faith",
+        "14": "Adaptability",
+        "17": "Unknown (17)",
+        "18": "HP On Kill",
+        "19": "Unknown (19)",
+        "20": "Attunement Slots",
+        "21": "Anti-Stability Modifier",
+        "22": "Unknown (22)"
       }
     },
     {
-      "name": "Enable/Disable",
+      "name": "Multiplicative Stat Type",
       "values": {
-        "0": "Invalid",
-        "1": "Valid"
+        "0": "Poison Buildup",
+        "1": "Bleed Buildup",
+        "2": "Unknown (2)",
+        "3": "Curse Buildup",
+        "4": "Ignite Buildup",
+        "5": "Toxicity Buildup",
+        "6": "Petrify Buildup",
+        "7": "Max HP",
+        "8": "Max Stamina",
+        "9": "Equip Load",
+        "11": "Thrust Counterattack Damage Rate",
+        "12": "Unknown (12)",
+        "13": "Unknown (13)",
+        "14": "Unknown (14)",
+        "15": "Unknown (15)",
+        "16": "Unknown (16)",
+        "17": "Unknown (17)",
+        "18": "Unknown (18)",
+        "19": "Unknown (19)",
+        "20": "Unknown (20)",
+        "22": "Weapon Degredation Rate",
+        "23": "Armor Degradation Rate",
+        "24": "Ring Degradation Rate",
+        "25": "Outgoing Damage Rate",
+        "26": "Incoming Damage Rate",
+        "27": "Outgoing Physical Damage Rate",
+        "28": "Incoming Physical Damage Rate",
+        "29": "Unknown (29)",
+        "30": "Soul Gain Rate",
+        "39": "Weapon Stability",
+        "46": "Unknown (46)",
+        "49": "Unknown (49)",
+        "50": "Max Spell Usages",
+        "51": "Spell Cast Time",
+        "52": "Sorcery Power",
+        "53": "Miracle Power",
+        "54": "Pyromancy Power",
+        "55": "Hex Power (Staff)",
+        "56": "Hex Power (Chime)",
+        "57": "Shield Stability",
+        "58": "PvE Damage",
+        "59": "PvE Damage Reduction",
+        "60": "Unknown (60)",
+        "61": "Unknown (61)",
+        "62": "Unknown (62)"
       }
     },
     {
-      "name": "Character status/integer",
+      "name": "State Info Type",
       "values": {
-        "0": "Toughness maximum value correction",
-        "1": "Current equipment weight",
-        "2": "Strong machining value correction",
-        "3": "Fall height reduction",
-        "4": "Attack correction moribund HP ratio (0-100%)",
-        "5": "Damage taken and near-death HP ratio (0-100%)",
-        "6": "Level status change [vitality]",
-        "7": "Level status change [endurance]",
-        "8": "Level status change [physical strength]",
-        "9": "Level status change [memory]",
-        "10": "Level status change [strength]",
-        "11": "Level status change [skill]",
-        "12": "Level status change [reason]",
-        "13": "Level status change [Faith]",
-        "14": "Level status change [durability]",
-        "15": "Level status change [Agility]",
-        "16": "Level status change [luck]",
-        "17": "Dead person count addition",
-        "18": "HP recovery value upon defeat",
-        "19": "Material replacement",
-        "20": "Spell memory slot increase",
-        "21": "Stability Damage Modifier",
-        "22": "22"
-      }
-    },
-    {
-      "name": "Character status/large integer",
-      "values": {
-        "8": "HP gradual decrease value when using spell [Magic]",
-        "9": "Gradual HP decrease value when using spell [Miracle]",
-        "10": "HP gradual decrease value when using spell [Magic]",
-        "11": "HP gradual decrease value when using spell [Dark magic]",
-        "12": "Gradual HP decrease value when using spell [Dark Miracle]",
-        "13": "Equipment durability value change [Left hand current weapon]",
-        "14": "Equipment durability value change [Right hand current weapon]",
-        "15": "Equipment durability value change [all equipped weapons]",
-        "16": "Equipment durability value change [all equipment armor]",
-        "17": "Equipment durability value change [all equipment rings]",
-        "18": "spirit mimicry",
-        "19": "Player light switching",
-        "20": "Field of view switching",
-        "21": "wetness mimicry",
-        "22": "SFXID when HP recovers when defeated",
-        "23": "SFX dummy poly ID when recovering HP when defeated",
-        "25": "25",
-        "30": "30",
-        "31": "31",
-        "32": "32",
-        "33": "33"
-      }
-    },
-    {
-      "name": "Character status/multiplier",
-      "values": {
-        "0": "Status abnormality recovery speed correction value [Poison]",
-        "1": "Status abnormality recovery speed correction value [bleeding]",
-        "2": "Status abnormality recovery speed correction value [weapon destruction]",
-        "3": "Status abnormality recovery speed correction value [curse]",
-        "4": "Status abnormality recovery speed correction value [combustion]",
-        "5": "Status abnormality recovery speed correction value [Violent]",
-        "6": "Status abnormality recovery speed correction value [petrification]",
-        "7": "Maximum HP correction value",
-        "8": "Maximum stamina correction value",
-        "9": "Maximum equipment weight correction value",
-        "10": "Recovery upper limit HP correction value when in spirit form",
-        "11": "Counter damage correction value",
-        "12": "Physical damage cut rate",
-        "13": "Magic damage cut rate",
-        "14": "Lightning damage cut rate",
-        "15": "Fire damage cut rate",
-        "16": "Dark damage cut rate",
-        "17": "Poison damage cut rate",
-        "18": "Bleeding damage cut rate",
-        "19": "Weapon destruction damage cut rate",
-        "20": "Cursed damage cut rate",
-        "21": "Petrification damage cut rate",
-        "22": "Weapon durability reduction correction",
-        "23": "Armor durability reduction correction",
-        "24": "Ring durability reduction correction",
-        "25": "Damage correction when attacking",
-        "26": "Damage correction when receiving damage",
-        "27": "Attack damage correction when near death",
-        "28": "Damage compensation when near death",
-        "29": "Dead person demerit invalidation correction",
-        "30": "Obtained soul amount correction",
-        "46": "Drop item magnification correction [Small]",
-        "47": "Drop item magnification correction [medium]",
-        "48": "Drop item magnification correction [large]",
-        "49": "Drop item magnification correction [extra large]",
-        "50": "Maximum number of spell uses changed",
-        "51": "Change spell casting time",
-        "52": "Spell damage multiplier [Magic]",
-        "53": "Spell damage multiplier [miracle]",
-        "54": "Spell damage multiplier [Magic]",
-        "55": "Spell damage multiplier [dark magic]",
-        "56": "Spell damage multiplier [Dark Miracle]",
-        "57": "Change ability to receive",
-        "58": "Enemy Damage",
-        "59": "Enemy Damage Reduction",
-        "60": "60",
-        "61": "61",
-        "62": "62"
-      }
-    },
-    {
-      "name": "Character status flag",
-      "values": {
-        "0": "headshot disabled",
-        "1": "backstab disabled",
-        "2": "Death penalty disabled",
-        "3": "Death Penalty & Petrification Immunity",
-        "4": "Critical judgment valid",
-        "6": "Forced living display",
-        "10": "Footsteps disabled",
-        "15": "enemy enemy",
-        "17": "Left hand weapon hidden",
-        "18": "Right hand weapon hidden",
-        "19": "Drop item magnification correction [small] enabled",
-        "20": "Drop item magnification correction [medium] enabled",
-        "21": "Drop item magnification correction [large] enabled",
-        "22": "Drop item magnification correction [extra large] enabled",
-        "23": "flame weapon",
-        "24": "Damage nullified",
-        "25": "Back damage shoulder replacement",
+        "0": "Unknown (0)",
+        "1": "Disable Backstab",
+        "2": "Disable Hollowing And Soul Loss",
+        "3": "Disable Soul Loss",
+        "4": "Unknown (4)",
+        "6": "Unknown (6)",
+        "10": "Disable Footstep Sound",
+        "15": "Unknown (15)",
+        "17": "Hide Weapon Left",
+        "18": "Hide Weapon Right",
+        "19": "Unknown (19)",
+        "22": "Unknown (22)",
+        "23": "Unknown (23)",
+        "24": "Unknown (24)",
+        "25": "Reduce Back Damage",
         "27": "Disable Chr Phantom Color",
-        "28": "28",
-        "29": "29",
-        "31": "31",
-        "33": "33",
-        "34": "34",
-        "39": "39",
-        "40": "40",
-        "41": "41",
-        "42": "42",
-        "43": "43",
-        "44": "44",
-        "46": "46",
-        "49": "49",
-        "50": "50",
-        "51": "51",
-        "52": "52",
-        "53": "53",
-        "54": "54",
-        "55": "No Lock On",
-        "56": "56",
-        "57": "Hide Healthbar",
-        "58": "58",
-        "59": "No Soul Absorption",
-        "60": "Invisibility",
-        "61": "61"
+        "28": "Unknown (28)",
+        "29": "Unknown (29)",
+        "31": "Unknown (31)",
+        "33": "Unknown (33)",
+        "34": "Unknown (34)",
+        "39": "Unknown (39)",
+        "40": "Unknown (40)",
+        "41": "Unknown (41)",
+        "42": "Unknown (42)",
+        "43": "Unknown (43)",
+        "44": "Unknown (44)",
+        "46": "Unknown (46)",
+        "49": "Unknown (49)",
+        "50": "Unknown (50)",
+        "51": "Unknown (51)",
+        "52": "Unknown (52)",
+        "53": "Unknown (53)",
+        "54": "Unknown (54)",
+        "55": "Disable Lock On",
+        "56": "Unknown (56)",
+        "57": "Disable Healthbar",
+        "58": "Unknown (58)",
+        "59": "Disable Soul Absorption",
+        "60": "Enable Invisibility",
+        "61": "Unknown (61)"
       }
-    },
-    {
-      "name": "Types of est bottle effects",
-      "values": {
-        "1": "Est effect correction",
-        "2": "Est bottle prohibited"
-      }
-    },
-    {
-      "name": "Effect correction target",
-      "values": {
-        "0": "Effect time",
-        "1": "Effect size"
-      }
-    },
-    {
-      "name": "status",
-      "values": {
-        "0": "None",
-        "1": "vitality",
-        "2": "endurance",
-        "3": "physical strength",
-        "4": "memory",
-        "5": "muscle strength",
-        "6": "workmanship",
-        "7": "reason",
-        "8": "faith",
-        "9": "Durability",
-        "10": "agility",
-        "11": "luck"
-      }
-    },
-    {
-      "name": "SFX deletion timing",
-      "values": {
-        "0": "Invalid",
-        "1": "Effect time expired"
-      }
-    },
-    {
-      "name": "Start and end conditions",
-      "values": {
-        "0": "None",
-        "1": "Remaining HP percentage (0% to 100%)"
-      }
-    },
-    {
-      "name": "Duplicate processing",
-      "values": {
-        "0": "Duplicate permission",
-        "1": "Overwrite",
-        "2": "Rejected",
-        "3": "Overwrite if time is too long"
-      }
-    },
-    {
-      "name": "Effect time reduction conditions",
-      "values": {
-        "0": "None",
-        "1": "Is it underwater? (Material Para->Liquid?)"
-      }
-    },
-    {
-      "name": "fraction",
-      "values": {
-        "0": "Truncation",
-        "1": "round up"
-      }
-    },
-    {
-      "name": "Type of status abnormality",
-      "values": {
-        "0": "poison",
-        "1": "bleeding",
-        "2": "weapon destruction",
-        "3": "Curse",
-        "4": "combustion",
-        "5": "spell seal",
-        "6": "water wet",
-        "7": "blood soaked",
-        "8": "highly poisonous",
-        "9": "oily",
-        "10": "petrification",
-        "11": "Poison wet",
-        "12": "(Maximum value for program)"
-      }
-    },
-    {
-      "name": "Attributes of equipment",
-      "values": {
-        "0": "physics",
-        "1": "magic power",
-        "2": "thunder",
-        "3": "flame",
-        "4": "darkness",
-        "5": "poison",
-        "6": "bleeding",
-        "7": "weapon destruction",
-        "8": "Curse",
-        "9": "petrification"
-      }
-    },
-    {
-      "name": "Target character",
-      "values": {
-        "3": "Everyone",
-        "1": "player",
-        "2": "enemy"
-      }
-    },
-    {
-      "name": "Equipment category",
-      "values": {
-        "0": "None",
-        "1": "weapon",
-        "2": "armor",
-        "3": "ring",
-        "4": "arrow",
-        "5": "item",
-        "6": "spell",
-        "7": "gesture",
-        "8": "override weapon"
-      }
-    },
-    {
-      "name": "Equipment destruction activation conditions",
-      "values": {
-        "0": "death",
-        "1": "Petrification disabled activation"
-      }
-    },
-    {
-      "name": "Types of attack power added to Bullet",
-      "values": {
-        "0": "None",
-        "1": "Physics muscle strength",
-        "2": "Physics skill",
-        "3": "Magic power",
-        "4": "Thunder",
-        "5": "Flame",
-        "6": "Darkness",
-        "7": "Poison",
-        "8": "Bleeding",
-        "9": "(Weapon destruction) (Not supported)",
-        "10": "(Curse) (unsupported)",
-        "11": "(Abyss) (Not supported)"
-      }
-    },
-    {
-      "name": "Type of return",
-      "values": {
-        "0": "Bonfire",
-        "1": "Map points"
-      }
-    },
-    {
-      "name": "calculation formula",
-      "values": {
-        "0": "Addition",
-        "1": "Subtraction"
-      }
-    },
-    {
-      "name": "Death permission setting",
-      "values": {
-        "0": "Death permit",
-        "1": "Death ban"
-      }
-    },
-    {
-      "name": "sign type",
-      "values": {
-        "0": "White spirit sign",
-        "1": "Small spirit sign",
-        "2": "Red spirit sign",
-        "3": "Dragon spirit sign"
-      }
-    },
-    {
-      "name": "Intrusion type",
-      "values": {
-        "0": "Revenge Blue Spirit Intrusion",
-        "1": "Dark spirit intrusion"
-      }
-    },
-    {
-      "name": "Forced summon search type",
-      "values": {
-        "0": "Guardian knight",
-        "1": "Mouse King Ash Spirit",
-        "2": "Bell keeper"
-      }
-    },
-    {
-      "name": "constant definition",
-      "values": {
-        "0": "Dummy",
-        "8": "Number of arguments for \"disarm\""
-      }
-    },
-    {
-      "name": "spell parry type",
-      "values": {
-        "0": "Magic power",
-        "1": "Thunder",
-        "2": "Flame",
-        "3": "Darkness"
-      }
-    },
-    {
-      "name": "shooting type",
-      "values": {
-        "0": "Bow",
-        "1": "Large bow",
-        "2": "Crossbow"
-      }
-    },
-    {
-      "name": "Adversary detection type",
-      "values": {
-        "0": "Normal",
-        "1": "Dark spirit (red spirit)",
-        "2": "Relief spirit"
-      }
-    },
-    {
-      "name": "Dead Count Attack Power Multiplier Type",
-      "values": {
-        "1": "Deceased",
-        "2": "Sinner"
-      }
+	},
+  {
+	  "name": "Bow Type",
+	  "values": {
+	    "0": "Regular Bows",
+	    "1": "Greatbows",
+	    "2": "Crossbows"
+	  }
+  },
+  {
+	  "name": "Player Property Type",
+	  "values": {
+		  "11": "Hex Self-Damage (Staff)",
+		  "12": "Hex Self-Damage (Chime)",
+		  "13": "Equipped Right-Hand Weapon Durability",
+		  "14": "Equipped Left-Hand Weapon Durability",
+		  "15": "Equipped Weapons Durability",
+		  "16": "Equipped Armor Durability",
+		  "17": "Equipped Rings Durability",
+      "18": "Appearence",
+      "19": "Emissive Light",
+      "20": "Unknown (20)",
+      "21": "Unknown (21)",
+      "22": "SfxIDOnKill",
+      "23": "SfxOnKillOrigin",
+      "25": "Unknown (25)",
+      "30": "Unknown (30)",
+      "31": "Unknown (31)",
+      "32": "Unknown (32)",
+      "33": "Unknown (33)"
+	  }
+	},
+	{
+	  "name": "Special Scaling Type",
+	  "values": {
+		  "1": "Hollowing",
+		  "2": "Sin"
+	  }
+	},
+	{
+	  "name": "Attribute Type",
+	  "values": {
+		  "1": "Vigor",
+		  "2": "Endurance",
+		  "3": "Vitality",
+		  "4": "Attunement",
+		  "5": "Strength",
+		  "6": "Dexterity",
+		  "7": "Intelligence",
+		  "8": "Faith",
+		  "9": "Adaptability"
+	  }
+	},
+	{
+	  "name": "Estus Modification Type",
+	  "values": {
+		  "1": "Boost by 50",
+		  "2": "Reduce to 0"
+	  }
+	},
+	{
+	  "name": "SpEffect Scale Type",
+	  "values": {
+		  "0": "Duration",
+		  "1": "Value"
+	  }
+	},
+	{
+    "name": "BOOL",
+    "values": {
+      "0": "FALSE",
+      "1": "TRUE"
     }
+  },
+	{
+	  "name": "Buff Type",
+	  "values": {
+		  "0": "All Physical",
+		  "1": "Magic",
+		  "2": "Lightning",
+		  "3": "Fire",
+		  "4": "Dark",
+		  "5": "Poison",
+		  "6": "Bleed",
+		  "7": "Unknown (7)",
+		  "8": "Curse",
+		  "9": "Petrify"
+    }
+	},
+	{
+	  "name": "Client Item Type",
+	  "values": {
+		  "0": "White Sign Soapstone",
+		  "1": "Small White Sign Soapstone",
+		  "2": "Red Sign Soapstone",
+		  "3": "Dragon Eye"
+	  }
+	},
+	{
+	  "name": "Server Item Type",
+	  "values": {
+		  "0": "Cracked Blue Eye Orb",
+		  "1": "Cracked Red Eye Orb"
+	  }
+	},
+	{
+	  "name": "Passive Server Item Type",
+	  "values": {
+		  "0": "Guardian's Seal",
+		  "1": "Crest of the Rat",
+		  "2": "Bell Keeper's Soul"
+	  }
+	},
+	{
+	  "name": "Status Effect Type",
+	  "values": {
+		  "0": "Poison",
+		  "1": "Bleed",
+		  "2": "Unknown (2)",
+		  "3": "Unknown (3)",
+		  "4": "Unknown (4)",
+		  "5": "Silence",
+		  "6": "Unknown (6)",
+		  "7": "Unknown (7)",
+		  "8": "Toxic",
+		  "9": "Unknown (9)",
+		  "10": "Unknown (10)",
+		  "11": "Unknown (11)",
+		  "12": "Unknown (12)",
+		  "13": "Unknown (13)",
+		  "14": "Unknown (14)"
+	  }
+	}
   ],
   "darkscript": {
     "aliases": {

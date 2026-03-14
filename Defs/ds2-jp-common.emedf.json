@@ -1,12 +1,13 @@
 {
+  "unknown": 0,
   "main_classes": [
     {
-      "index": 1000,
       "name": "キャラステータス",
+      "index": 1000,
       "instrs": [
         {
-          "index": 0,
           "name": "整数増減設定",
+          "index": 0,
           "args": [
             {
               "name": "特殊効果の種類",
@@ -16,17 +17,25 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量",
@@ -36,13 +45,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "倍率加算",
+          "index": 1,
           "args": [
             {
               "name": "特殊効果の種類",
@@ -52,43 +65,59 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "擬態",
+          "index": 2,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "擬態インデックス",
@@ -98,7 +127,11 @@
               "min": 0,
               "max": 2,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除SFXID",
@@ -108,13 +141,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "フラグ設定",
+          "index": 3,
           "args": [
             {
               "name": "特殊効果の種類",
@@ -124,109 +161,149 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "ジャンプ距離変更",
+          "index": 4,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "上昇速度",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "前方速度 最小",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "前方速度 最大",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "重力加速度倍率 最小",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "重力加速度倍率 最大",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ジャンプ可能速度",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 5,
           "name": "強い素手装備",
+          "index": 5,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "強い素手 武器ID",
@@ -236,7 +313,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "強い素手 はしご攻撃Ｌ入力 武器ID",
@@ -246,7 +327,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "強い素手 はしご攻撃R入力 武器ID",
@@ -256,23 +341,31 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 6,
           "name": "射撃距離変動",
+          "index": 6,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "補正対象",
@@ -282,113 +375,157 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%f"
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレット寿命倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレット初速倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレット落下開始倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージ距離減衰開始倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージ距離減衰終了倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 7,
           "name": "キャラ反応SE再生",
+          "index": 7,
           "args": [
             {
               "name": "検索平面半径",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "検索高低距離上",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "検索高低距離下",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最小SE再生インターバル",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最大SE再生インターバル",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "SEID",
@@ -398,29 +535,37 @@
               "min": 0,
               "max": 2000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 8,
           "name": "優先ロックオン",
+          "index": 8,
           "args": [
             {
               "name": "優先度倍率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 9,
           "name": "整数増減大設定",
+          "index": 9,
           "args": [
             {
               "name": "特殊効果の種類",
@@ -430,17 +575,25 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量",
@@ -450,43 +603,59 @@
               "min": -100000000,
               "max": 100000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 10,
           "name": "ダメージ蓄積バレット",
+          "index": 10,
           "args": [
             {
               "name": "耐久最大時発生確率(%)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 1.0,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "耐久最小時発生確率(%)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 1.0,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "発生時減少耐久値",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": -99999.0,
-              "max": 99999.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": -99999,
+              "max": 99999,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレットＩＤ",
@@ -496,7 +665,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージＩＤ",
@@ -506,17 +679,22 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "敵対者探知",
           "index": 11,
-          "name": "敵対者探知"
+          "args": []
         },
         {
-          "index": 12,
           "name": "擬態抽選",
+          "index": 12,
           "args": [
             {
               "name": "抽選特殊効果ID0",
@@ -526,7 +704,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "抽選特殊効果ID1",
@@ -536,7 +718,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "抽選特殊効果ID2",
@@ -546,73 +732,73 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "抽選特殊効果ID3",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "抽選特殊効果ID4",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 13,
           "name": "ダメージ反射",
+          "index": 13,
           "args": [
             {
               "name": "発生確率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 1.0,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "発生インターバル",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "反射最小ダメージ値",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 99999.0,
-              "increment": 1.0,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 99999,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "反射最大ダメージ値",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 99999.0,
-              "increment": 1.0,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 99999,
+              "increment": 1,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレットＩＤ",
@@ -622,7 +808,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージＩＤ",
@@ -632,13 +822,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 14,
           "name": "所持ソウル攻撃力倍率",
+          "index": 14,
           "args": [
             {
               "name": "0固定",
@@ -648,7 +842,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "所持ソウル 最小",
@@ -658,7 +856,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "所持ソウル 最大",
@@ -668,43 +870,59 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "攻撃力補正倍率 最小",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "攻撃力補正倍率 最大",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 15,
           "name": "亡者カウント攻撃力倍率",
+          "index": 15,
           "args": [
             {
               "name": "対象カウント",
@@ -714,7 +932,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "対象カウント 最小",
@@ -724,7 +946,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "対象カウント 最大",
@@ -734,335 +960,65 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "攻撃力補正倍率 最小",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "攻撃力補正倍率 最大",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Unknown Command 1000[16]",
-          "index": 16,
-          "args": [
-            {
-              "name": "Unknown1",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Bullet ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "DamageParam ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Unknown2",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Completetion Count Attack Power Multiplier",
-          "index": 17,
-          "args": [
-            {
-              "name": "Minimum Completion Count",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Maximum Completion Count",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Minimum Attack Power Modification Multiplier",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Maximum Attack Power Modification Multiplier",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Unknown",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Equip Load Attack Power Bonus",
-          "index": 18,
-          "args": [
-            {
-              "name": "Equip Load 1",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Equip Load 2",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Equip Load 3",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Duration",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Attack Power Bonus 1",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Attack Power Bonus 2",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "Attack Power Bonus 3",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            }
-          ]
-        },
-        {
-          "name": "Attribute Value Attribute Bonus",
-          "index": 19,
-          "args": [
-            {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "ステータス",
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Minimum Attribute",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Maximum Attribute",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Minimum Bonus",
-              "type": 3,
-              "enum_name": null,
-              "default": 0,
-              "min": -100,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Maximum Bonus",
-              "type": 3,
-              "enum_name": null,
-              "default": 0,
-              "min": -100,
-              "max": 100,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Unknown Command 1000[20]",
-          "index": 20,
-          "args": [
-            {
-              "name": "Effect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-		    },
-		    {
-          "name": "Unknown Command 1000[21]",
-          "index": 21,
-          "args": [
-            {
-              "name": "Argument 0",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Argument 1",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Argument 2",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-		    }
+        }
       ]
     },
     {
-      "index": 1010,
       "name": "インベントリ",
+      "index": 1010,
       "instrs": [
         {
-          "index": 0,
           "name": "エスト瓶",
+          "index": 0,
           "args": [
             {
               "name": "特殊効果の種類",
@@ -1072,29 +1028,37 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100040,
       "name": "基本コマンド",
+      "index": 100040,
       "instrs": [
         {
-          "index": 0,
           "name": "効果補正倍率",
+          "index": 0,
           "args": [
             {
               "name": "倍率対象",
@@ -1104,7 +1068,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "対象ステータス",
@@ -1114,7 +1082,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ステータス 最小値",
@@ -1124,7 +1096,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ステータス 最大値",
@@ -1134,73 +1110,101 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ステータス 補正倍率 最小値(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ステータス 補正倍率 最大値(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "片手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "両手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "二刀流 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "二刀流両手 補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 99.98999786376953,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "効果SFX",
+          "index": 1,
           "args": [
             {
               "name": "効果SFX(ID)",
@@ -1210,7 +1214,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果SFXダミポリ(ID)",
@@ -1220,7 +1228,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "削除設定",
@@ -1230,7 +1242,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "優先度(0:必ず出す、255:アイテムParam参照)",
@@ -1240,7 +1256,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "開始・終了条件",
@@ -1250,49 +1270,65 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "開始・終了条件用の値",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "効果補正設定",
+          "index": 2,
           "args": [
             {
               "name": "効果量補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "効果時間 短縮",
+          "index": 3,
           "args": [
             {
               "name": "対象特殊効果ID",
@@ -1302,17 +1338,25 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "短縮時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "特殊条件",
@@ -1322,13 +1366,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "効果時間短縮2 常駐",
+          "index": 4,
           "args": [
             {
               "name": "特殊条件",
@@ -1338,23 +1386,31 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "短縮時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 5,
           "name": "効果時間短縮2 実行",
+          "index": 5,
           "args": [
             {
               "name": "特殊条件",
@@ -1364,33 +1420,42 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "効果時間延長 許可",
           "index": 6,
-          "name": "効果時間延長 許可"
+          "args": []
         },
         {
-          "index": 7,
           "name": "効果時間延長 実行",
+          "index": 7,
           "args": [
             {
               "name": "効果量(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 8,
           "name": "全身SFX",
+          "index": 8,
           "args": [
             {
               "name": "全身SFXID",
@@ -1400,7 +1465,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "削除設定",
@@ -1410,19 +1479,23 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100050,
       "name": "ＨＰ回復制御",
+      "index": 100050,
       "instrs": [
         {
-          "index": 0,
           "name": "時間ＨＰ回復",
+          "index": 0,
           "args": [
             {
               "name": "参照ファイル",
@@ -1432,7 +1505,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 2,
+              "unk4": 0
             },
             {
               "name": "回復種類",
@@ -1442,99 +1519,79 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
             },
             {
-              "name": "引数0",
+              "name": "引数",
               "type": 2,
               "enum_name": null,
               "default": 0,
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "引数1",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "引数2",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }   
-          ]
-        },
-        {
-          "index": 1,
-          "name": "瞬間ＨＰ回復",
-          "args": [
-            {
-              "name": "参照ファイル",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "回復種類",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "引数0",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 0,
-              "increment": 0,
-              "format_string": "%d"
-            },
-            {
-              "name": "引数1",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "引数2",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
+          "name": "瞬間ＨＰ回復",
+          "index": 1,
+          "args": [
+            {
+              "name": "参照ファイル",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 2,
+              "unk4": 0
+            },
+            {
+              "name": "回復種類",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
+            },
+            {
+              "name": "引数",
+              "type": 2,
+              "enum_name": null,
+              "default": 0,
+              "min": 0,
+              "max": 0,
+              "increment": 0,
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
+            }
+          ]
+        },
+        {
           "name": "亡者復活",
+          "index": 2,
           "args": [
             {
               "name": "演出実行するか？",
@@ -1544,13 +1601,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "協力マルチプレイ中ホストダメージ発行",
+          "index": 3,
           "args": [
             {
               "name": "ダメージID",
@@ -1560,29 +1621,37 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100060,
       "name": "スペル制御",
+      "index": 100060,
       "instrs": [
         {
-          "index": 0,
           "name": "スペル使用回数回復2",
+          "index": 0,
           "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "端数",
@@ -1592,19 +1661,23 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100070,
       "name": "状態異常制御",
+      "index": 100070,
       "instrs": [
         {
-          "index": 0,
           "name": "状態異常変更",
+          "index": 0,
           "args": [
             {
               "name": "参照ファイル",
@@ -1614,7 +1687,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 2,
+              "unk4": 0
             },
             {
               "name": "状態異常 設定",
@@ -1624,7 +1701,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
             },
             {
               "name": "引数",
@@ -1634,29 +1715,37 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100080,
       "name": "属性制御",
+      "index": 100080,
       "instrs": [
         {
-          "index": 0,
           "name": "キャラ防具属性値変更",
+          "index": 0,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性種類",
@@ -1666,33 +1755,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": -100.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "キャラ武器攻撃属性値変更",
+          "index": 1,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性種類",
@@ -1702,91 +1803,119 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": -100.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": -100,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100090,
       "name": "ステータス制御",
+      "index": 100090,
       "instrs": [
         {
-          "index": 0,
           "name": "現在装備重量変更",
+          "index": 0,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(0.01単位、kg単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "スタミナ回復速度変更",
+          "index": 1,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "攻撃力増加",
+          "index": 2,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性",
@@ -1796,7 +1925,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(整数単位)",
@@ -1806,23 +1939,31 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "攻撃力減少",
+          "index": 3,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性",
@@ -1832,7 +1973,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(整数単位)",
@@ -1842,23 +1987,31 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "防御力増加",
+          "index": 4,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性",
@@ -1868,7 +2021,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(整数単位)",
@@ -1878,23 +2035,31 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 5,
           "name": "防御力減少",
+          "index": 5,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "属性",
@@ -1904,7 +2069,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(整数単位)",
@@ -1914,33 +2083,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 6,
           "name": "移動速度変更",
+          "index": 6,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果対象",
@@ -1950,33 +2131,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 7,
           "name": "旋回速度変更",
+          "index": 7,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "補正倍率(0.01単位、倍単位)",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果対象",
@@ -1986,27 +2179,33 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "エスト瓶回数初期化",
           "index": 8,
-          "name": "エスト瓶回数初期化"
+          "args": []
         }
       ]
     },
     {
+      "name": "ダメージ計算制御",
       "index": 100100,
-      "name": "ダメージ計算制御"
+      "instrs": []
     },
     {
-      "index": 100110,
       "name": "装備制御",
+      "index": 100110,
       "instrs": [
         {
-          "index": 0,
           "name": "装備変更",
+          "index": 0,
           "args": [
             {
               "name": "頭部アイテムID",
@@ -2016,7 +2215,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "胴部アイテムID",
@@ -2026,7 +2229,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "腕部アイテムID",
@@ -2036,7 +2243,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "足部アイテムID",
@@ -2046,13 +2257,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "装備解除",
+          "index": 1,
           "args": [
             {
               "name": "解除する装備カテゴリ1",
@@ -2062,7 +2277,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ2",
@@ -2072,7 +2291,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ3",
@@ -2082,7 +2305,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ4",
@@ -2092,7 +2319,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ5",
@@ -2102,7 +2333,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ6",
@@ -2112,7 +2347,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ7",
@@ -2122,7 +2361,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "解除する装備カテゴリ8",
@@ -2132,17 +2375,22 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "全装備耐久値回復",
           "index": 2,
-          "name": "全装備耐久値回復"
+          "args": []
         },
         {
-          "index": 3,
           "name": "発動元破壊",
+          "index": 3,
           "args": [
             {
               "name": "破壊条件",
@@ -2152,7 +2400,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "1つだけ破壊フラグID",
@@ -2162,45 +2414,23 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Weapon Change",
-          "index": 4,
-          "args": [
-            {
-              "name": "Right Weapon ID",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Left Weapon ID",
-              "type": 2,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-		}
+        }
       ]
     },
     {
-      "index": 100120,
       "name": "バレット制御",
+      "index": 100120,
       "instrs": [
         {
-          "index": 0,
           "name": "バレット発射",
+          "index": 0,
           "args": [
             {
               "name": "バレットID",
@@ -2210,7 +2440,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージID",
@@ -2220,7 +2454,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "反映攻撃力",
@@ -2230,33 +2468,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "反映倍率",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 10.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 10,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "ラグドール爆破",
+          "index": 1,
           "args": [
             {
               "name": "範囲",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最大数",
@@ -2266,7 +2516,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレットID（小）",
@@ -2276,7 +2530,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージID（小）",
@@ -2286,7 +2544,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレットID（大）",
@@ -2296,7 +2558,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージID（大）",
@@ -2306,13 +2572,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "七色石発射",
+          "index": 2,
           "args": [
             {
               "name": "ダミポリID",
@@ -2322,33 +2592,45 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "水平初速度[m/s]",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "水平減速度[m/s]",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "追尾するソウルの塊発射",
+          "index": 3,
           "args": [
             {
               "name": "理力1",
@@ -2358,7 +2640,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "理力2",
@@ -2368,7 +2654,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "理力3",
@@ -2378,7 +2668,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "理力4",
@@ -2388,7 +2682,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "特殊効果ID",
@@ -2398,23 +2696,31 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "追尾するソウルの塊",
+          "index": 4,
           "args": [
             {
               "name": "範囲",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1000.0,
-              "increment": 0.10000000149011612,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1000,
+              "increment": 1,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "角度",
@@ -2424,7 +2730,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "バレットID",
@@ -2434,7 +2744,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ダメージID",
@@ -2444,95 +2758,23 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        {
-          "name": "Create Bullet Based On Attribute",
-          "index": 6,
-          "args": [
-            {
-              "name": "Bullet ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Damage ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attribute",
-              "type": 0,
-              "enum_name": "ステータス",
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attribute 1",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attribute 2",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attribute 3",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Attribute 4",
-              "type": 4,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-		}
+        }
       ]
     },
     {
-      "index": 100130,
       "name": "特殊制御",
+      "index": 100130,
       "instrs": [
         {
-          "index": 0,
           "name": "帰還2",
+          "index": 0,
           "args": [
             {
               "name": "帰還の種類",
@@ -2542,7 +2784,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ID1(「帰還の種類」が「篝火」、かつ、この値が-1:最後の篝火)",
@@ -2552,7 +2798,11 @@
               "min": -1,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ID2",
@@ -2562,13 +2812,17 @@
               "min": -1,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "ソウル変更",
+          "index": 1,
           "args": [
             {
               "name": "参照ファイル",
@@ -2578,7 +2832,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 2,
+              "unk4": 0
             },
             {
               "name": "参照イベント名",
@@ -2588,7 +2846,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
             },
             {
               "name": "引数",
@@ -2598,13 +2860,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "特殊効果アイコン表示",
+          "index": 2,
           "args": [
             {
               "name": "アイコンID",
@@ -2614,7 +2880,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "開始・終了条件",
@@ -2624,33 +2894,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "開始・終了条件用の値",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 3,
           "name": "スペルパリィ設定2",
+          "index": 3,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "パリィタイプ",
@@ -2660,7 +2942,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "SFXID",
@@ -2670,13 +2956,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "武器SFX",
+          "index": 4,
           "args": [
             {
               "name": "SFXID",
@@ -2686,173 +2976,93 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "間隔[m]",
               "type": 6,
               "enum_name": null,
-              "default": 0.10000000149011612,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "開始位置比率",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "終了位置比率",
               "type": 6,
               "enum_name": null,
-              "default": 1.0,
-              "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "片寄り度合い",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "ぶれ幅[m]",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        },
-        		{
-          "name": "Disable Full Body SFX",
-          "index": 5,
-          "args": [
-            {
-              "name": "Unknown",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Deflect Spell",
-          "index": 6,
-          "args": [
-            {
-              "name": "Chance",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "SFX ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "SpEffect And End Event If Event",
-          "index": 7,
-          "args": [
-            {
-              "name": "Event Flag ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "SpEffect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Unknown",
-              "type": 0,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 255,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Gender Effect",
-          "index": 8,
-          "args": [
-            {
-              "name": "Matching Gender Effect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            },
-            {
-              "name": "Opposite Gender Effect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
-            }
-          ]
-		}
+        }
       ]
     },
     {
-      "index": 100140,
       "name": "死亡時制御",
+      "index": 100140,
       "instrs": [
         {
-          "index": 0,
           "name": "死亡許可設定",
+          "index": 0,
           "args": [
             {
               "name": "死亡許可設定",
@@ -2862,53 +3072,33 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
-            }
-          ]
-        },
-        {
-          "name": "Effect On Death",
-          "index": 1,
-          "args": [
-            {
-              "name": "Duration",
-              "type": 6,
-              "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 9999.0,
-              "increment": 1.0,
-              "format_string": "%0.3f"
-            },
-            {
-              "name": "SpEffect ID",
-              "type": 5,
-              "enum_name": null,
-              "default": 0,
-              "min": 0,
-              "max": 1000000000,
-              "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
+      "name": "瀕死時制御",
       "index": 100150,
-      "name": "瀕死時制御"
+      "instrs": []
     },
     {
+      "name": "ＵＩ制御",
       "index": 100160,
-      "name": "ＵＩ制御"
+      "instrs": []
     },
     {
-      "index": 100170,
       "name": "ダメージ制御",
+      "index": 100170,
       "instrs": [
         {
-          "index": 0,
           "name": "ダメージ生成",
+          "index": 0,
           "args": [
             {
               "name": "ダメージID",
@@ -2918,33 +3108,45 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "発生間隔(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1800.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1800,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果時間(0以下なら他の効果依存、0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": -1.0,
-              "min": -1.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": -1,
+              "min": -1,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "単発ダメージ生成",
+          "index": 1,
           "args": [
             {
               "name": "ダメージID",
@@ -2954,19 +3156,23 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 100180,
       "name": "マルチプレイ制御",
+      "index": 100180,
       "instrs": [
         {
-          "index": 0,
           "name": "召喚サイン作成要求",
+          "index": 0,
           "args": [
             {
               "name": "サインタイプ",
@@ -2976,13 +3182,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "乱入要求",
+          "index": 1,
           "args": [
             {
               "name": "乱入タイプ",
@@ -2992,13 +3202,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "召喚検索要求",
+          "index": 2,
           "args": [
             {
               "name": "強制召喚検索タイプ",
@@ -3008,35 +3222,43 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "マルチプレイ終了要求",
           "index": 3,
-          "name": "マルチプレイ終了要求"
+          "args": []
         },
         {
+          "name": "侵入クールタイムリセット",
           "index": 4,
-          "name": "侵入クールタイムリセット"
+          "args": []
         },
         {
+          "name": "ランキング",
           "index": 5,
-          "name": "ランキング"
+          "args": []
         },
         {
+          "name": "ペナルティリセット",
           "index": 6,
-          "name": "ペナルティリセット"
+          "args": []
         }
       ]
     },
     {
-      "index": 100700,
       "name": "その他",
+      "index": 100700,
       "instrs": [
         {
-          "index": 0,
           "name": "他ファイル参照",
+          "index": 0,
           "args": [
             {
               "name": "参照ファイル",
@@ -3046,7 +3268,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 2,
+              "unk4": 0
             },
             {
               "name": "参照ID",
@@ -3056,7 +3282,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
             },
             {
               "name": "引数",
@@ -3066,13 +3296,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "同ファイル参照",
+          "index": 1,
           "args": [
             {
               "name": "参照ID",
@@ -3082,7 +3316,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 3,
+              "unk4": 0
             },
             {
               "name": "引数",
@@ -3092,17 +3330,22 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 4,
+              "unk4": 0
             }
           ]
         },
         {
+          "name": "効果時間無限",
           "index": 2,
-          "name": "効果時間無限"
+          "args": []
         },
         {
-          "index": 3,
           "name": "特殊効果ID指定",
+          "index": 3,
           "args": [
             {
               "name": "特殊効果ID",
@@ -3112,35 +3355,43 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 4,
           "name": "仮想コマンド",
+          "index": 4,
           "args": [
             {
               "name": "効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 101050,
       "name": "ＨＰ回復制御サブ",
+      "index": 101050,
       "instrs": [
         {
-          "index": 0,
           "name": "数値",
+          "index": 0,
           "args": [
             {
               "name": "効果量(1単位)",
@@ -3150,17 +3401,25 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最大HPまで回復したら終了",
@@ -3170,33 +3429,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "最大ＨＰ割合",
+          "index": 1,
           "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最大HPまで回復したら終了",
@@ -3206,33 +3477,45 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "与ダメージ値割合",
+          "index": 2,
           "args": [
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "回復時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "最大HPまで回復したら終了",
@@ -3242,19 +3525,23 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 101070,
       "name": "状態異常制御サブ",
+      "index": 101070,
       "instrs": [
         {
-          "index": 0,
           "name": "状態異常変更　無敵",
+          "index": 0,
           "args": [
             {
               "name": "状態異常 種類",
@@ -3264,23 +3551,31 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "無敵の継続時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "状態異常変更　解除",
+          "index": 1,
           "args": [
             {
               "name": "状態異常 種類",
@@ -3290,13 +3585,17 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 2,
           "name": "状態異常変更　発生",
+          "index": 2,
           "args": [
             {
               "name": "状態異常 種類",
@@ -3306,17 +3605,25 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "発生した状態異常の効果時間(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 3600.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 3600,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "毒系専用・ダメージID",
@@ -3326,17 +3633,25 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "毒系専用・ダメージ発生間隔(0.01単位、秒単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 1800.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 1800,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "毒系専用・効果SFX(ID)",
@@ -3346,7 +3661,11 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "毒罫線用・効果SFXダミポリ(ID)",
@@ -3356,19 +3675,23 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         }
       ]
     },
     {
-      "index": 101130,
       "name": "特殊制御サブ",
+      "index": 101130,
       "instrs": [
         {
-          "index": 0,
           "name": "ソウル変更 実数",
+          "index": 0,
           "args": [
             {
               "name": "計算式",
@@ -3378,7 +3701,11 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(整数単位)",
@@ -3388,13 +3715,17 @@
               "min": 0,
               "max": 1000000000,
               "increment": 1,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
         },
         {
-          "index": 1,
           "name": "ソウル変更 割合",
+          "index": 1,
           "args": [
             {
               "name": "計算式",
@@ -3404,31 +3735,27 @@
               "min": 0,
               "max": 0,
               "increment": 0,
-              "format_string": "%d"
+              "format_string": "%d",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             },
             {
               "name": "効果量(0.01単位、%単位)",
               "type": 6,
               "enum_name": null,
-              "default": 0.0,
-              "min": 0.0,
-              "max": 100.0,
-              "increment": 0.009999999776482582,
-              "format_string": "%f"
+              "default": 0,
+              "min": 0,
+              "max": 100,
+              "increment": 0,
+              "format_string": "%f",
+              "unk1": 0,
+              "unk2": 0,
+              "unk3": 0,
+              "unk4": 0
             }
           ]
-        }
-      ]
-    }
-  ],
-  "extra_classes": [
-    {
-      "index": 1,
-      "name": "ダミーカテゴリ",
-      "instrs": [
-        {
-          "index": 0,
-          "name": "ダミー条件"
         }
       ]
     }
@@ -3471,9 +3798,7 @@
         "17": "亡者カウント加算",
         "18": "撃破時HP回復値",
         "19": "材質置換",
-        "20": "スペル記憶スロット増加",
-        "21": "Stability Damage Modifier",
-        "22": "Unknown (22)"
+        "20": "スペル記憶スロット増加"
       }
     },
     {
@@ -3494,12 +3819,7 @@
         "20": "視野切替",
         "21": "濡れ擬態",
         "22": "撃破時HP回復時SFXID",
-        "23": "撃破時HP回復時SFXダミポリID",
-        "25": "25",
-        "30": "30",
-        "31": "31",
-        "32": "32",
-        "33": "33"
+        "23": "撃破時HP回復時SFXダミポリID"
       }
     },
     {
@@ -3547,12 +3867,7 @@
         "54": "スペルダメージ倍率【呪術】",
         "55": "スペルダメージ倍率【闇魔術】",
         "56": "スペルダメージ倍率【闇奇蹟】",
-        "57": "受け能力変更",
-        "58": "Enemy Damage",
-        "59": "Enemy Damage Reduction",
-        "60": "60",
-        "61": "61",
-        "62": "62"
+        "57": "受け能力変更"
       }
     },
     {
@@ -3574,33 +3889,7 @@
         "22": "ドロップアイテム倍率補正【特大】有効",
         "23": "炎武器",
         "24": "ダメージ無効",
-        "25": "背面ダメージ肩代わり",
-        "27": "Disable Chr Phantom Color",
-        "28": "28",
-        "29": "29",
-        "31": "31",
-        "33": "33",
-        "34": "34",
-        "39": "39",
-        "40": "40",
-        "41": "41",
-        "42": "42",
-        "43": "43",
-        "44": "44",
-        "46": "46",
-        "49": "49",
-        "50": "50",
-        "51": "51",
-        "52": "52",
-        "53": "53",
-        "54": "54",
-        "55": "No Lock On",
-        "56": "56",
-        "57": "Hide Healthbar",
-        "58": "58",
-        "59": "No Soul Absorption",
-        "60": "Invisibility",
-        "61": "61"
+        "25": "背面ダメージ肩代わり"
       }
     },
     {
@@ -3675,17 +3964,17 @@
       "name": "状態異常の種類",
       "values": {
         "0": "毒",
+        "8": "猛毒",
         "1": "出血",
         "2": "武器破壊",
-        "3": "呪",
         "4": "燃焼",
-        "5": "スペル封印",
+        "10": "石化",
+        "3": "呪",
         "6": "水濡れ",
         "7": "血濡れ",
-        "8": "猛毒",
         "9": "油濡れ",
-        "10": "石化",
         "11": "毒濡れ",
+        "5": "スペル封印",
         "12": "(プログラム用最大値)"
       }
     },
@@ -3834,5 +4123,6 @@
         "2": "罪人"
       }
     }
-  ]
+  ],
+  "darkscript": null
 }
