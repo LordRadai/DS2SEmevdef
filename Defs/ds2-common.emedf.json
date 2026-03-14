@@ -6,13 +6,13 @@
       "index": 1000,
       "instrs": [
         {
-          "name": "Modify Status",
+          "name": "Modify Status Value",
           "index": 0,
           "args": [
             {
               "name": "Status Type",
               "type": 0,
-              "enum_name": "ChrStatus",
+              "enum_name": "ChrStatusValue",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -370,7 +370,7 @@
             {
               "name": "Correction Target",
               "type": 0,
-              "enum_name": "Shooting Type",
+              "enum_name": "ShootingType",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -564,13 +564,13 @@
           ]
         },
         {
-          "name": "Modify Status Large Integer",
+          "name": "Modify Status Value32",
           "index": 9,
           "args": [
             {
               "name": "Status Type",
               "type": 0,
-              "enum_name": "ChrStatusLargeInteger",
+              "enum_name": "ChrStatusValue32",
               "default": 0,
               "min": 0,
               "max": 0,
@@ -4539,7 +4539,7 @@
   "extra_classes": [],
   "enums": [
     {
-      "name": "ChrStatus",
+      "name": "ChrStatusValue",
       "values": {
         "0": "Poise",
         "1": "Weight",
@@ -4609,8 +4609,8 @@
         "55": "Spell Damage Multiplier [Dark Magic]",
         "56": "Spell Damage Multiplier [Dark Miracle]",
         "57": "Shield Stability",
-        "58": "PvE Damage",
-        "59": "PvE Damage Reduction",
+        "58": "Enemy Damage",
+        "59": "Enemy Damage Reduction",
         "60": "Unknown (60)",
         "61": "Unknown (61)",
         "62": "Unknown (62)"
@@ -4622,7 +4622,7 @@
         "0": "Disable Headshot",
         "1": "Disable Backstab",
         "2": "Disable Death Penalty",
-        "3": "Death Penalty & Petrification Immunity",
+        "3": "Disable Death Penalty And Petrification",
         "4": "Critical Judgment Valid",
         "6": "Forced Living Display",
         "10": "Disable Footstep Sound",
@@ -4645,7 +4645,7 @@
         "39": "Unknown (39)",
         "40": "Unknown (40)",
         "41": "Unknown (41)",
-        "42": "Unknown (42)",
+        "42": "Curse Immunity",
         "43": "Unknown (43)",
         "44": "Unknown (44)",
         "46": "Unknown (46)",
@@ -4658,14 +4658,14 @@
         "55": "Disable Lock On",
         "56": "Unknown (56)",
         "57": "Disable Healthbar",
-        "58": "Unknown (58)",
+        "58": "Disable Hollowing",
         "59": "Disable Soul Absorption",
         "60": "Enable Invisibility",
         "61": "Unknown (61)"
       }
     },
     {
-      "name": "Shooting Type",
+      "name": "ShootingType",
       "values": {
         "0": "Bow",
         "1": "Greatbow",
@@ -4673,7 +4673,7 @@
       }
     },
     {
-      "name": "ChrStatusLargeInteger",
+      "name": "ChrStatusValue32",
       "values": {
         "8": "HP Gradual Decrease Value When Using Spell [Magic]",
         "9": "HP Gradual Decrease Value When Using Spell [Miracle]",
