@@ -5,45 +5,9 @@ FOLDER: F:\GitHub\DS2SEmevdef\Dump
 
 
 ## ChrStatusFlag
-  > Unknown28:
-    - Event 96700000 (in SpEffectEnemy.emevd.js)
-    - Event 96810000 (in SpEffectEnemy.emevd.js)
-  > Unknown31:
-    - Event 41000000 (in SpEffectRing.emevd.js)
-  > Unknown33:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown34:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown39:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown40:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown41:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown43:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown44:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown46:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
   > Unknown49:
     - Event 96570000 (in SpEffectEnemy.emevd.js)
     - Event 96710020 (in SpEffectEnemy.emevd.js)
-  > Unknown50:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown51:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown52:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown54:
-    - Event 96650000 (in SpEffectEnemy.emevd.js)
-  > Unknown56:
-    - Event 96790000 (in SpEffectEnemy.emevd.js)
-    - Event 96790010 (in SpEffectEnemy.emevd.js)
-    - Event 98830000 (in SpEffectEnemy.emevd.js)
-    - Event 98830010 (in SpEffectEnemy.emevd.js)
-  > Unknown61:
-    - Event 170000000 (in SpEffectWideUse.emevd.js)
 
 ## ChrStatusValue
   > Unknown22:
